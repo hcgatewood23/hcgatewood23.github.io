@@ -17,4 +17,4 @@ publish_only: ## Just publish
 	git commit --message "Makefile publish at $(date)"
 	git push
 
-publish: gen copy publish_only ## Fully generate and publish
+publish: gen copy publish_only ## Fully generate and publish site
