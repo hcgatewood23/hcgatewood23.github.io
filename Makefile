@@ -14,7 +14,7 @@ copy: ## Copy files from Dropbox to this directory
 
 publish_only: ## Just publish
 	git add --all
-	git commit --message 'Makefile publish at $(date)'
+	git commit --message "Makefile publish at $(date)"
 	git push
 
 publish: gen copy publish_only ## Fully generate and publish
