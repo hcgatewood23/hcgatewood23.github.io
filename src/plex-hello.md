@@ -38,6 +38,6 @@ Overseerr is your go-to for requesting new media. It’s user-friendly and integ
 1. **Tracking Requests**: Keep an eye on the status of your requests — from pending approval to available for streaming.
 1. **Discovering New Content**: Browse recommendations and explore new releases or popular titles.
 
-### 🚀 All Done
+## 3️⃣ All Done
 
-You're all set! Happy streaming!
+You're all set, happy streaming!
