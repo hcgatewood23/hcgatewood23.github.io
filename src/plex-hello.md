@@ -28,7 +28,7 @@ Plex is a powerful platform that lets you stream your favorite media content sea
 
 1. **Accessing Content**: Use the Plex app on any device — smartphones, tablets, Smart TVs, or web browsers. Download the app or visit [Plex Web](https://app.plex.tv/desktop).
 1. **Making Yourself at Home**: Explore various sections like Movies, TV Shows, and Discover. You can search for specific titles, create watchlists, and even continue watching where you left off.
-1. **Navigating Plex**: The one downside to Plex is they make it just a bit difficult to find our server's shared media. So, please ➡️ **follow these steps to [fix your homescreen](/plex-homescreen)**.
+1. **Navigating Plex**: The one downside to Plex is they make it just a bit difficult to find our server's shared media. So, please go ahead and ➡️ **follow these steps to [fix your homescreen](/plex-homescreen)**.
 
 ### 🦄 About Overseerr
 
