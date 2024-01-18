@@ -13,7 +13,7 @@ To ensure a smooth onboarding experience, we use Wizarr, a straightforward tool 
 3. **Accessing Overseerr**: Wizarr will also introduce you to Overseerr, our requests tool.
     - ➡️ **Be sure to save** [https://overseerr.hcgatewood.io](https://overseerr.hcgatewood.io) as a [website icon on your phone's Home Screen](https://support.apple.com/guide/iphone/bookmark-favorite-webpages-iph42ab2f3a7/ios#:~:text=Add%20a%20website%20icon%20to%20your%20Home%20Screen).
 
-By completing the Wizarr onboarding process, you'll be fully equipped to enjoy the full array of content and features available on our media server.
+By completing the Wizarr onboarding process, you'll be well equipped to enjoy the full array of content and features available on our media server.
 
 ### 💕 Community Guidelines
 
@@ -22,7 +22,7 @@ By completing the Wizarr onboarding process, you'll be fully equipped to enjoy t
 
 ## 2️⃣ Next steps
 
-### 🍿 About Plex
+### 🍿 About [Plex](https://plex.hcgatewood.io)
 
 Plex is a powerful platform that lets you stream your favorite media content seamlessly. Here's how to dive in:
 
@@ -30,7 +30,7 @@ Plex is a powerful platform that lets you stream your favorite media content sea
 1. **Making Yourself at Home**: Explore various sections like Movies, TV Shows, and Discover. You can search for specific titles, create watchlists, and even continue watching where you left off.
 1. **Navigating Plex**: The one downside to Plex is they make it just a bit difficult to find our server's shared media. So, please go ahead and ➡️ **follow these steps to [fix your homescreen](/plex-homescreen)**.
 
-### 🦄 About Overseerr
+### 🦄 About [Overseerr](https://overseerr.hcgatewood.io)
 
 Overseerr is your go-to for requesting new media. It’s user-friendly and integrates seamlessly with our server:
 
