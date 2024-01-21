@@ -2,6 +2,8 @@
 
 ✨ **Just a few quick steps to take your home screen to the next level** ✨
 
+Plex's homescreen has a "Pinned" view and an "All" view. This page will show you how to fix the "Pinned" view to show our media server's movies and TV.
+
 ## Step 1: click "More"
 
 <p align="center"><img src="assets/img/step-1.png" width=80%></p>
