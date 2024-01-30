@@ -4,6 +4,10 @@
 
 Plex's homescreen has a "Pinned" view and an "All" view. This page will show you how to fix the "Pinned" view to show our media server's movies and TV.
 
+## Step 0: go to Plex
+
+Click [this link to go to our Plex](https://plex.hcgatewood.io/). Log in if you haven't already.
+
 ## Step 1: click "More"
 
 <p align="center"><img src="assets/img/step-1.png" width=80%></p>
