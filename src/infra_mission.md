@@ -115,7 +115,7 @@ For example, consider Alphabet's abstraction tree. It would contain the followin
 - Alphabet→{Google,YouTube,...}
 - Cluster management→{scheduler,allocator,...}
 - C++→{polymorphism,templates,...}
-- And more, e.g. team-specific knowledge
+- And more, e.g. team-specific knowledge, extending down into arbitrarily high resolution
 
 And a sparse, illustrative example
 
