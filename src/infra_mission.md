@@ -143,7 +143,7 @@ With that in mind, for me, the mission comes down to this:
 
 And infra, product, and end users are *all* our users, from the desk over to the world over. Our software needs to empower them all. Relegating any of them to second-importance is a third-rate idea bound to hasten company decline.
 
-Framing the mission this way aligns leadership and employee goals, incentivizing leadership to care about reducing toil and building new, exciting software. And more than that, and to me at least, it's a mission I'm thrilled to go to work for.
+Framing the mission this way aligns leadership and employee goals, incentivizing leadership to care about reducing toil and building new, exciting software. It adds an urgency and clarity to the role infra's meant to play. And, most of all, and to me at least, it's a mission I'm thrilled to go to work for.
 
 ## Footnotes
 
