@@ -94,7 +94,7 @@ So together, progressively lower-friction, higher-powered tools reduce execution
 
 Or, simply: better infra enables better product, now and over time.
 
-### Toil leads to calcification
+### Lack of abstraction leads to calcification
 
 Conversely, bad infra diminishes product. And more than that, failure to generate new and better primitives in the face of increasing scale and complexity leads to a calcification that seeps forward in the pipeline.
 
