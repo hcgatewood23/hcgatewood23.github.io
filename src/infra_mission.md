@@ -83,7 +83,7 @@ For example, consider autonomous vehicles, which have seen experimentation since
 
 Imagine instead a world, perhaps in the future, where a sufficiently capable AI does exist. Building a new autonomous vehicle now requires only the execution cost of vehicle-AI integration, achievable in the timescale of years, not a century.
 
-### Abstraction reduces toil
+### Good abstraction reduces toil
 
 The point is, reducing toil is two things at once:
 
