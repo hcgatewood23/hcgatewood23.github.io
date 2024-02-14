@@ -15,7 +15,7 @@ This perspective captures two essential objectives, but fails to express the ful
 
 ### Evolved mission
 
-I believe we can do better. Infra is positioned to do more than preserve and reduce. The pillars of the mission are:
+I believe we can do better. Infra is positioned to do more than preserve and reduce. The pillars of the new mission are:
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
 - **Efficiency**: improve margins for existing and new products (outward-looking)
@@ -31,9 +31,15 @@ I firmly believe this shared thread should be a mission to empower end users. Mo
 
 Product is canonically the user-facing org, transforming infra into monetizable services for end users. And, since a craftsman is limited by their materials, infra's goal should be providing stable, low-friction, efficient infra.
 
-This pipeline of transforming capital→assets→resources→infra→services→capital has an org at each step, converting its respective input resource to its output. The mission of each is empowering their successor, culminating in product empowering users.
+This pipeline of transforming capital→assets→resources→infra→products→capital has an org at each step, converting its respective input resource to its output. The mission of each is empowering their successor, culminating in product empowering users.
+
+<p align="center"><img src="assets/img/org_pipeline.png" width=70%></p>
 
 And instead of vertically slicing this pipeline (org-wise, e.g. product is revenue center, infra is cost center), it makes more sense to slice it horizontally (product-wise, e.g. Ads is a revenue center, Maps is a cost center), allowing each org to play its role in the ultimate profit or loss of each product.
+
+<p align="center"><img src="assets/img/org_pipeline_vertical.png" width=70%></p>
+
+<p align="center"><img src="assets/img/org_pipeline_horizontal.png" width=85%></p>
 
 All this to say: infra's priority is users, clear and plain. But its focus and path to users is via empowering product teams, who in turn empower users.
 
@@ -45,7 +51,7 @@ Or, simply: infra's mission is empowering product, toward the shared, company-le
 
 ### Toil reduces agility
 
-It's tempting to view toil as just an employee retention metric (perceived toil ⬇️ employee satisfaction ⬇️ employee retention), but it's really more than that.
+It's tempting to view toil as just an employee retention metric (perceived toil reduces employee satisfaction reduces employee retention), but it's really more than that.
 
 Toil limits company-wide agility, leading to calcification and decline. And toil earlier in the pipeline has a multiplicative effect moving forward -- high-scale product is already slow to build and iterate, but building on top of high-friction infra compoundingly so.
 
@@ -63,7 +69,7 @@ So reasonable org reinvestment rates are an essential component of company-level
 
 So, less simply but more accurately: infra empowers infra to empower product to empower product to empower users, now and over time.
 
-Or, another way: agility is the precursor to stability and efficiency. So orgs deprioritize reinvestment in their own agility at the expense of diminished downstream agility, stability, and efficiency in the medium to long term.
+Or, another way: agility is the precursor to effectiveness. So orgs deprioritize reinvestment in their own agility at the expense of diminished downstream agility, stability, and efficiency in the medium to long term.
 
 ## 3️⃣ The power of abstraction
 
@@ -102,7 +108,18 @@ That is, we reach a point where no single individual, regardless of how high the
 
 ### Agility naturally decreases over time
 
-Imagine a company's functioning as a tree, where each abstraction (e.g. "Google") is recursively broken down into its constituent components. For example, Alphabet→{Google,Waymo,...}, and, further down the tree, Borg→{scheduler,allocator,...}.
+Imagine a company's functioning as a tree, where each abstraction is recursively broken down into its constituent components.
+
+For example, consider Alphabet's abstraction tree. It would contain the following, at various levels:
+
+- Alphabet→{Google,YouTube,...}
+- Cluster management→{scheduler,allocator,...}
+- C++→{polymorphism,templates,...}
+- And more, e.g. team-specific knowledge
+
+And a sparse, illustrative example
+
+<p align="center"><img src="assets/img/abstraction_tree.png" width=70%></p>
 
 Employees specialize in understanding and improving some subset of their company's abstraction tree. You can imagine each employee having some quota for the number of vertices they understand deeply, and so are careful in spending their quota.
 
@@ -112,7 +129,7 @@ But the abstraction tree is ever evolving, whether the company chooses or not. S
 
 ### Reinvestment increases agility
 
-So back to reducing toil: the problem with ignoring infra reinvestment is more than just straining employee retention, and more than just stymieing product agility. The problem is ignoring infra reinvestment minimizes the number of new primitives, new abstractions, new coalescings of existing conceptualizations into new *higher-level vertices* in the abstraction tree. It's the difference between building Instagram byte-by-byte, or as an integration of sharded MySQL DBs, efficient blob storage, social ID hashing algorithms, and more. Everything's just bytes, but the abstractions we build enable our higher-level reasoning.
+So back to reducing toil: the problem with ignoring reinvestment is more than just straining employee retention, and more than just stymieing (downstream) agility. The problem is ignoring reinvestment minimizes the number of new primitives, new abstractions, new coalescings of existing conceptualizations into new *higher-level vertices* in the abstraction tree. It's the difference between building Instagram byte-by-byte, or as an integration of sharded MySQL DBs, efficient blob storage, social ID hashing algorithms, and more. Everything's just bytes, but the abstractions we build enable our higher-level reasoning.
 
 Without these investments, complexity increases to the point where making informed decisions, at any layer of abstraction, becomes infeasible. With them, we open new frontiers into the impossible.
 
@@ -120,7 +137,7 @@ Without these investments, complexity increases to the point where making inform
 
 I believe under-emphasis on agility is a widespread oversight. Calcification happens bottom up, and sluggish, high-friction infra leads to sluggish, non-agile product teams. It's a recipe for late-reacting, risk-averse, uninspired products and fast-tracking company decline.
 
-With that in mind, for me, it comes down to this:
+With that in mind, for me, the mission comes down to this:
 
 > Empower all our users with agile, stable, efficient infra
 

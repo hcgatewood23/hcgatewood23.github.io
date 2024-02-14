@@ -10,22 +10,22 @@ Click [this link to go to our Plex](https://plex.hcgatewood.io/). Log in if you 
 
 ## Step 1: click "More"
 
-<p align="center"><img src="assets/img/step-1.png" width=80%></p>
+<p align="center"><img src="assets/img/step_1.png" width=80%></p>
 
 ## Step 2: pin "Movies" and "TV Shows"
 
-<p align="center"><img src="assets/img/step-2.png" width=80%></p>
+<p align="center"><img src="assets/img/step_2.png" width=80%></p>
 
 ## Step 3: unpin "Live TV", "Movies & Shows", and "Music"
 
-<p align="center"><img src="assets/img/step-3.png" width=80%></p>
+<p align="center"><img src="assets/img/step_3.png" width=80%></p>
 
 ## Step 4: click "Pinned"
 
-<p align="center"><img src="assets/img/step-4.png" width=80%></p>
+<p align="center"><img src="assets/img/step_4.png" width=80%></p>
 
 ## Step 5: click "Movies" or "TV Shows"
 
 Also consider clicking "Library" or "Collections" -- Collections includes things like ➡️ **"The Top 10 Most Popular Movies This Week"**
-<p align="center"><img src="assets/img/step-5.png" width=80%></p>
+<p align="center"><img src="assets/img/step_5.png" width=80%></p>
 
