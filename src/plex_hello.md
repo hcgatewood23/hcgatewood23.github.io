@@ -27,5 +27,5 @@ Plex is how you **watch** movies and shows.
 
 Overseerr is how you **request** new movies and shows.
 
-- **Request media**: Request movies and shows you'd like added. They'll usually take 15 minutes or so to download and become available.
+- **Request media**: Request movies and shows you'd like added. They'll usually take 15 minutes or so to download and become available. By default you'll have a limited number of downloads per week, but don't worry, it refreshes every week.
 - **Report issues**: If you find a low-quality movie, or other issue, use Overseerr to report it.
