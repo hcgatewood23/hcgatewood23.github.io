@@ -9,6 +9,9 @@ HTML_FILES=$(patsubst src/%.md,dst/%.html,$(MD_FILES))
 help: ## Display this help text
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
+dev: ## Regenerate HTML files on changes
+	fswatch -o src | xargs -n1 -I{} make gen
+
 publish: external push ## Fully publish the site to GitHub, including external files
 
 external: ## Just copy publishable files from Dropbox to local repo
@@ -16,7 +19,7 @@ external: ## Just copy publishable files from Dropbox to local repo
 	cp $(DROPBOX_DIR)/generated/notebooks_misc.md.html public/professional.html
 	cp $(DROPBOX_DIR)/generated/notebooks_worldview.md.html public/worldview.html
 
-push: clean ## Just push to GitHub, which will deploy the site
+push: clean ## Just push to GitHub, which deploys the site
 	git add --all
 	git commit --message "Makefile deploy at $$(date)" || true
 	git push
