@@ -72,7 +72,7 @@ This pipeline of transforming capital→assets→resources→infra→products→
 
 #### Slicing the pipeline
 
-And instead of slicing this pipeline vertically (org-wise, e.g. product is revenue center, infra is cost center), I believe it makes more sense to conceptually slice it horizontally (product-wise, e.g. Ads is a revenue center, Maps is a cost center), allowing each org to play its role in the ultimate profit or loss of each product.
+And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost center, product is revenue center), I believe it makes more sense to conceptually slice it horizontally (product-wise, e.g. Ads is a revenue center, Maps is a cost center), allowing each org to play its role in the ultimate profit or loss of each product.
 
 <p align="center"><img src="assets/img/org_pipeline_sliced.png" width=70%></p>
 
