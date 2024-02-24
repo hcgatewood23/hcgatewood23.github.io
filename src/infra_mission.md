@@ -58,7 +58,7 @@ Consider how Meta's evolution has shifted their priorities over time, via their 
 
 ### Org structure
 
-Zooming in to consider individual orgs: one way to conceptualize orgs is as a flat collection of peers collaborating toward shared company goals, lightly coupled by a shared thread. Some orgs are designated cost centers, others revenue centers.
+Zooming in to individual orgs: one way to conceptualize orgs is as a flat collection of peers collaborating toward shared company goals, lightly coupled by a shared thread. Some orgs are designated cost centers, others revenue centers.
 
 #### Orgs as a pipeline
 
@@ -117,16 +117,6 @@ For example, consider autonomous vehicles, which have seen experimentation since
 
 Imagine instead a world, perhaps in the future, where a sufficiently capable AI does exist. Building a new autonomous vehicle now requires only the execution cost of vehicle-AI integration, achievable in the timescale of years, not a century.
 
-### Low agility leads to calcification
-
-It's easy to think of execution cost as just a friction-based multiplier, progressively increasing the risk of exploring an idea. But it's more than that.
-
-Once a company's execution cost reaches a critical point, its ability to execute on any useful idea *at all* compresses. Under sufficient complexity, and without high-powered primitives in place, **reasoning about a system becomes impossible**.
-
-Consider as an example: using only machine code, design and build Instagram. No software except your own machine code is permitted. How comically long it would take! No languages, libraries, or standard formats; no operating systems, drivers, network stack, or network devices; no version control, build systems, binary distributions, consensus algorithms, linear programming, shard managers, load balancers, databases, object storage, cluster management, copyright detection, image processing, video playback, or anything, anything else. Without abstraction, how can we even begin to conceptualize the purpose of the trillion or more bytes we'd need to write?
-
-That is, we reach a point where no single individual, regardless of how high they move up the (available) layers of abstraction, can hold a full, end-to-end understanding of the system in their head.
-
 ### Agility naturally decreases over time
 
 Imagine a company's functioning as a tree, where each abstraction is recursively broken down into its constituent components.
@@ -146,7 +136,7 @@ Employees specialize in understanding and improving some subset of their company
 
 Junior engineers focus on a small number of vertices closer to the leaves of the tree, while executives focus on a larger number of nodes progressively closer to the root of the tree. And through hiring and performance review, the company incentivizes employees' specializations to collectively cover the tree, and potentially evolve it.
 
-The insight here is **the abstraction tree is ever evolving, whether the company chooses or not**. Scale increases, competitors, changing user tastes, vulnerabilities, and more. All of these net add vertices to the tree, increasing its complexity, decreasing the company's agility.
+The insight here is **the abstraction tree is ever evolving, whether the company chooses or not**. Scale increases, competitors, technical debt (intentional or otherwise), changing user tastes, vulnerabilities, and more. All of these net add vertices to the tree, increasing its complexity, decreasing the company's agility.
 
 ### Internal and external agility are both important
 
@@ -162,11 +152,17 @@ So the solution is to manage technical debt as a useful instrument, incurring or
 
 Or, another way: agility is the precursor to effectiveness. **Orgs deprioritize reinvestment in their own agility at the expense of diminished downstream agility, stability, and efficiency** in the medium to long term.
 
-### So: why prioritize agility?
+### So, why prioritize agility?
 
-Finally, in the language we've been building: the problem with deprioritizing (internal or external) agility is more than just straining employee retention, and more than just stymieing downstream impact. The problem is ignoring agility minimizes the number of new primitives, new abstractions, new coalescings of existing conceptualizations into new *higher-level vertices* in the abstraction tree. It's the difference between building Instagram byte-by-byte, or as an integration of sharded MySQL DBs, efficient blob storage, social ID hashing algorithms, and more. **Everything's just bytes, but the tools we build enable our higher-level reasoning and tractable execution**.
+As we've seen, low agility progressively increases the risk of exploring new ideas. But it's also more than that.
 
-Without these investments, friction and complexity increase to the point where effective action, at any layer of abstraction, becomes infeasible. With them, we open new frontiers into the impossible.
+Once a company's execution cost reaches a critical point, its ability to execute on any useful idea *at all* compresses. Under sufficient complexity, and without high-powered primitives in place, **reasoning about a system becomes impossible**.
+
+Consider as an example: using only machine code, design and build Instagram. No software except your own machine code is permitted. How comically long it would take! No languages, libraries, or standard formats; no operating systems, drivers, network stack, or network devices; no version control, build systems, binary distributions, consensus algorithms, linear programming, shard managers, load balancers, databases, object storage, cluster management, copyright detection, image processing, video playback, or anything, anything else. Without low-friction, high-powered tools, how can we even begin to conceptualize the purpose of the trillion or more bytes we'd need to write? Indeed, we reach a point where no single individual, regardless of how high they move up the (available) layers of abstraction, can hold a full, end-to-end understanding of the system in their head.
+
+That to say: the problem with deprioritizing (internal or external) agility is more than just straining employee retention, and more than just stymieing downstream impact. The problem is ignoring agility minimizes the number of new primitives, new abstractions, new coalescings of existing conceptualizations into new *higher-level vertices* in the abstraction tree. It's the difference between building Instagram byte-by-byte, or as an integration of sharded MySQL DBs, efficient blob storage, social ID hashing algorithms, and more. **Everything's just bytes, but the tools we build enable our higher-level reasoning and tractable execution**.
+
+So, why prioritize agility? We're ready to answer: without investing in agility, friction and complexity increase to the point where effective action, at any layer of abstraction, becomes increasingly expensive and infeasible. With them, we open new frontiers into the impossible. **Low agility leads to calcification, high agility to renewal**.
 
 ## 4️⃣ A unified mission: empowering all users
 
