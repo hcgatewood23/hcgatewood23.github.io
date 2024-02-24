@@ -29,7 +29,7 @@ Companies evolve through a lifecycle, from startup and growth to maturity and de
 
 - **Prototype**: prioritize {agility}, while seeking product-market fit
 - **Grow**: prioritize {agility, stability}, while scaling
-- **Mature**: prioritize {stability, efficiency, agility}, while maximizing margins via increasing profit and decreasing costs
+- **Mature**: prioritize {agility, stability, efficiency}, while maximizing margins via increasing profit and decreasing costs
 - **Focus**: prioritize {stability, efficiency}, while maximizing margins primarily via decreasing costs
 
 #### Determining lifecycle phase
