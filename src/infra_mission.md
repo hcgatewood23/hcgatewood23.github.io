@@ -60,11 +60,11 @@ Consider how Meta's evolution has shifted their priorities over time, via their 
 
 Zooming in to consider individual orgs: one way to conceptualize orgs is as a flat collection of peers collaborating toward shared company goals, lightly coupled by a shared thread. Some orgs are designated cost centers, others revenue centers.
 
+#### Orgs as a pipeline
+
 I firmly believe this shared thread should be a mission to empower end users. Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation**, where each org transforms its input resources to its output, culminating in captured revenue.
 
 For example: product is canonically the user-facing org, transforming infra into monetizable services for end users. And, since a craftsman is limited by their materials, infra's goal should be providing stable, low-friction, efficient infra.
-
-#### Orgs as a pipeline
 
 This pipeline of transforming capital→assets→resources→infra→products→capital has an org at each step, converting its respective input resource to its output. The mission of each is empowering their successor, culminating in product empowering users.
 
@@ -148,7 +148,7 @@ Junior engineers focus on a small number of vertices closer to the leaves of the
 
 The insight here is **the abstraction tree is ever evolving, whether the company chooses or not**. Scale increases, competitors, changing user tastes, vulnerabilities, and more. All of these net add vertices to the tree, increasing its complexity, decreasing the company's agility.
 
-### Internal vs. external agility
+### Internal and external agility are both important
 
 Consider the idea of a **reinvestment rate**: the percentage of resources devoted to internal (same node in the pipeline) vs. external (downstream node in the pipeline) development.
 
