@@ -9,7 +9,7 @@ You now have access to [our instance](https://plex.hcgatewood.io) of [Plex](http
 To ensure a smooth onboarding experience, we use Wizarr, a straightforward tool for new user setup:
 
 1. **Initial Setup**: Visit the unique ➡️ **Wizarr onboarding link** you received, and follow the onboarding instructions carefully. You'll create your Plex account here. This step is crucial to access all the features of our media server effectively.
-1. **Fixing Plex**: The one downside to Plex is they make it just a bit difficult to find our server's shared media. So, please go ahead and ➡️ **follow these steps to [fix your homescreen](/plex-homescreen)**.
+1. **Fixing Plex**: The one downside to Plex is they make it just a bit difficult to find our server's shared media. So, please go ahead and ➡️ **follow these steps to [fix your homescreen](/plex_homescreen)**.
 1. **Accessing Overseerr**: For easy access, ➡️ **be sure to save [https://overseerr.hcgatewood.io](https://overseerr.hcgatewood.io)** as a [website icon on your phone's Home Screen](https://support.apple.com/guide/iphone/bookmark-favorite-webpages-iph42ab2f3a7/ios#:~:text=Add%20a%20website%20icon%20to%20your%20Home%20Screen).
 
 By completing the Wizarr onboarding process, you'll be well equipped to enjoy the full array of content and features available on our media server.
