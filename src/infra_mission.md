@@ -136,7 +136,7 @@ Employees specialize in understanding and improving some subset of their company
 
 Junior engineers focus on a small number of vertices closer to the leaves of the tree, while executives focus on a larger number of vertices progressively closer to the root of the tree. And through hiring and performance review, the company incentivizes employees' specializations to collectively cover the tree, and potentially evolve it.
 
-The insight here is **the abstraction tree is ever evolving, whether companies choose or not**. Scale increases, competitors, technical debt (intentional or otherwise), changing user tastes, vulnerabilities, and more. All of these net add vertices to the tree, increasing its complexity, decreasing the company's agility.
+The insight here is **the abstraction tree is ever evolving, whether companies choose or not**. Scale increases, competitors, technical debt (intentional or otherwise), changing user tastes, vulnerabilities, and more. All of these net add vertices to the tree, increasing its complexity, decreasing a company's agility.
 
 ### Internal and external agility are both important
 
@@ -146,9 +146,9 @@ Even if orgs prioritize reducing toil and improving abstraction downstream (e.g.
 
 The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing downstream improvements at the cost of same-node debt.
 
-A logical next question might be: why not incur ever-increasing technical debt, and prioritize downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts**, compoundingly incentivizing incurring more technical debt with each new effort. It's a self-reinforcing cycle, and a clear recipe for calcification.
+A logical next question might be: why not incur ever-increasing technical debt, and prioritize downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts**, while also compoundingly incentivizing incurring more technical debt with each new effort. It's a self-reinforcing cycle, and a clear recipe for calcification and decline.
 
-So the solution is to manage technical debt as a useful instrument, incurring or paying it down strategically. And reinvestment is exactly the process of paying down technical debt.
+So the solution is to manage technical debt as a useful instrument, strategically incurring and paying it down over time. And reinvestment is exactly the process of paying down technical debt.
 
 Or, another way: agility is the precursor to effectiveness. **Orgs deprioritize reinvestment in their own agility at the expense of diminished downstream agility, stability, and efficiency** in the medium to long term.
 
