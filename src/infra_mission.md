@@ -53,7 +53,7 @@ Rushing and fixation assume (continued) a priori understanding of the market, ca
 Consider how Meta's evolution has shifted their priorities over time, via their motto:
 
 - 2004: "Move fast and break things" (agility)
-- 2016: "Move fast with stable infra" (agility, stability)
+- 2016: "Move fast" (agility, stability)
 - 2023: "Year of efficiency" (efficiency, stability)
 
 ### Org structure
@@ -90,7 +90,7 @@ Renewal comes at a cost, however. This is the ***execution cost*** **of new prod
 
 Each phase of the corporate lifecycle comes with a respective tolerance and multiplier to the cost of executing on a new product. In the prototype phase, companies invest heavily at minimal cost, while in the maturation phase, companies often invest less heavily (prioritize margins for existing products) and at higher cost (scale, inertia, technical debt, reputation risk, etc.).
 
-This is why I firmly believe **agility should be a central pillar of infra's mission**. Agility reduces execution cost, balancing the equation in favor of perpetual renewal. The difference between maturity and calcification, in many cases, is the difference between a company that can and cannot afford to experiment, implement, and continually renew itself.
+This is why I firmly believe **agility should be a central pillar of any org's mission**. Agility reduces execution cost, balancing the equation in favor of perpetual renewal. The difference between maturity and calcification, in many cases, is the difference between a company that can and cannot afford to experiment, implement, and continually renew itself.
 
 ### How to increase agility
 
