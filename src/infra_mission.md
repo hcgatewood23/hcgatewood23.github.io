@@ -36,7 +36,7 @@ Companies evolve through a lifecycle, from startup and growth to maturity and de
 
 We can determine a company's lifecycle phase by examining where it invests its resources. Consider the following:
 
-<p align="center"><img src="assets/img/corporate_lifecycle.png" width=40%></p>
+<p align="center"><img src="assets/img/corporate_lifecycle.png" width="370px"></p>
 
 Each phase incorporates different levels of investment across each bucket. But, crucially, experimentation, growth, and *renewal* never stop. A well-functioning company should absolutely highlight this in its mission.
 
@@ -44,7 +44,7 @@ Each phase incorporates different levels of investment across each bucket. But, 
 
 Contrastingly, consider the following, reflecting example disordered versions of the above phases:
 
-<p align="center"><img src="assets/img/corporate_lifecycle_disordered.png" width=40%></p>
+<p align="center"><img src="assets/img/corporate_lifecycle_disordered.png" width="370px"></p>
 
 Rushing and fixation assume (continued) a priori understanding of the market, calcification over-indexes into existing products, and decline gives up on the potential for growth and renewal.
 
@@ -68,13 +68,13 @@ For example: product is canonically the user-facing org, transforming infra into
 
 This pipeline of transforming capital→assets→resources→infra→products→capital has an org at each step, converting its respective input resource to its output. The mission of each is empowering their successor, culminating in product empowering users.
 
-<p align="center"><img src="assets/img/org_pipeline.png" width=70%></p>
+<p align="center"><img src="assets/img/org_pipeline.png" width="650px"></p>
 
 #### Slicing the pipeline
 
 And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost center, product is revenue center), I believe it makes more sense to conceptually slice it horizontally (product-wise, e.g. Ads is a revenue center, Maps is a cost center), allowing each org to play its role in the ultimate profit or loss of each product.
 
-<p align="center"><img src="assets/img/org_pipeline_sliced.png" width=70%></p>
+<p align="center"><img src="assets/img/org_pipeline_sliced.png" width="650px"></p>
 
 ### Orgs empower orgs to empower users
 
@@ -130,7 +130,7 @@ For example, consider Alphabet's abstraction tree. It would contain the followin
 
 And a sparse, illustrative example:
 
-<p align="center"><img src="assets/img/abstraction_tree.png" width=70%></p>
+<p align="center"><img src="assets/img/abstraction_tree.png" width="650px"></p>
 
 Employees specialize in understanding and improving some subset of their company's abstraction tree. You can imagine each employee having some quota for the number of vertices they understand deeply, and so are careful in spending their quota.
 
