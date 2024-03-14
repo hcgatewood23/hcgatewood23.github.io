@@ -9,7 +9,7 @@ HTML_FILES=$(patsubst src/%.md,dst/%.html,$(MD_FILES))
 help: ## Display this help text
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-publish: external gen push ## Make and publish
+publish: external push ## Make and publish
 
 push: clean ## Just publish
 	git add --all
