@@ -48,7 +48,7 @@ dst/%.html: src/%.md
 	@mkdir -p dst
 	pandoc --standalone --self-contained \
 		--css=assets/pandoc.css \
-		--katex=assets/katex-0.10.0/ \
+		--katex=assets/katex_0.10.0/ \
 		--from markdown+smart+emoji \
 		--metadata pagetitle=$< \
 		$< -o $@
