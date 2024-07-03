@@ -1,5 +1,7 @@
 DROPBOX_DIR = ~/Dropbox
 
+MD_EXTENSIONS := +smart
+
 .NOTPARALLEL: help publish push gen external dev clean status open
 .PHONY: help publish push gen external dev clean status open
 
@@ -49,6 +51,6 @@ dst/%.html: src/%.md
 	pandoc --standalone --self-contained \
 		--css=assets/pandoc.css \
 		--katex=assets/katex_0.10.0/ \
-		--from markdown+smart+emoji \
+		--from gfm$(MD_EXTENSIONS) \
 		--metadata pagetitle=$< \
 		$< -o $@

@@ -13,7 +13,7 @@ After onboarding, you'll have access to almost every popular movie.
 After creating your Plex+Overseerr accounts with your unique signup link, follow these steps:
 
 1. **Fix Plex**: The one downside to Plex is they make it just a bit difficult to find our server's shared media. So, please go ahead and ➡️ **follow these steps to [fix your homescreen](/plex_homescreen)**.
-2. **Save Overseerr**: For easy access, ➡️ **be sure to save [https://overseerr.hcgatewood.io](https://overseerr.hcgatewood.io)** as a website icon on your ***phone's*** Home Screen. [See here for how to do that — it's not just a bookmark](https://support.apple.com/guide/iphone/bookmark-favorite-webpages-iph42ab2f3a7/ios#:~:text=Add%20a%20website%20icon%20to%20your%20Home%20Screen).
+2. **Save Overseerr**: For easy access, ➡️ **be sure to save [overseerr.hcgatewood.io](https://overseerr.hcgatewood.io)** as a website icon on your ***phone's*** Home Screen. [See here for how to do that — it's not just a bookmark](https://support.apple.com/guide/iphone/bookmark-favorite-webpages-iph42ab2f3a7/ios#:~:text=Add%20a%20website%20icon%20to%20your%20Home%20Screen).
 
 ## General info
 
@@ -22,7 +22,7 @@ After creating your Plex+Overseerr accounts with your unique signup link, follow
 Plex is how you **watch** movies and shows.
 
 - **Watch from your TV**: The best place to watch Plex is on your smart TV. Download it and log in like you would any other app, e.g. Netflix.
-- **Watch from anywhere**: You can also use Plex from your other devices — phones, tablets, computers, and from your web browser. Download the app or visit [https://plex.hcgatewood.io](https://plex.hcgatewood.io) for the web app. (Side note: the Plex mobile app charges a small fee to use, but the smart TV and web apps are free.)
+- **Watch from anywhere**: You can also use Plex from your other devices — phones, tablets, computers, and from your web browser. Download the app or visit [plex.hcgatewood.io](https://plex.hcgatewood.io) for the web app. (Side note: the Plex mobile app charges a small fee to use, but the smart TV and web apps are free.)
 
 ### 🦄 About [Overseerr](https://overseerr.hcgatewood.io)
 
