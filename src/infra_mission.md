@@ -146,9 +146,9 @@ Even if orgs prioritize reducing toil and improving abstraction downstream (e.g.
 
 The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing downstream improvements at the cost of same-node debt.
 
-A logical next question might be: why not incur ever-increasing technical debt, and prioritize downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts**, while also compoundingly incentivizing incurring more technical debt with each new effort. It's a self-reinforcing cycle, and a clear recipe for calcification and decline.
+A logical next question might be: why not incur ever-increasing technical debt, and prioritize downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts**, while also compoundingly incentivizing incurring more technical debt with each new effort. So ever-increasing debt is an unsustainable, self-reinforcing cycle of ever-decreasing productivity — a clear recipe for calcification and decline.
 
-So the solution is to manage technical debt as a useful instrument, strategically incurring and paying it down over time. And reinvestment is exactly the process of paying down technical debt.
+So the solution is to manage technical debt as a useful instrument, strategically incurring and paying it down over time. And reinvestment is exactly the process for paying down technical debt (and more generally, the process of improving internal agility).
 
 Or, another way: agility is the precursor to effectiveness. **Orgs deprioritize reinvestment in their own agility at the expense of diminished downstream agility, stability, and efficiency** in the medium to long term.
 
