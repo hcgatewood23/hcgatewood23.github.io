@@ -21,14 +21,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
       - name: Install Pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
+        uses: pandoc/actions/setup@v1
+        with:
+          version: 3.1.13  # NOTE: locally-verified version
       - name: Build HTML from Markdown
         run: make gen
       - name: Setup Pages
