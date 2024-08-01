@@ -182,7 +182,7 @@ As we've discussed, I believe **under-emphasis on agility is a widespread oversi
 
 With that in mind, for me as a member of an infra org, the mission comes to this:
 
-> **Empower all our users with agile, stable, efficient infra**
+> **Empower all our users with stable, efficient, *agile* infra**
 
 And **infra, product, and end users are** ***all*** **our users**, from the desk over to the world over. Our software needs to empower them all. Relegating any of them to second-importance is a third-rate idea bound to hasten company decline.
 
