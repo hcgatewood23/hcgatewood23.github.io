@@ -156,7 +156,7 @@ The concept of technical debt is directly relevant here. Technical debt can be v
 
 The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing extra-node improvements at the cost of intra-node debt.
 
-A logical next question might be: why not incur ever-increasing technical debt, and hyper-prioritize extra/downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts** (per-effort "interest payment"), while also compoundingly incentivizing incurring more technical debt with each new effort (interest payment increases exponentially). Unchecked, ever-increasing debt is an unsustainable, self-reinforcing cycle of ever-decreasing productivity — a clear recipe for calcification and decline.
+A logical next question might be: why not incur ever-increasing technical debt, and hyper-prioritize extra/downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts** (per-effort "interest payment"), while also compoundingly incentivizing more technical debt with each new effort (interest payment increases exponentially). Unchecked, ever-increasing debt is an unsustainable, self-reinforcing cycle of ever-decreasing productivity — a clear recipe for calcification and decline.
 
 So the solution is to manage technical debt as a useful instrument, strategically incurring and paying it down over time. And reinvestment is exactly the process for paying down technical debt (and more generally, the process of improving internal agility).
 
