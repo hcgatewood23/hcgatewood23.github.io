@@ -60,6 +60,8 @@ Consider how Meta's evolution has shifted their priorities over time, via their 
 
 Zooming in to individual orgs: one way to conceptualize orgs is as a flat collection of peers collaborating toward shared company goals, lightly coupled by a shared thread. Some orgs are designated cost centers, others revenue centers.
 
+<p align="center"><img src="assets/img/org_collection.png" width="350px"></p>
+
 #### Orgs as a pipeline
 
 I firmly believe this shared thread should be a mission to empower end users. Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation**, where each org transforms its input resources to its output, culminating in captured revenue.
@@ -74,7 +76,7 @@ This pipeline of transforming capital→assets→resources→infra→products→
 
 And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost center, product is revenue center), I believe it makes more sense to conceptually slice it horizontally (product-wise, e.g. Ads is a revenue center, Maps is a cost center), allowing each org to play its role in the ultimate profit or loss of each product.
 
-<p align="center"><img src="assets/img/org_pipeline_sliced.png" width="600px"></p>
+<p align="center"><img src="assets/img/org_pipeline_sliced.png" width="650px"></p>
 
 ### Orgs empower orgs to empower users
 
@@ -109,11 +111,17 @@ Toil is antithetical to agility. Toil increases labor costs while decreasing its
 
 And what's more, **toil earlier in the pipeline has a multiplicative effect moving forward**. For example, high-scale product is already slow to build and iterate, but building on top of high-friction infra compoundingly so.
 
+$$
+C_\text{total} \coloneqq \sum_{i \in \text{orgs}} \mu_ic_i \\
+\mu_i \mathrel{\overset{\sim}{\coloneqq}} \prod_{k \lt i} \mu_k \\
+\implies C_\text{total} \approx c_0 + \mu_0c_1 + \mu_0\mu_1c_2 + \mu_0\mu_1\mu_2c_3 + \ldots \\
+$$
+
 #### Improve abstraction
 
 For almost every *conceivable* idea, the cost to execute is prohibitive against the risk in expected returns. The set of products that reach end users are the tiniest slice of all conceivable ideas, the bubbles on the ocean wave, the frontier of possibility before the expanse of the infeasible.
 
-For example, consider autonomous vehicles, which have seen experimentation since at least the 1940s. The product idea of a fully autonomous vehicle, still not a reality in 2024, requires the execution cost of building a sufficiently capable AI. This cost is so large, 80 years of effort has not achieved it.
+For example, consider autonomous vehicles, which have seen experimentation since at least the 1940s. The product idea of an unmanaged, fully autonomous vehicle, still not a reality in 2024, requires the execution cost of building a sufficiently capable AI. This cost is so large, 80 years of effort has not achieved it.
 
 Imagine instead a world, perhaps in the future, where a sufficiently capable AI does exist. Building a new autonomous vehicle now requires only the execution cost of vehicle-AI integration, achievable in the timescale of years, not a century.
 
@@ -146,9 +154,13 @@ Even if orgs prioritize reducing toil and improving abstraction downstream (e.g.
 
 The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing downstream improvements at the cost of same-node debt.
 
-A logical next question might be: why not incur ever-increasing technical debt, and prioritize downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts**, while also compoundingly incentivizing incurring more technical debt with each new effort. So ever-increasing debt is an unsustainable, self-reinforcing cycle of ever-decreasing productivity — a clear recipe for calcification and decline.
+The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing extra-node improvements at the cost of intra-node debt.
+
+A logical next question might be: why not incur ever-increasing technical debt, and hyper-prioritize extra/downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts** (per-effort "interest payment"), while also compoundingly incentivizing incurring more technical debt with each new effort (interest payment increases exponentially). Unchecked, ever-increasing debt is an unsustainable, self-reinforcing cycle of ever-decreasing productivity — a clear recipe for calcification and decline.
 
 So the solution is to manage technical debt as a useful instrument, strategically incurring and paying it down over time. And reinvestment is exactly the process for paying down technical debt (and more generally, the process of improving internal agility).
+
+<p align="center"><img src="assets/img/reinvestment_focus.png" width="500px"></p>
 
 Or, another way: agility is the precursor to effectiveness. **Orgs deprioritize reinvestment in their own agility at the expense of diminished downstream agility, stability, and efficiency** in the medium to long term.
 
