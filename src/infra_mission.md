@@ -113,7 +113,7 @@ And what's more, **toil earlier in the pipeline has a multiplicative effect movi
 
 $$
 C_\text{total} \coloneqq \sum_{i \in \text{orgs}} \mu_ic_i \\
-\mu_i \mathrel{\overset{\sim}{\coloneqq}} \prod_{k \lt i} \mu_k \\
+\mu_i \mathrel{\overset{\sim}{\coloneqq}} \prod_{j \lt i} \mu_j \\
 \implies C_\text{total} \approx c_0 + \mu_0c_1 + \mu_0\mu_1c_2 + \mu_0\mu_1\mu_2c_3 + \ldots
 $$
 
