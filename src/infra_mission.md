@@ -244,7 +244,7 @@ That is: **when infra and product orgs are misaligned** on whether the company i
 
 So, how does infra contribute to a top-line focused company? The answer is simple: **reduce product's execution cost**.
 
-And this exactly is prioritizing agility, in its most concise form: an org reduces their downstream org's execution cost multiplier by reducing the cost to integrate with and build on their own platform.
+And this exactly is prioritizing agility, in its most precise form: an org reduces their downstream org's execution cost multiplier by reducing the cost to integrate with and build on their own platform.
 
 Seen this way, **improved agility becomes *the* force-multiplier for company-wide top-line growth**, the de facto lever non-product orgs can pull to enable product orgs.
 
