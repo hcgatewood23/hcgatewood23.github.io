@@ -253,11 +253,11 @@ Seen this way, **improved agility becomes *the* force-multiplier for company-wid
 With this all in mind, we can reach the following considerations for building cross-org alignment:
 
 - When a company is **prioritizing top-line growth**
-    - Company: rebalance engineers toward product
+    - Company: rebalance engineering resources toward product
     - Product: prioritize growth, pulling in infra to support scale-ups
     - Infra: **prioritize agility**, adding new and better (more agile, stable) affordances for product to build on
 - When a company is **prioritizing bottom-line growth**
-    - Company: rebalance engineers toward infra
+    - Company: rebalance engineering resources toward infra
     - Product: make best use of existing infra affordances
     - Infra: **prioritize efficiency**, pulling in product to support efficiency migrations
 
