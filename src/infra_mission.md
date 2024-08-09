@@ -246,7 +246,7 @@ So, how does infra contribute to a top-line focused company? The answer is simpl
 
 And this exactly is prioritizing agility, in its most concise form: an org reduces their downstream org's execution cost multiplier by reducing the cost to integrate with and build on their own platform.
 
-Seen this way, **improved agility becomes the *the* force-multiplier for company-wide top-line growth**, the de facto lever non-product orgs can pull to enable product orgs.
+Seen this way, **improved agility becomes *the* force-multiplier for company-wide top-line growth**, the de facto lever non-product orgs can pull to enable product orgs.
 
 ### Prioritizing between stability, efficiency, and agility
 
@@ -275,7 +275,7 @@ With that in mind, for me as a member of an infra org, we can build these pillar
 
 For me, we can fit the need with this mission:
 
-> **Empower all our users with stable, efficient, *agile* infra**
+> **Empower all our users with stable, efficient, agile infra**
 
 And **infra, product, and end users are** ***all*** **our users**, from the desk over to the world over. Our software needs to empower them all. Relegating any of them to second-importance is a third-rate idea bound to hasten company decline.
 
