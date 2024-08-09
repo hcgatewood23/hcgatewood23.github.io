@@ -1,6 +1,6 @@
 # Building a new mission for infra orgs
 
-Or, evolving "keep the plane in the air and save money" toward "empower all our users with agile, stable, efficient infra", a meditation on mission, agility, and the concept of a "cost center."
+Or, evolving "keep the plane in the air and save money" toward "empower all our users with stable, efficient, agile infra", a meditation on mission, agility, and the concept of a "cost center."
 
 ## :one: From maintenance to empowerment
 
