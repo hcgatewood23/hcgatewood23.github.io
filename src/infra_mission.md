@@ -2,7 +2,7 @@
 
 Or, evolving "keep the plane in the air and save money" toward "empower all our users with agile, stable, efficient infra", a meditation on mission, agility, and the concept of a "cost center."
 
-## 1️⃣ From maintenance to empowerment
+## :one: From maintenance to empowerment
 
 ### Traditional view
 
@@ -13,15 +13,24 @@ I've occasionally heard infra's mission as some form of the following:
 
 This perspective captures two essential objectives, but fails to express the full potential.
 
-### Evolved mission
+### Pillars of an evolved mission
 
-I believe we can do better. Infra is positioned to do more than preserve and reduce. The pillars of the new mission are:
+I believe we can do better. Infra is positioned to do more than preserve and reduce. I offer the following pillars of an evolved mission, which we will consider further in the subsequent sections:
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
 - **Efficiency**: improve margins for existing and new products (outward-looking)
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
 
-## 2️⃣ Corporate context
+### Looking forward
+
+With these pillars in mind, we will examine the following topics, one per section
+
+- Context: overview relevant corporate context
+- Agility: discuss the role and priority of agility
+- Growth: argue for agility as a force-multiplier to company-wide growth
+- Mission: end with an examination of a unified mission
+
+## :two: Corporate context
 
 ### Corporate lifecycle
 
@@ -48,13 +57,32 @@ Contrastingly, consider the following, reflecting example disordered versions of
 
 Rushing and fixation assume (continued) a priori understanding of the market, calcification over-indexes into existing products, and decline gives up on the potential for growth and renewal.
 
+#### Top-line vs. bottom-line growth
+
+In an even simpler reframing, we can consider a company's lifecycle phase as a sliding scale between focusing on [top-line growth vs. bottom-line growth](https://www.investopedia.com/ask/answers/difference-between-bottom-line-and-top-line-growth/).
+
+*Top-line* focused companies prefer revenue growth via expanding existing products and exploring new ones. Cost considerations are often deferred or deprioritized due to opportunity cost and potential hindrance to gross profit expansion.
+
+Meanwhile, *bottom-line* focused companies prefer profit growth (or preservation) via improving margins for existing products.
+
+With this in mind, we can compare back to the pillars of our evolved mission, mapping them to a company's priorities:
+
+- Stability: preserve existing products ⇒ preserve top line
+- Efficiency: improve margins ⇒ grow bottom line
+- Agility: enable new products ⇒ grow top line
+
+Or, more prescriptively:
+
+- **Top-line focused companies** prioritize **agility then stability**, often deferring efficiency
+- **Bottom-line focused companies** prioritize **efficiency then stability**, often ignoring agility
+
 #### Example: Meta's lifecycle
 
 Consider how Meta's evolution has shifted their priorities over time, via their motto:
 
-- 2004: "Move fast and break things" (agility)
-- 2016: "Move fast" (agility, stability)
-- 2023: "Year of efficiency" (efficiency, stability)
+- 2004: "Move fast and break things" ⇒ top-line focus on (agility)
+- 2016: "Move fast" ⇒ top-line focus on (agility, stability)
+- 2023: "Year of efficiency" ⇒ bottom-line focus on (efficiency, stability)
 
 ### Org structure
 
@@ -64,7 +92,9 @@ Zooming in to individual orgs: one way to conceptualize orgs is as a flat collec
 
 #### Orgs as a pipeline
 
-I firmly believe this shared thread should be a mission to empower end users. Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation**, where each org transforms its input resources to its output, culminating in captured revenue.
+As an early sneak peek: I firmly believe this shared thread should be a **mission to [empower end users](https://en.wikipedia.org/wiki/User-centered_design)**.
+
+Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation**, where each org transforms its input resources to its output, culminating in captured revenue.
 
 For example: product is canonically the user-facing org, transforming infra into monetizable services for end users. And, since a craftsman is limited by their materials, infra's goal should be providing stable, low-friction, efficient infra.
 
@@ -82,7 +112,7 @@ And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost ce
 
 All this to say: orgs share the company-level goal of empowering users, and each org should prioritize empowering its successor to do so.
 
-## 3️⃣ Reprioritizing agility
+## :three: Reprioritizing agility
 
 ### Agility as the antidote to execution cost
 
@@ -98,7 +128,7 @@ This is why I firmly believe **agility should be a central pillar of any org's m
 
 As for what to do about it, I believe prioritizing agility involves two key strategies:
 
-1. **Reduce toil**: lower execution cost within existing tools (via lower friction, manual effort)
+1. **Reduce [toil](https://sre.google/sre-book/eliminating-toil/)**: lower execution cost within existing tools (via lower friction, manual effort)
 2. **Improve abstraction**: reduce execution cost integrating across tools (via new, better primitives)
 
 Together, progressively lower-friction, higher-powered tools reduce the cost of executing on new product ideas, improving existing products and leading to a greater number of higher-quality future products.
@@ -109,7 +139,7 @@ It's tempting to view toil as just an employee retention metric (perceived toil 
 
 Toil is antithetical to agility. Toil increases labor costs while decreasing its efficiency, decreases final quality, and compoundingly incentivizes a culture of more toil. All this to say, toil directly multiplies the cost of execution, unbalancing the equation toward calcification and decline.
 
-And what's more, **toil earlier in the pipeline has a multiplicative effect moving forward**. For example, high-scale product is already slow to build and iterate, but building on top of high-friction infra compoundingly so.
+And what's more, **toil earlier in the pipeline has a multiplicative effect moving forward**. For example, high-scale product is already slow to build and iterate, but building on top of high-friction infra compoundingly so. Consider this (notional) intuition [[0]](infra_mission_footnotes.html#intuition-for-execution-cost):
 
 $$
 C_\text{total} \coloneqq \sum_{i \in \text{orgs}} \mu_ic_i \\
@@ -176,11 +206,74 @@ That to say: the problem with deprioritizing (internal or external) agility is m
 
 So, why prioritize agility? We're ready to answer: without investing in agility, friction and complexity increase to the point where effective action, at any layer of abstraction, becomes increasingly expensive and infeasible. With them, we open new frontiers into the impossible. **Low agility leads to calcification, high agility to renewal**.
 
-## 4️⃣ A unified mission: empowering all users
+## :four: Agility moves the top line
 
-As we've discussed, I believe **under-emphasis on agility is a widespread oversight, regardless of lifecycle phase**. Calcification happens bottom up, and sluggish, high-friction infra leads to sluggish, non-agile product teams. It's a recipe for late-reacting, risk-averse, uninspired products and fast-tracking company decline.
+So far we've argued agility is the medium to long-term solution to avoid calcification and decline. But there's an even more urgent argument to be made — **agility is the only path for infra orgs to support a company's *top* line**, short-term or otherwise.
 
-With that in mind, for me as a member of an infra org, the mission comes to this:
+### Infra owns efficiency, product owns growth
+
+To start, note the dance between product and infra: product takes the lead in growth-oriented efforts, while infra leads in efficiency-oriented efforts.
+
+But we call it a *dance* because both (all) orgs play a role. Product leads in growth, but needs a stable, effective infra platform to build on; infra leads in efficiency, but needs a communicative, change-ready product to materialize gains.
+
+### Efficiency gains can be deferred
+
+For top-line focused companies, capturing new revenue is the principal focus. In this context, short-term efficiency gains are discounted, meaning the opportunity cost of diverting resources away from top-line growth becomes the dominant consideration in evaluating whether a gain is worth its investment.
+
+To further tip the scales, **efficiency gains are a deferrable, non-renewable resource**. That is, they are often achievable equally both now and in the future (deferrable) and exhaustible (non-renewable). This makes them a perpetual target for deferral, doubly so when companies are in a growth (top-line focused) phase.
+
+### Efficiency gains hinder top-line growth
+
+Perhaps worse than the opportunity cost of diverting resources from top-line growth, achieving efficiency gains often **directly hinders impact to top-line growth**.
+
+Consider a didactic example:
+
+- `company` is hyper growth-oriented
+- `product` team has 20 engineers
+- `infra` team has 10 engineers
+
+From an opportunity cost perspective, the 10 engineers on the `infra` team are suboptimally invested resources.
+
+We can describe this as an ***impact ratio***, the $\text{impact} : \text{execution cost}$ for any resource, team, or org. Here, the impact ratio of the `product` team's engineers is substantially higher than that of the `infra` team, meaning it may be sensible to rebalance engineers to the `product` team.
+
+But now consider the downstream effect the `infra` team has on the `product` team. The `infra` team develops a new efficiency improvement, which requires 5 `product` engineers to support the migration effort. Now, not only are the `infra` team's engineers an opportunity cost due to their reduced impact ratio, they're actually increasing the blast radius of the suboptimally invested resources by decreasing the `infra` team's aggregate impact ratio.
+
+That is: **when infra and product orgs are misaligned** on whether the company is prioritizing top-line vs. bottom-line growth, **they literally handicap each other** from accomplishing the highest impact work in the entire company.
+
+### Agility gains support top-line growth
+
+So, how does infra contribute to a top-line focused company? The answer is simple: **reduce product's execution cost**.
+
+And this exactly is prioritizing agility, in its most concise form: an org reduces their downstream org's execution cost multiplier by reducing the cost to integrate with and build on their own platform.
+
+Seen this way, **improved agility becomes the *the* force-multiplier for company-wide top-line growth**, the de facto lever non-product orgs can pull to enable product orgs.
+
+### Prioritizing between stability, efficiency, and agility
+
+With this all in mind, we can reach the following considerations for building cross-org alignment:
+
+- When a company is **prioritizing top-line growth**
+    - Company: rebalance engineers toward product
+    - Product: prioritize growth, pulling in infra to support scale-ups
+    - Infra: **prioritize agility**, adding new and better (more agile, stable) affordances for product to build on
+- When a company is **prioritizing bottom-line growth**
+    - Company: rebalance engineers toward infra
+    - Product: make best use of existing infra affordances
+    - Infra: **prioritize efficiency**, pulling in product to support efficiency migrations
+
+## :five: A unified mission: empowering all users
+
+Finally, we can take a look back at the pillars we proposed for our evolved mission
+
+- **Stability**: preserve existing products, prioritized by impact (backward-looking)
+- **Efficiency**: improve margins for existing and new products (outward-looking)
+- **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
+
+As discussed, I believe **under-emphasis on agility is a widespread oversight, regardless of lifecycle phase**. Calcification happens bottom up, and sluggish, high-friction infra leads to sluggish, non-agile product teams. It's a recipe for late-reacting, risk-averse, uninspired products and fast-tracking company decline.
+
+With that in mind, for me as a member of an infra org, we can build these pillars into a single, unified mission. We need a mission that is clear (easy to understand), guiding (useful for building and evaluating trade-offs), general (effective whether a company is in a top-line or bottom-line phase), aligning (connecting internal goals with needs of other orgs and end users), and motivating (inspiring and exciting for employees across levels and roles).
+
+For me, we can fit the need with this mission:
 
 > **Empower all our users with stable, efficient, *agile* infra**
 

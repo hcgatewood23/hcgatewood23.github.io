@@ -48,7 +48,7 @@ open: ## Open home page
 
 dst/%.html: src/%.md
 	@mkdir -p dst
-	pandoc --standalone --self-contained \
+	pandoc --embed-resources --standalone \
 		--css=assets/pandoc.css \
 		--katex=assets/katex_0.10.0/ \
 		--from gfm$(MD_EXTENSIONS) \
