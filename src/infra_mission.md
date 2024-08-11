@@ -227,7 +227,7 @@ But we call it a *dance* because both (all) orgs play a role. Product leads in g
 
 For top-line focused companies, capturing new revenue is the principal focus. In this context, short-term efficiency gains are discounted, meaning the opportunity cost of diverting resources away from top-line growth becomes the dominant consideration in evaluating whether a gain is worth its investment.
 
-To further tip the scales, **efficiency gains are a deferrable, non-renewable resource**. That is, they are often achievable equally both now and in the future (deferrable) and exhaustible (non-renewable). This makes them a perpetual target for deferral, doubly so when companies are in a growth (top-line focused) phase.
+To further tip the scales, **efficiency gains are a deferrable, non-renewable resource**. That is, they are often achievable equally both now and in the future (deferrable) and are exhaustible (non-renewable). This makes them a perpetual target for deferral, doubly so when companies are in a growth (top-line focused) phase.
 
 ### Efficiency gains hinder top-line growth
 
