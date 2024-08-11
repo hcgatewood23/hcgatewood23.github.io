@@ -1,6 +1,14 @@
 # Building a new mission for infra orgs
 
-Or, evolving "keep the plane in the air and save money" toward "empower all our users with stable, efficient, agile infra", a meditation on mission, agility, and the concept of a "cost center."
+Or, evolving "keep the plane in the air and save money" toward "empower all our users with stable, efficient, agile infra", a meditation on mission, agility, and the concept of a cost center.
+
+We'll discuss in five parts:
+
+1. Goal: propose new pillars for an evolved mission
+2. Context: highlight relevant corporate context
+3. Agility to prevent calcification: discuss the role and priority of agility in medium to long-term strategy
+4. Agility to unlock growth: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier to company-wide growth
+5. Mission: end with an examination of a unified mission
 
 ## :one: From maintenance to empowerment
 
@@ -20,15 +28,6 @@ I believe we can do better. Infra is positioned to do more than preserve and red
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
 - **Efficiency**: improve margins for existing and new products (outward-looking)
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
-
-### Looking forward
-
-With these pillars in mind, we will examine the following topics, one per section
-
-- Context: overview relevant corporate context
-- Agility: discuss the role and priority of agility
-- Growth: argue for agility as a force-multiplier to company-wide growth
-- Mission: end with an examination of a unified mission
 
 ## :two: Corporate context
 
@@ -80,9 +79,9 @@ Or, more prescriptively:
 
 Consider how Meta's evolution has shifted their priorities over time, via their motto:
 
-- 2004: "Move fast and break things" ⇒ top-line focus on (agility)
-- 2016: "Move fast" ⇒ top-line focus on (agility, stability)
-- 2023: "Year of efficiency" ⇒ bottom-line focus on (efficiency, stability)
+- 2004: [Move fast and break things](https://en.wikipedia.org/wiki/Move_fast_and_break_things_(motto)) ⇒ top-line focus on (agility)
+- 2016: [Move fast](https://www.businessinsider.com/mark-zuckerberg-on-facebooks-new-motto-2014-5) ⇒ top-line focus on (agility, stability)
+- 2023: [Year of efficiency](https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/) ⇒ bottom-line focus on (efficiency, stability)
 
 ### Org structure
 
@@ -112,9 +111,9 @@ And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost ce
 
 All this to say: orgs share the company-level goal of empowering users, and each org should prioritize empowering its successor to do so.
 
-## :three: Reprioritizing agility
+## :three: Agility is the antidote to calcification
 
-### Agility as the antidote to execution cost
+### Agility reduces execution cost
 
 From the previous section, we see how well-functioning companies (and, by extension, well-functioning orgs) continue experimentation and implementation through all phases of their lifecycle. While prioritization may shift over time, **renewal never stops**.
 
@@ -122,7 +121,7 @@ Renewal comes at a cost, however. This is the ***execution cost*** **of new prod
 
 Each phase of the corporate lifecycle comes with a respective tolerance and multiplier to the cost of executing on a new product. In the prototype phase, companies invest heavily at minimal cost, while in the maturation phase, companies often invest less heavily (prioritize margins for existing products) and at higher cost (scale, inertia, technical debt, reputation risk, etc.).
 
-This is why I firmly believe **agility should be a central pillar of any org's mission**. Agility reduces execution cost, balancing the equation in favor of perpetual renewal. The difference between maturity and calcification, in many cases, is the difference between a company that can and cannot afford to experiment, implement, and continually renew itself.
+This is why I firmly believe **agility should be a central pillar of any org's mission**. Agility reduces execution cost, balancing the equation in favor of perpetual renewal. **The difference between maturity and calcification**, in many cases, is the difference between a company that **can and cannot afford to experiment, implement, and continually renew itself**.
 
 ### How to increase agility
 
@@ -194,7 +193,7 @@ So the solution is to manage technical debt as a useful instrument, strategicall
 
 Or, another way: agility is the precursor to effectiveness. **Orgs deprioritize reinvestment in their own agility at the expense of diminished downstream agility, stability, and efficiency** in the medium to long term.
 
-### So, why prioritize agility?
+### Low agility leads to calcification, high agility to renewal
 
 As we've seen, low agility progressively increases the risk of exploring new ideas. But it's also more than that.
 
@@ -205,6 +204,16 @@ Consider as an example: using only machine code, design and build Instagram. No 
 That to say: the problem with deprioritizing (internal or external) agility is more than just straining employee retention, and more than just stymieing downstream impact. The problem is ignoring agility minimizes the number of new primitives, new abstractions, new coalescings of existing conceptualizations into new *higher-level vertices* in the abstraction tree. It's the difference between building Instagram byte-by-byte, or as an integration of sharded MySQL DBs, efficient blob storage, social ID hashing algorithms, and more. **Everything's just bytes, but the tools we build enable our higher-level reasoning and tractable execution**.
 
 So, why prioritize agility? We're ready to answer: without investing in agility, friction and complexity increase to the point where effective action, at any layer of abstraction, becomes increasingly expensive and infeasible. With them, we open new frontiers into the impossible. **Low agility leads to calcification, high agility to renewal**.
+
+### Example: Microsoft's reinvention
+
+In February 2014, [Satya Nadella](https://en.wikipedia.org/wiki/Satya_Nadella) was announced as the incoming CEO of Microsoft, replacing his 14-year predecessor, [Steve Ballmer](https://en.wikipedia.org/wiki/Steve_Ballmer). [Microsoft's market cap](https://companiesmarketcap.com/microsoft/marketcap/) at the time was $318B, around half its 1999 peak of $604B, continuing a decade of stasis in the $250-300B range.
+
+Within 4 years, Microsoft's market cap doubled to over $600B; now in 2024, 10 years later, it's seen a peak of $3.48T. **The decade before Nadella, Microsoft's market cap saw stagnation; the decade since saw 10x growth**.
+
+A multitude of factors contributed to this growth, but central among them is Microsoft [reinvented itself](https://www.economist.com/leaders/2023/09/28/the-lessons-from-microsofts-startling-comeback) as [an innovative company](https://hbr.org/2023/02/how-microsoft-became-innovative-again). They shifted their placement in the corporate lifecycle from focus and calcification back toward growth, surrendering the safe stagnation of Windows and Office for a more uncertain, higher-upside focus on Azure and cloud services.
+
+Any renewal requires experimentation, trial and error, and a willingness to move fast. And the key point here is this: while not solely sufficient, agility is a necessary and effective precursor to renewal. **Microsoft's renewal was necessarily enabled**, in strong part, **by a shift in focus from stability and efficiency back toward agility**.
 
 ## :four: Agility moves the top line
 
@@ -248,9 +257,9 @@ And this exactly is prioritizing agility, in its most precise form: an org reduc
 
 Seen this way, **improved agility becomes *the* force-multiplier for company-wide top-line growth**, the de facto lever non-product orgs can pull to enable product orgs.
 
-### Prioritizing between stability, efficiency, and agility
+### Top-line prioritizes agility, bottom-line prioritizes efficiency
 
-With this all in mind, we can reach the following considerations for building cross-org alignment:
+With this all in mind, we can reach the following recommendations for building cross-org alignment:
 
 - When a company is **prioritizing top-line growth**
     - Company: rebalance engineering resources toward product
@@ -260,6 +269,11 @@ With this all in mind, we can reach the following considerations for building cr
     - Company: rebalance engineering resources toward infra
     - Product: make best use of existing infra affordances
     - Infra: **prioritize efficiency**, pulling in product to support efficiency migrations
+- When a company is **prioritizing both**
+    - Company
+      - In the strong majority of cases, for the reasons discussed, I see **top-line and bottom-line growth as negatively-synergistic goals**
+      - Instead, improve labor productivity (aggregate impact ratio, in our language) and org-level synergy via a locally-durable decision to **prioritize either top-line or bottom-line growth**
+      - Side note: practically speaking, a 100:0 top-line/bottom-line split is also undesirable (or potentially destructive, if taken literally); instead, choose a reasonable weighting (80:20, 30:70, etc.), while still asserting and building alignment on one as the primary goal
 
 ## :five: A unified mission: empowering all users
 
