@@ -4,11 +4,11 @@ Or, evolving "keep the plane in the air and save money" toward "empower all our 
 
 We'll discuss in five parts:
 
-1. Goal: propose new pillars for an evolved mission
-2. Context: highlight relevant corporate context
-3. Agility to prevent calcification: discuss the role and priority of agility in medium to long-term strategy
-4. Agility to unlock growth: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier to company-wide growth
-5. Mission: end with an examination of a unified mission
+1. **Intro**: propose new pillars for an evolved mission
+2. **Context**: highlight relevant corporate context
+3. **Agility to prevent calcification**: discuss the role and priority of agility in medium to long-term strategy
+4. **Agility to unlock growth**: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier to company-wide growth
+5. **Unified mission**: end with an examination of an evolved, unified mission
 
 ## :one: From maintenance to empowerment
 
