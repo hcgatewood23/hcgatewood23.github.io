@@ -205,7 +205,7 @@ So, why prioritize agility? We're ready to answer: without investing in agility,
 
 ### Example: Microsoft's reinvention
 
-In February 2014, [Satya Nadella](https://en.wikipedia.org/wiki/Satya_Nadella) was announced as the incoming CEO of Microsoft, replacing his 14-year predecessor, [Steve Ballmer](https://en.wikipedia.org/wiki/Steve_Ballmer). [Microsoft's market cap](https://companiesmarketcap.com/microsoft/marketcap/) at the time was $318B, around half its 1999 peak of $604B, continuing a decade of stasis in the $250-300B range.
+In February 2014, [Satya Nadella](https://en.wikipedia.org/wiki/Satya_Nadella) was announced as the incoming CEO of Microsoft, replacing his 14-year predecessor, [Steve Ballmer](https://en.wikipedia.org/wiki/Steve_Ballmer). [Microsoft's market cap](https://companiesmarketcap.com/microsoft/marketcap/) at the time was $318B, around half its 1999 peak of $604B, continuing a decade of stasis in the $250-350B range.
 
 Within 4 years, Microsoft's market cap doubled to over $600B; now in 2024, 10 years later, it's seen a peak of $3.48T. **The decade before Nadella, Microsoft's market cap saw stagnation; the decade since saw 10x growth**.
 
