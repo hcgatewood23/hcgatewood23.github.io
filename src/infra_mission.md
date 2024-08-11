@@ -107,7 +107,7 @@ And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost ce
 
 <p align="center"><img src="assets/img/org_pipeline_sliced.png" width="650px"></p>
 
-#### Orgs empower orgs to empower users
+#### Orgs empower each other to empower end users
 
 All this to say: orgs share the company-level goal of empowering users, and each org should prioritize empowering its successor to do so.
 
