@@ -181,9 +181,7 @@ Consider the idea of a **reinvestment rate**: the percentage of resources devote
 
 Even if orgs prioritize reducing toil and improving abstraction downstream (e.g. infra prioritizing product), low *re*investment rates inevitably lead to stagnation and increased overall execution cost in the long term.
 
-The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing downstream improvements at the cost of same-node debt.
-
-The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing extra-node improvements at the cost of intra-node debt.
+The concept of technical debt is directly relevant here. Technical debt can be viewed as an instrument for prioritizing extra-node improvements at the cost of same-node debt.
 
 A logical next question might be: why not incur ever-increasing technical debt, and hyper-prioritize extra/downstream improvements indefinitely? The answer is: **technical debt increases the execution cost of all future efforts** (per-effort "interest payment"), while also compoundingly incentivizing more technical debt with each new effort (interest payment increases exponentially). Unchecked, ever-increasing debt is an unsustainable, self-reinforcing cycle of ever-decreasing productivity — a clear recipe for calcification and decline.
 
@@ -217,7 +215,7 @@ Any renewal requires experimentation, trial and error, and a willingness to move
 
 ## :four: Agility moves the top line
 
-So far we've argued agility is the medium to long-term solution to avoid calcification and decline. But there's an even more urgent argument to be made — **agility is the only path for infra orgs to support a company's *top* line**, short-term or otherwise.
+So far we've argued agility is an antidote to calcification and decline in the medium to long-term. But there's an even more urgent argument to be made — **agility is the only path for infra orgs to support a company's top line**, short-term or otherwise.
 
 ### Infra owns efficiency, product owns growth
 
@@ -283,7 +281,7 @@ Finally, we can take a look back at the pillars we proposed for our evolved miss
 - **Efficiency**: improve margins for existing and new products (outward-looking)
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
 
-As discussed, I believe **under-emphasis on agility is a widespread oversight, regardless of lifecycle phase**. Calcification happens bottom up, and sluggish, high-friction infra leads to sluggish, non-agile product teams. It's a recipe for late-reacting, risk-averse, uninspired products and fast-tracking company decline.
+As discussed, I believe **under-emphasis on agility is a widespread oversight, regardless of lifecycle phase**. Calcification happens from the bottom up, and sluggish, high-friction infra leads to sluggish, non-agile product teams. It's a recipe for late-reacting, risk-averse, uninspired products and fast-tracking company decline.
 
 With that in mind, for me as a member of an infra org, we can build these pillars into a single, unified mission. We need a mission that is clear (easy to understand), guiding (useful for building and evaluating trade-offs), general (effective whether a company is in a top-line or bottom-line phase), aligning (connecting internal goals with needs of other orgs and end users), and motivating (inspiring and exciting for employees across levels and roles).
 
