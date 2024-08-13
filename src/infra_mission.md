@@ -1,6 +1,6 @@
-# Building a new mission for infra orgs
+# Infra is about empowerment, not just efficiency
 
-Or, evolving "keep the plane in the air and save money" toward "empower all our users with stable, efficient, agile infra", a meditation on mission, agility, and the concept of a cost center.
+Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*: a meditation on mission, agility, and the concept of a cost center.
 
 We'll discuss in five parts:
 
@@ -9,6 +9,8 @@ We'll discuss in five parts:
 3. **Agility to prevent calcification**: discuss the role and priority of agility in medium to long-term strategy
 4. **Agility to unlock growth**: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier to company-wide growth
 5. **Unified mission**: end with an examination of an evolved, unified mission
+
+Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
 
 ## :one: From maintenance to empowerment
 
@@ -93,7 +95,7 @@ Zooming in to individual orgs: one way to conceptualize orgs is as a flat collec
 
 As an early sneak peek: I firmly believe this shared thread should be a **mission to [empower end users](https://en.wikipedia.org/wiki/User-centered_design)**.
 
-Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation**, where each org transforms its input resources to its output, culminating in captured revenue.
+Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation** [[0]](infra_mission_footnotes#org-pipeline-intuition), where each org transforms its input resources to its output, culminating in captured revenue.
 
 For example: product is canonically the user-facing org, transforming infra into monetizable services for end users. And, since a craftsman is limited by their materials, infra's goal should be providing stable, low-friction, efficient infra.
 
@@ -110,6 +112,38 @@ And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost ce
 #### Orgs empower each other to empower end users
 
 All this to say: orgs share the company-level goal of empowering users, and each org should prioritize empowering its successor to do so.
+
+### Defining stability, efficiency, and agility
+
+Finally, let's further examine the three pillars of our evolved mission.
+
+#### Definition
+
+- **Stable** platforms have a high probability of continuing their [productivity](https://www.investopedia.com/terms/p/productivity.asp) into the future, barring external factors
+    - **Reliable**: currently used affordances work as expected, over time and under stress
+    - **Consistent**: new and currently unused affordances are reliable and coherent
+    - **Enduring**: platform exists, with support, for reasonable duration
+- **Efficient** platforms are capital-productive
+    - **Cost-effective**: productive relative to investment, especially considering [OpEx](https://www.investopedia.com/terms/o/operating_expense.asp)
+- **Agile** platforms are labor-productive
+    - **Transparent**: easy to understand, low-effort to migrate onto, easy to evolve on top of
+    - **Ready for change**: easy to evolve internally, ready for future stability and efficiency needs both now and with conservative investment
+    - **Expressive**: enables functionality expensive or impossible without it
+
+#### Example: AWS EC2
+
+As a more concrete example, let's briefly describe an idealized version of AWS's [EC2](https://aws.amazon.com/ec2/) platform, with each pillar in mind:
+
+- Stable
+    - Reliable: instances are available and performant, with minimal downtime announced in advance
+    - Consistent: new instance types are released with clear documentation and support, and require minimal new learning or onboarding
+    - Enduring: instances are supported for a reasonable duration, with clear deprecation policies
+- Efficient
+    - Cost-effective: instances are priced competitively, with clear pricing and billing
+- Agile
+    - Transparent: architecture and affordances are coherent and well-documented, well-supported migration playbooks are available, users can easily switch between instance types and billing plans, spinning instances up or down is low-effort
+    - Ready for change: AWS is able to effectively evolve instance and interface affordances over time, especially in response to user feedback; codebase is easy to understand, well-tested, and only as large as necessary
+    - Expressive: users can quickly and easily configure (billing, networking, etc.), integrate (EBS, S3, etc.), optimize (instance types), and scale, in ways traditional on-prem solutions either preclude or support with significant effort and investment
 
 ## :three: Agility is the antidote to calcification
 
@@ -138,7 +172,7 @@ It's tempting to view toil as just an employee retention metric (perceived toil 
 
 Toil is antithetical to agility. Toil increases labor costs while decreasing its efficiency, decreases final quality, and compoundingly incentivizes a culture of more toil. All this to say, toil directly multiplies the cost of execution, unbalancing the equation toward calcification and decline.
 
-And what's more, **toil earlier in the pipeline has a multiplicative effect moving forward**. For example, high-scale product is already slow to build and iterate, but building on top of high-friction infra compoundingly so. Consider this (notional) intuition [[0]](infra_mission_footnotes.html#intuition-for-execution-cost):
+And what's more, **toil earlier in the pipeline has a multiplicative effect moving forward**. For example, high-scale product is already slow to build and iterate, but building on top of high-friction infra compoundingly so. Consider this (notional) intuition [[1]](infra_mission_footnotes#execution-cost-intuition):
 
 $$
 C_\text{total} \coloneqq \sum_{i \in \text{orgs}} \mu_ic_i \\
@@ -275,6 +309,8 @@ With this all in mind, we can reach the following recommendations for building c
 
 ## :five: A unified mission: empowering all users
 
+### Infra is about empowerment
+
 Finally, we can take a look back at the pillars we proposed for our evolved mission
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
@@ -292,3 +328,21 @@ For me, we can fit the need with this mission:
 And **infra, product, and end users are** ***all*** **our users**, from the desk over to the world over. Our software needs to empower them all. Relegating any of them to second-importance is a third-rate idea bound to hasten company decline.
 
 Framing the mission this way aligns leadership and employee goals, incentivizing leadership to care about reducing toil and building new, exciting software. It adds an urgency and clarity to the role each org's meant to play. And, most of all, and to me at least, it's a mission I'm excited to go to work for.
+
+### How to empower all users
+
+Looking back to our guiding question: *when and how should infra prioritize between stability, efficiency, and agility?*
+
+Hopefully we've answered it now: **agility when top-line focused**, **efficiency when bottom-line focused**, and **stability** as a perennial baseline, gaining importance **as a company matures**.
+
+Let's end with a few actionable steps:
+
+- To improve **stability**
+    - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
+    - **Evolve**: start by plugging holes; when insufficient, refactor; if absolutely necessary, progressively rewrite
+- To improve **efficiency**
+    - **Capture easy wins**: identify and execute on low-hanging fruit first (low effort, high value)
+    - **Track bigger investments**: monitor, ideate, prioritize, and execute on larger efficiency improvements as part of the roadmap, prioritized by ROI (discounted by risk and total execution cost)
+- To improve **agility**
+    - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, as part of regular team planning
+    - **Improve abstraction**: continually source ideas (from top-down and bottom-up sources) on new problems, improvements, projects, and more ways to improve the platform; prioritize and execute on the most impactful (discounted by risk and total execution cost)

@@ -1,6 +1,15 @@
 # Footnotes: building a new mission for infra orgs
 
-## Intuition for execution cost
+## Org pipeline intuition
+
+We discussed the concept of an *org pipeline* as a way to think about the flow of work through an organization. While the end intuition is the same, I think the following conceptualization is a closer approximation.
+
+Instead of a [linear graph](https://en.wikipedia.org/wiki/Path_graph), I think of org dependencies more generally as forming a "largely acyclic" [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+
+- General DAG rather than linear: orgs can have multiple input and output orgs, e.g. HR supporting all orgs, or infra supporting both product and ads (ads could be coalesced into product in the simplest conceptualizations, but practically they have distinct needs and goals)
+- Largely acyclic: accounting for examples like infra building on its own platforms, or HR supporting infra but also building on infra platforms
+
+## Execution cost intuition
 
 ### More notional
 

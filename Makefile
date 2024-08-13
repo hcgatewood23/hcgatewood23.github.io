@@ -34,8 +34,11 @@ external: ## Make and copy publishable files from Dropbox notes to local repo
 	cp $(DROPBOX_DIR)/generated/notebooks_main.md.html public/notebooks_main.html
 	cp $(DROPBOX_DIR)/generated/notebooks_worldview.md.html public/notebooks_worldview.html
 
-dev: gen ## Regenerate on changes
-	fswatch -o src | xargs -n1 -I{} make gen
+dev: ## Regenerate on changes
+	appa start src --open
+
+check: gen ## Generate and inspect changes
+	open dst/*
 
 clean: ## Remove generated
 	rm -rf dst
