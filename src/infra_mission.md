@@ -243,7 +243,7 @@ In February 2014, [Satya Nadella](https://en.wikipedia.org/wiki/Satya_Nadella) w
 
 Within 4 years, Microsoft's market cap doubled to over $600B; now in 2024, 10 years later, it's seen a peak of $3.48T. **The decade before Nadella, Microsoft's market cap saw stagnation; the decade since saw 10x growth**.
 
-A multitude of factors contributed to this growth, but central among them is Microsoft [reinvented itself](https://www.economist.com/leaders/2023/09/28/the-lessons-from-microsofts-startling-comeback) as [an innovative company](https://hbr.org/2023/02/how-microsoft-became-innovative-again). They shifted their placement in the corporate lifecycle from focus and calcification back toward growth, surrendering the safe stagnation of Windows and Office for a more uncertain, higher-upside focus on Azure and cloud services.
+A multitude of factors contributed to this growth, but central among them is Microsoft [reinvented itself](https://www.economist.com/leaders/2023/09/28/the-lessons-from-microsofts-startling-comeback) as [an innovative company](https://hbr.org/2023/02/how-microsoft-became-innovative-again). They shifted their placement in the corporate lifecycle from focus and calcification back toward growth, surrendering the safe stagnation of Windows and Office for a more uncertain, higher-upside focus on Azure, cloud services, and, more recently, AI.
 
 Any renewal requires experimentation, trial and error, and a willingness to move fast. And the key point here is this: while not solely sufficient, agility is a necessary and effective precursor to renewal. **Microsoft's renewal was necessarily enabled**, in strong part, **by a shift in focus from stability and efficiency back toward agility**.
 
