@@ -339,7 +339,7 @@ Let's end with a few actionable steps:
 
 - To improve **stability**
     - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
-    - **Evolve**: start by plugging holes; when insufficient, refactor; if absolutely necessary, progressively rewrite
+    - **Repair or evolve**: start by plugging holes; when insufficient, refactor; if absolutely necessary, progressively rewrite
 - To improve **efficiency**
     - **Capture easy wins**: identify and execute on low-hanging fruit first (low effort, high value)
     - **Track bigger investments**: monitor, ideate, prioritize, and execute on larger efficiency improvements as part of the roadmap, prioritized by ROI (discounted by risk and total execution cost)
