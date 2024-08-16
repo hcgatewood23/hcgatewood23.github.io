@@ -295,7 +295,7 @@ With this all in mind, we can reach the following recommendations for building c
 
 - When a company is **prioritizing top-line growth**
     - Company: rebalance engineering resources toward product
-    - Product: prioritize growth, pulling in infra to support scale-ups
+    - Product: **prioritize growth**, pulling in infra to support scale-ups
     - Infra: **prioritize agility**, adding new and better (more agile, stable) affordances for product to build on
 - When a company is **prioritizing bottom-line growth**
     - Company: rebalance engineering resources toward infra
@@ -303,9 +303,33 @@ With this all in mind, we can reach the following recommendations for building c
     - Infra: **prioritize efficiency**, pulling in product to support efficiency migrations
 - When a company is **prioritizing both**
     - Company
-      - In the strong majority of cases, for the reasons discussed, I see **top-line and bottom-line growth as negatively-synergistic goals**
-      - Instead, improve labor productivity (aggregate impact ratio, in our language) and org-level synergy via a locally-durable decision to **prioritize either top-line or bottom-line growth**
-      - Side note: practically speaking, a 100:0 top-line/bottom-line split is also undesirable (or potentially destructive, if taken literally); instead, choose a reasonable weighting (80:20, 30:70, etc.), while still asserting and building alignment on one as the primary goal
+        - In the strong majority of cases, for the reasons discussed, I see **top-line and bottom-line growth as negatively-synergistic goals**
+        - Instead, improve labor productivity (aggregate impact ratio, in our language) and org-level synergy via a locally-durable decision to **prioritize either top-line or bottom-line growth**
+        - Side note: practically speaking, a 100:0 top-line/bottom-line split is also undesirable (or potentially destructive, if taken literally); instead, choose a reasonable weighting (80:20, 30:70, etc.), while still asserting and building alignment on one as the primary goal
+
+### Stability is a perennial baseline focus
+
+Finally, for stability specifically: **stability should remain a perennial baseline focus**, absolutely never neglected, yet rarely the main priority. This is because high stability doesn't contribute to the top or bottom line — high instability, however, will certainly erode both.
+
+So, we can round out our recommendations with a final refinement: when companies or orgs are struggling to execute on their primary goal due to instability, **stability must become the immediate primary focus**. Set clear, achievable, stability-oriented goals with attached incentives, both company-wide and org-level. Build alignment on accepting the opportunity cost of temporarily diverting resources from the primary goal, pointing toward expected timelines and outcomes.
+
+### Example: Figma's migration to Kubernetes
+
+In 2023, [Figma](https://www.figma.com/) ([$12B valuation](https://www.reuters.com/technology/figma-valued-125-billion-tender-offer-backed-by-fidelity-others-2024-05-16/)) migrated their infra platform [from ECS to EKS](https://www.figma.com/blog/migrating-onto-kubernetes/).
+
+They scoped the migration to the following targets: [developer experience, improved reliability, and cost efficiency](https://www.figma.com/blog/migrating-onto-kubernetes/#improvements-we-scoped-into-the-migration). And their post-migration report concluded: *we've seen a number of benefits: saving money by not over provisioning for deploys; being more reliable running on three clusters; and improving developer ergonomics.*
+
+We can map this migration to our discussion: Figma is a hyper growth-oriented, top-line focused company, and their infra org scoped and executed a roadmap item aligned with this focus. Their priorities map directly to our pillars:
+
+- **Developer experience**: generalizes to **agility**, reducing future execution costs and enabling new products
+- **Improved reliability**: **stability**, preserving existing products
+- **Cost efficiency**: **efficiency**, improving margins for new and existing products
+
+And a few additional takeaways, in line with our recommendations for top-line focused companies:
+
+- **Infra prioritize agility, product prioritize growth**: they note: *[we had to] make sure that we could pull off the migration in a reasonable amount of time*. Said another way, infra executed on their roadmap item (reduced product's execution cost, improved stability) with a lean and focused effort, minimizing diversion of product's resources away from growth
+- **Stability is a perennial baseline focus, impact-prioritized**: they scoped stability wins as a key target and, after validating the paved path, [migrated their highest-priority services first](https://www.figma.com/blog/migrating-onto-kubernetes/#our-migration)
+- **Defer efficiency**: while their post-implementation report highlights cost savings, they also note: *we didn't want to tackle too much complex cost efficiency work as part of this migration*. This follows our earlier observation that efficiency gains are a deferrable, non-renewable resource — as a top-line focused company, they deferred efficiency gains to prioritize agility and stability in the shorter term.
 
 ## :five: A unified mission: empowering all users
 
@@ -337,8 +361,11 @@ Hopefully we've answered it now: **agility when top-line focused**, **efficiency
 
 Let's end with a few actionable steps:
 
+- To improve *anything*
+    - **Staff appropriately**: ensure sufficient, level-appropriate, ramped-up headcount to support essential "keep the plane in the air" and the additional, improvement-oriented roadmap
 - To improve **stability**
-    - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
+    - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), automate projected-scale testing, and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
+    - **Proactively listen**: trust engineers, at every level, to communicate likely or potential stability issues; don't assume *currently working* means *will continue to work*, and don't wait for serial outages to prioritize stability
     - **Repair or evolve**: start by plugging holes; when insufficient, refactor; if absolutely necessary, progressively rewrite
 - To improve **efficiency**
     - **Capture easy wins**: identify and execute on low-hanging fruit first (low effort, high value)
