@@ -362,7 +362,8 @@ Hopefully we've answered it now: **agility when top-line focused**, **efficiency
 Let's end with a few actionable steps:
 
 - To improve *anything*
-    - **Staff appropriately**: ensure sufficient, level-appropriate, ramped-up headcount to support essential "keep the plane in the air" and the additional, improvement-oriented roadmap
+    - **Staff appropriately**: ensure a sufficient labor pool via level-appropriate, ramped-up headcount — enough to support essential "keep the plane in the air" and the additional, improvement-oriented roadmap
+    - **Balance focus time vs. alignment**: improve labor productivity by helping teams move faster (set and incentivize org-level [focus](https://www.getclockwise.com/eng-meeting-benchmarks) [time](https://uplevelteam.com/blog/deep-work-why-we-measure-in-two-hour-minimum-time-blocks) [metrics](https://reclaim.ai/blog/task-management-trends-report)) and in the right direction (improve aggregate impact ratios by continually building multi-level alignment); balance between building alignment and increasing focus time with well-tread tips like no meeting days, default meeting day, shorter and fewer meetings, combining meetings, moving meetings async, and scheduling tools to automatically block focus time
 - To improve **stability**
     - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), automate projected-scale testing, and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
     - **Proactively listen**: trust engineers, at every level, to communicate likely or potential stability issues; don't assume *currently working* means *will continue to work*, and don't wait for serial outages to prioritize stability
