@@ -46,8 +46,10 @@ clean: ## Remove generated
 status: ## Open status page
 	open https://github.com/hcgatewood23/hcgatewood23.github.io/actions
 
-open: ## Open home page
+home: ## Open home page
 	open https://hcgatewood23.github.io/listall
+
+open: status home ## Open home and status page
 
 dst/%.html: src/%.md
 	@mkdir -p dst
