@@ -372,5 +372,5 @@ Let's end with a few actionable steps:
     - **Capture easy wins**: identify and execute on low-hanging fruit first (low effort, high value)
     - **Track bigger investments**: monitor, ideate, prioritize, and execute on larger efficiency improvements as part of the roadmap, prioritized by ROI (discounted by risk and total execution cost)
 - To improve **agility**
-    - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, as part of regular team planning
+    - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, as part of regular team planning; view async knowledge transfer ([code documentation](https://go.dev/doc/comment), design docs, user documentation, onboarding, etc.) as forms of toil reduction
     - **Improve abstraction**: continually source ideas (from top-down and bottom-up sources) on new problems, improvements, projects, and more ways to improve the platform; prioritize and execute on the most impactful (discounted by risk and total execution cost)
