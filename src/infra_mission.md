@@ -318,9 +318,9 @@ That to say: the problem with deprioritizing (internal or external) agility is m
 
 So, why prioritize agility? We're ready to answer: without investing in agility, friction and complexity increase to the point where effective action, at any layer of abstraction, becomes increasingly expensive and infeasible; with investment, we open new frontiers into the impossible. **Low agility leads to calcification, high agility to renewal**.
 
-### It's not all roses: measuring agility is hard
+### Measuring agility is hard
 
-Agility can be much harder to measure and track than (in)stability and efficiency.
+The drawback for agility is it's hard to measure, especially compared to (in)stability and efficiency:
 
 - **Instability** (i.e. low user-facing stability) can be inferred from metrics like uptime, [failures](https://cloud.google.com/blog/products/gcp/available-or-not-that-is-the-question-cre-life-lessons), and [user satisfaction](https://www.qualtrics.com/experience-management/customer/net-promoter-score/)
 - **Efficiency** can often be directly measured, ideally with higher-resolution cost attribution mechanisms, but worst case by e.g. literally comparing top-line revenue with bottom-line profit
