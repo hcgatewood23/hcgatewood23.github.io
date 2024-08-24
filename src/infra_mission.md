@@ -1,14 +1,17 @@
 # Infra is about empowerment, not just efficiency
 
-Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*: a meditation on mission, agility, and the concept of a cost center.
+Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*.
 
-We'll discuss in five parts:
+We'll discuss in eight parts:
 
 1. **Intro**: propose new pillars for an evolved mission
 2. **Context**: highlight relevant corporate context
-3. **Agility to prevent calcification**: discuss the role and priority of agility in medium to long-term strategy
-4. **Agility to unlock growth**: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier to company-wide growth
-5. **Unified mission**: end with an examination of an evolved, unified mission
+3. **Stability as a foundation**: discuss stability's role in supporting the other pillars
+4. **Efficiency to move the bottom line**: discuss efficiency's role in moving the bottom line
+5. **Agility to prevent calcification**: discuss the role and priority of agility in medium to long-term strategy
+6. **Agility to move the top line**: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier for growth
+7. **Unified mission**: integrate the pillars into an examination of an evolved, unified mission
+8. **Takeaways**: end with a mission-informed framework for building effective, aligned strategies
 
 Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
 
@@ -28,7 +31,7 @@ This perspective captures two essential objectives, but fails to express the ful
 I believe we can do better. Infra is positioned to do more than preserve and reduce. I offer the following pillars of an evolved mission, which we will consider further in the subsequent sections:
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
-- **Efficiency**: improve margins for existing and new products (outward-looking)
+- **Efficiency**: improve margins for new and existing products (outward-looking)
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
 
 ## :two: Corporate context
@@ -37,10 +40,10 @@ I believe we can do better. Infra is positioned to do more than preserve and red
 
 Companies evolve through a lifecycle, from startup and growth to maturity and decline. Each phase has different priorities, and a company's mission should reflect these.
 
-- **Prototype**: prioritize {agility}, while seeking product-market fit
-- **Grow**: prioritize {agility, stability}, while scaling
-- **Mature**: prioritize {agility, stability, efficiency}, while maximizing margins via increasing profit and decreasing costs
-- **Focus**: prioritize {stability, efficiency}, while maximizing margins primarily via decreasing costs
+- **Prototype**: prioritize (agility), while seeking product-market fit
+- **Grow**: prioritize (agility, stability), while scaling
+- **Mature**: prioritize from {agility, stability, efficiency}, while maximizing margins via increasing profit and decreasing costs
+- **Focus**: prioritize (efficiency, stability), while maximizing margins primarily via decreasing costs
 
 #### Determining lifecycle phase
 
@@ -52,7 +55,7 @@ Each phase incorporates different levels of investment across each bucket. But, 
 
 #### Disordered lifecycle phases
 
-Contrastingly, consider the following, reflecting example disordered versions of the above phases:
+Contrastingly, consider the following examples, reflecting disordered versions of the above phases:
 
 <p align="center"><img src="assets/img/corporate_lifecycle_disordered.png" width="340px"></p>
 
@@ -62,7 +65,7 @@ Rushing and fixation assume (continued) a priori understanding of the market, ca
 
 In an even simpler reframing, we can consider a company's lifecycle phase as a sliding scale between focusing on [top-line growth vs. bottom-line growth](https://www.investopedia.com/ask/answers/difference-between-bottom-line-and-top-line-growth/).
 
-*Top-line* focused companies prefer revenue growth via expanding existing products and exploring new ones. Cost considerations are often deferred or deprioritized due to opportunity cost and potential hindrance to gross profit expansion.
+*Top-line* focused companies prefer revenue growth via expanding existing products and exploring new ones. Cost considerations are often deferred or deprioritized due to opportunity cost and potential hindrance to revenue expansion and market share growth.
 
 Meanwhile, *bottom-line* focused companies prefer profit growth (or preservation) via improving margins for existing products.
 
@@ -93,7 +96,7 @@ Zooming in to individual orgs: one way to conceptualize orgs is as a flat collec
 
 #### Orgs as a pipeline
 
-As an early sneak peek: I firmly believe this shared thread should be a **mission to [empower end users](https://en.wikipedia.org/wiki/User-centered_design)**.
+As an early sneak peek: I firmly believe this shared thread should be a **mission to [empower](https://en.wikipedia.org/wiki/User-centered_design) [end](https://hbr.org/2009/12/closing-the-customer-feedback-loop) [users](https://online.hbs.edu/blog/post/what-is-human-centered-design)**.
 
 Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation** [[0]](infra_mission_footnotes#org-pipeline-intuition), where each org transforms its input resources to its output, culminating in captured revenue.
 
@@ -145,11 +148,89 @@ As a more concrete example, let's briefly describe an idealized version of AWS's
     - Ready for change: AWS is able to effectively evolve instance and interface affordances over time, especially in response to user feedback; codebase is easy to understand, well-tested, and only as large as necessary
     - Expressive: users can quickly and easily configure (billing, networking, etc.), integrate (EBS, S3, etc.), optimize (instance types), and scale, in ways traditional on-prem solutions either preclude or support with significant effort and investment
 
-## :three: Agility is the antidote to calcification
+## :three: Stability is the perennial foundation
+
+### Stability preserves, instability erodes
+
+**Stability should be the foundation of any org's mission**. *Foundation* meaning rarely the main priority, yet absolutely never neglected. This is because while high stability doesn't improve the top or bottom line, high instability will certainly erode both.
+
+This erosion can manifest in a variety of ways:
+
+- **Top-line losses**: low user engagement due to unavailable or buggy product, user churn or increased user acquisition cost due to poor reputation, loss of market share to more stable competitors, etc.
+- **Bottom-line losses**: increased capital expenditure as a lever to combat instability and top-line losses
+- **Opportunity costs**: decreased labor productivity due to high toil during firefighting, missed opportunities to increase efficiency and agility
+
+### Don't fixate, don't ignore
+
+Fixating on stability *perfection* is both labor and capital inefficient — it's [expensive](https://cloud.google.com/blog/products/gcp/available-or-not-that-is-the-question-cre-life-lessons) (CapEx and OpEx), leads to over-engineering (technical debt as an over-large, complex codebase), and diverts labor from higher-value efforts (opportunity cost of chasing perfection). In short, **stability improvements have exponentially diminishing returns**.
+
+Ignoring stability until it reaches users, however, is also labor and capital inefficient — it's expensive (see above), leads to under-engineering (technical debt as a codebase of fragile quick fixes), and diverts labor from higher-value efforts (opportunity cost of firefighting).
+
+Or, said another way: over-engineering loses market share in the long run due to calcification (or never captures it in the first place), while under-engineering loses market share in the short run due to instability.
+
+Aim for a happy middle ground, where stability is a perennial, foundational, secondary goal — **design and solve for stability as you go**, and **don't chase perfection**.
+
+### Change causes and improves instability
+
+How do you improve stability? Well, you probably need to write and roll out a change. But, just like changing lanes is a [leading cause of highways accidents](https://www.nhtsa.gov/sites/nhtsa.gov/files/811147.pdf), deploying changes is a [leading cause of production incidents](https://www.youtube.com/watch?v=Ru0vep3hzcY).
+
+As we'll see later with agility, often the only way out of an insufficient, deteriorating situation is to accept the risk of further deterioration, especially in the short term.
+
+### Prioritize stability when necessary
+
+Sometimes, stability needs to take a temporary front seat, e.g. during new product launch, or revenue-critical seasons like Black Friday. Planning these events in advance, and with judicious schedules, can help boost stability with minimal opportunity cost to efficiency or agility goals.
+
+Finally, sometimes instability just happens. Building for stability is a probabilistic process, and complex systems are unpredictable and inherently unstable.
+
+When instability overly hinders org and team primary goals, and especially when it is acutely affecting profit (short term) or reputation (medium to long term), **stability must become the immediate primary focus**. Set clear, achievable, stability-oriented goals with attached incentives, both company-wide and org-level, building alignment on accepting the opportunity cost of temporarily diverting resources from the primary goal. After stability is restored, perform a postmortem to understand root causes and determine whether deeper changes are necessary — was this poor luck, or have we been ignoring systemic issues?
+
+## :four: Efficiency moves the bottom line
+
+### Infra owns efficiency, product owns growth
+
+To start, note the dance between product (traditional revenue center) and infra (traditional cost center): product takes the lead in growth-oriented efforts, while infra leads in efficiency-oriented efforts.
+
+And we call it a *dance* because both (all) orgs play a role. Product leads in growth, but needs a stable, effective infra platform to build on; infra leads in efficiency, but needs a communicative, change-ready product to materialize gains.
+
+### Efficiency gains are low-risk, known-reward
+
+Prioritizing bottom line over top line is appealing because it's lower risk — growth requires [external cooperation](https://en.wikipedia.org/wiki/Locus_of_control) with internal efforts, while efficiency is often mostly internal. Efficiency is also easier to measure, easier to understand, and has a faster feedback loop.
+
+So, **growth has higher upside, but efficiency has higher certainty**.
+
+And risk aversion is not necessarily a virtue or vice, but rather a context-appropriate tool. For example, companies in mature, declining, capital intensive, or highly regulated industries, or facing macroeconomic headwinds, may find efficiency a more viable path to profit than growth.
+
+That said, perpetual hyper-focus on efficiency is almost certainly a non-viable long-term strategy.
+
+### Efficiency gains can be deferred
+
+For top-line focused companies, capturing new revenue is the principal focus. In this context, short-term efficiency gains are discounted, meaning the opportunity cost of diverting resources away from top-line growth becomes the dominant consideration in evaluating whether a gain is worth its investment.
+
+To further tip the scales, **efficiency gains are a deferrable, non-renewable resource**. That is, they are often achievable equally both now and in the future (deferrable) and are exhaustible (non-renewable). This makes them a perpetual target for deferral, doubly so when companies are in a growth (top-line focused) phase.
+
+### Efficiency gains hinder top-line growth
+
+Perhaps worse than the opportunity cost of diverting resources from top-line growth, achieving efficiency gains often **directly hinders impact to top-line growth**.
+
+Consider a didactic example:
+
+- `company` is hyper growth-oriented
+- `product` team has 20 engineers
+- `infra` team has 10 engineers
+
+From an opportunity cost perspective, the 10 engineers on the `infra` team are suboptimally invested resources.
+
+We can describe this as an ***impact ratio***, the $\text{impact} : \text{execution cost}$ for any resource, team, or org. Here, the impact ratio of the `product` team's engineers is substantially higher than that of the `infra` team, meaning it may be sensible to rebalance engineers to the `product` team.
+
+But now consider the downstream effect the `infra` team has on the `product` team. The `infra` team develops a new efficiency improvement, which requires 5 `product` engineers to support the migration effort. Now, not only are the `infra` team's engineers an opportunity cost due to their reduced impact ratio, they're actually increasing the blast radius of the suboptimally invested resources by decreasing the `infra` team's aggregate impact ratio.
+
+That is: **when infra and product orgs are misaligned** on whether the company is prioritizing top-line vs. bottom-line growth, **they literally handicap each other** from accomplishing the highest impact work in the entire company.
+
+## :five: Agility is the antidote to calcification
 
 ### Agility reduces execution cost
 
-From the previous section, we see how well-functioning companies (and, by extension, well-functioning orgs) continue experimentation and implementation through all phases of their lifecycle. While prioritization may shift over time, **renewal never stops**.
+From the corporate context section, we see how well-functioning companies (and, by extension, well-functioning orgs) continue experimentation and implementation through all phases of their lifecycle. While prioritization may shift over time, **renewal never stops**.
 
 Renewal comes at a cost, however. This is the ***execution cost*** **of new products**: the (monetary) investment required to ideate, experiment, implement, launch, and operate the product.
 
@@ -161,14 +242,14 @@ This is why I firmly believe **agility should be a central pillar of any org's m
 
 As for what to do about it, I believe prioritizing agility involves two key strategies:
 
-1. **Reduce [toil](https://sre.google/sre-book/eliminating-toil/)**: lower execution cost within existing tools (via lower friction, manual effort)
+1. **Reduce [toil](https://sre.google/sre-book/eliminating-toil/)**: lower execution cost within existing tools (via lower friction, less manual effort)
 2. **Improve abstraction**: reduce execution cost integrating across tools (via new, better primitives)
 
 Together, progressively lower-friction, higher-powered tools reduce the cost of executing on new product ideas, improving existing products and leading to a greater number of higher-quality future products.
 
 #### Reduce toil
 
-It's tempting to view toil as just an employee retention metric (perceived toil reduces employee satisfaction reduces employee retention), but it's really more than that.
+It's tempting to view toil as just an employee retention metric (perceived toil reduces employee satisfaction, which in turn reduces employee retention), but it's really more than that.
 
 Toil is antithetical to agility. Toil increases labor costs while decreasing its efficiency, decreases final quality, and compoundingly incentivizes a culture of more toil. All this to say, toil directly multiplies the cost of execution, unbalancing the equation toward calcification and decline.
 
@@ -184,7 +265,7 @@ $$
 
 For almost every *conceivable* idea, the cost to execute is prohibitive against the risk in expected returns. The set of products that reach end users are the tiniest slice of all conceivable ideas, the bubbles on the ocean wave, the frontier of possibility before the expanse of the infeasible.
 
-For example, consider autonomous vehicles, which have seen experimentation since at least the 1940s. The product idea of an unmanaged, fully autonomous vehicle, still not a reality in 2024, requires the execution cost of building a sufficiently capable AI. This cost is so large, 80 years of effort has not achieved it.
+For example, consider autonomous vehicles, which have seen experimentation [since at least the 1940s](https://en.wikipedia.org/wiki/History_of_self-driving_cars). The product idea of an unmanaged, fully autonomous vehicle, still not a reality in 2024, requires the execution cost of building a sufficiently capable AI. This cost is so large, 80 years of effort has not achieved it.
 
 Imagine instead a world, perhaps in the future, where a sufficiently capable AI does exist. Building a new autonomous vehicle now requires only the execution cost of vehicle-AI integration, achievable in the timescale of years, not a century.
 
@@ -237,6 +318,26 @@ That to say: the problem with deprioritizing (internal or external) agility is m
 
 So, why prioritize agility? We're ready to answer: without investing in agility, friction and complexity increase to the point where effective action, at any layer of abstraction, becomes increasingly expensive and infeasible; with investment, we open new frontiers into the impossible. **Low agility leads to calcification, high agility to renewal**.
 
+### It's not all roses: measuring agility is hard
+
+Agility can be much harder to measure and track than (in)stability and efficiency.
+
+- **Instability** (i.e. low user-facing stability) can be inferred from metrics like uptime, [failures](https://cloud.google.com/blog/products/gcp/available-or-not-that-is-the-question-cre-life-lessons), and [user satisfaction](https://www.qualtrics.com/experience-management/customer/net-promoter-score/)
+- **Efficiency** can often be directly measured, ideally with higher-resolution cost attribution mechanisms, but worst case by e.g. literally comparing top-line revenue with bottom-line profit
+- **Agility** lacks high-signal, well-trod metrics; metrics like feature velocity, time to market, and work estimate accuracy are multi-input metrics subject to manipulation and low correlation with the [latent variable](https://en.wikipedia.org/wiki/Latent_and_observable_variables) under consideration
+
+So, if measuring agility improvements is either daunting or impractical, how do we know if we're making progress? It's difficult because [what you don't measure](https://hbr.org/2010/06/column-you-are-what-you-measure) is hard to incentivize, and harder to improve.
+
+While I don't have a silver bullet, I think there are some things we can do.
+
+First, stop wasting time with overfitting, low-value metrics like feature velocity. Instead, move up an abstraction layer and compare metrics like time to market **against comparable companies** — if it takes 3x as long to ship a feature compared to a direct competitor, there's likely an agility problem. This can be shipping a [new product](https://about.instagram.com/blog/announcements/introducing-instagram-reels-announcement), migrating to a [new platform](https://www.ray.io/), or even a simple [version upgrade](https://ubuntu.com/server/docs/how-to-upgrade-your-release). The feedback loop is much longer, but the signal can be much stronger.
+
+That said, even with a higher signal metric, measuring agility still relies on suboptimal (in this case, high-latency and lower-certainty) observations compared to those for stability and especially efficiency. Did we ship faster due to a superior infra platform, or because we cut corners? Did we reach market faster due to our investments in toil reduction and new primitives, or because product hired new, better talent?
+
+So, I actually think incentivizing agility rests ultimately on this: **do employees *like* their teammates, org, and company**? Do they feel they're making a difference in a company that makes the world a better place? Do they feel they're growing, doing important work, building relationships?
+
+That to say: I believe **buy-in and ownership is the best path to incentivizing agility**. Measuring agility is hard to impossible, but building a culture and company that employees cherish and want to improve is a much more tractable problem.
+
 ### Example: Microsoft's reinvention
 
 In February 2014, [Satya Nadella](https://en.wikipedia.org/wiki/Satya_Nadella) was announced as the incoming CEO of Microsoft, replacing his 14-year predecessor, [Steve Ballmer](https://en.wikipedia.org/wiki/Steve_Ballmer). [Microsoft's market cap](https://companiesmarketcap.com/microsoft/marketcap/) at the time was $318B, around half its 1999 peak of $604B, continuing a decade of stasis in the $250-350B range.
@@ -247,39 +348,15 @@ A multitude of factors contributed to this growth, but central among them is Mic
 
 Any renewal requires experimentation, trial and error, and a willingness to move fast. And the key point here is this: while not solely sufficient, agility is a necessary and effective precursor to renewal. **Microsoft's renewal was necessarily enabled**, in strong part, **by a shift in focus from stability and efficiency back toward agility**.
 
-## :four: Agility moves the top line
+## :six: Agility moves the top line
 
 So far we've argued agility is an antidote to calcification and decline in the medium to long-term. But there's an even more urgent argument to be made — **agility is the only path for infra orgs to support a company's top line**, short-term or otherwise.
 
-### Infra owns efficiency, product owns growth
+### Product owns growth, infra supports growth
 
-To start, note the dance between product and infra: product takes the lead in growth-oriented efforts, while infra leads in efficiency-oriented efforts.
+As discussed in the efficiency section, infra's only path to supporting top-line growth is through supporting product's growth-oriented efforts.
 
-But we call it a *dance* because both (all) orgs play a role. Product leads in growth, but needs a stable, effective infra platform to build on; infra leads in efficiency, but needs a communicative, change-ready product to materialize gains.
-
-### Efficiency gains can be deferred
-
-For top-line focused companies, capturing new revenue is the principal focus. In this context, short-term efficiency gains are discounted, meaning the opportunity cost of diverting resources away from top-line growth becomes the dominant consideration in evaluating whether a gain is worth its investment.
-
-To further tip the scales, **efficiency gains are a deferrable, non-renewable resource**. That is, they are often achievable equally both now and in the future (deferrable) and are exhaustible (non-renewable). This makes them a perpetual target for deferral, doubly so when companies are in a growth (top-line focused) phase.
-
-### Efficiency gains hinder top-line growth
-
-Perhaps worse than the opportunity cost of diverting resources from top-line growth, achieving efficiency gains often **directly hinders impact to top-line growth**.
-
-Consider a didactic example:
-
-- `company` is hyper growth-oriented
-- `product` team has 20 engineers
-- `infra` team has 10 engineers
-
-From an opportunity cost perspective, the 10 engineers on the `infra` team are suboptimally invested resources.
-
-We can describe this as an ***impact ratio***, the $\text{impact} : \text{execution cost}$ for any resource, team, or org. Here, the impact ratio of the `product` team's engineers is substantially higher than that of the `infra` team, meaning it may be sensible to rebalance engineers to the `product` team.
-
-But now consider the downstream effect the `infra` team has on the `product` team. The `infra` team develops a new efficiency improvement, which requires 5 `product` engineers to support the migration effort. Now, not only are the `infra` team's engineers an opportunity cost due to their reduced impact ratio, they're actually increasing the blast radius of the suboptimally invested resources by decreasing the `infra` team's aggregate impact ratio.
-
-That is: **when infra and product orgs are misaligned** on whether the company is prioritizing top-line vs. bottom-line growth, **they literally handicap each other** from accomplishing the highest impact work in the entire company.
+Infra by itself is not a revenue center, but it's also not solely a cost center. Instead, within our horizontally-sliced org pipeline, infra is a **force-multiplier** for product, enabling product to build and launch new products, experiment more effectively, and iterate faster.
 
 ### Agility gains support top-line growth
 
@@ -288,30 +365,6 @@ So, how does infra contribute to a top-line focused company? The answer is simpl
 And this exactly is prioritizing agility, in its most precise form: an org reduces their downstream org's execution cost multiplier by reducing the cost to integrate with and build on their own platform.
 
 Seen this way, **improved agility becomes *the* force-multiplier for company-wide top-line growth**, the de facto lever non-product orgs can pull to enable product orgs.
-
-### Top-line prioritizes agility, bottom-line prioritizes efficiency
-
-With this all in mind, we can reach the following recommendations for building cross-org alignment:
-
-- When a company is **prioritizing top-line growth**
-    - Company: rebalance engineering resources toward product
-    - Product: **prioritize growth**, pulling in infra to support scale-ups
-    - Infra: **prioritize agility**, adding new and better (more agile, stable) affordances for product to build on
-- When a company is **prioritizing bottom-line growth**
-    - Company: rebalance engineering resources toward infra
-    - Product: make best use of existing infra affordances
-    - Infra: **prioritize efficiency**, pulling in product to support efficiency migrations
-- When a company is **prioritizing both**
-    - Company
-        - In the strong majority of cases, for the reasons discussed, I see **top-line and bottom-line growth as negatively-synergistic goals**
-        - Instead, improve labor productivity (aggregate impact ratio, in our language) and org-level synergy via a locally-durable decision to **prioritize either top-line or bottom-line growth**
-        - Side note: practically speaking, a 100:0 top-line/bottom-line split is also undesirable (or potentially destructive, if taken literally); instead, choose a reasonable weighting (80:20, 30:70, etc.), while still asserting and building alignment on one as the primary goal
-
-### Stability is a perennial baseline focus
-
-Finally, for stability specifically: **stability should remain a perennial baseline focus**, absolutely never neglected, yet rarely the main priority. This is because high stability doesn't contribute to the top or bottom line — high instability, however, will certainly erode both.
-
-So, we can round out our recommendations with a final refinement: when companies or orgs are struggling to execute on their primary goal due to instability, **stability must become the immediate primary focus**. Set clear, achievable, stability-oriented goals with attached incentives, both company-wide and org-level. Build alignment on accepting the opportunity cost of temporarily diverting resources from the primary goal, pointing toward expected timelines and outcomes.
 
 ### Example: Figma's migration to Kubernetes
 
@@ -327,13 +380,11 @@ We can map this migration to our discussion: Figma is a hyper growth-oriented, t
 
 And a few additional takeaways, in line with our recommendations for top-line focused companies:
 
-- **Infra prioritize agility, product prioritize growth**: they note: *[we had to] make sure that we could pull off the migration in a reasonable amount of time*. Said another way, infra executed on their roadmap item (reduced product's execution cost, improved stability) with a lean and focused effort, minimizing diversion of product's resources away from growth
-- **Stability is a perennial baseline focus, impact-prioritized**: they scoped stability wins as a key target and, after validating the paved path, [migrated their highest-priority services first](https://www.figma.com/blog/migrating-onto-kubernetes/#our-migration)
+- **Infra prioritize agility, product prioritize growth**: they note: *[we had to] make sure that we could pull off the migration in a reasonable amount of time*. Said another way, infra executed on their roadmap item (reduced product's execution cost and improved stability) with a lean and focused effort, minimizing diversion of product's resources away from growth
+- **Stability is a perennial foundation, impact-prioritized**: they scoped stability wins as a key target and, after validating the paved path, [migrated their highest-priority services first](https://www.figma.com/blog/migrating-onto-kubernetes/#our-migration)
 - **Defer efficiency**: while their post-implementation report highlights cost savings, they also note: *we didn't want to tackle too much complex cost efficiency work as part of this migration*. This follows our earlier observation that efficiency gains are a deferrable, non-renewable resource — as a top-line focused company, they deferred efficiency gains to prioritize agility and stability in the shorter term.
 
-## :five: A unified mission: empowering all users
-
-### Infra is about empowerment
+## :seven: A unified mission: empowering all users
 
 Finally, we can take a look back at the pillars we proposed for our evolved mission
 
@@ -341,7 +392,7 @@ Finally, we can take a look back at the pillars we proposed for our evolved miss
 - **Efficiency**: improve margins for existing and new products (outward-looking)
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
 
-As discussed, I believe **under-emphasis on agility is a widespread oversight, regardless of lifecycle phase**. Calcification happens from the bottom up, and sluggish, high-friction infra leads to sluggish, non-agile product teams. It's a recipe for late-reacting, risk-averse, uninspired products and fast-tracking company decline.
+As suggested in the sections, I believe **under-emphasis on agility is a widespread oversight, regardless of lifecycle phase**. Calcification happens from the bottom up, and sluggish, high-friction infra leads to sluggish, non-agile product teams. It's a recipe for late-reacting, risk-averse, uninspired products and fast-tracking company decline.
 
 With that in mind, for me as a member of an infra org, we can build these pillars into a single, unified mission. We need a mission that is clear (easy to understand), guiding (useful for building and evaluating trade-offs), general (effective whether a company is in a top-line or bottom-line phase), aligning (connecting internal goals with needs of other orgs and end users), and motivating (inspiring and exciting for employees across levels and roles).
 
@@ -353,24 +404,58 @@ And **infra, product, and end users are** ***all*** **our users**, from the desk
 
 Framing the mission this way aligns leadership and employee goals, incentivizing leadership to care about reducing toil and building new, exciting software. It adds an urgency and clarity to the role each org's meant to play. And, most of all, and to me at least, it's a mission I'm excited to go to work for.
 
-### How to empower all users
+## :eight: Afterword: a strategy-building framework
+
+Let's end with some actionable takeaways.
+
+Consider this framework for building strategy, top-down in three steps:
+
+1. **Top line vs. bottom line**: choose a profit focus of top-line or bottom-line growth, and to what extent
+2. **Stability vs. efficiency vs. agility**: choose a major and minor focus between stability, efficiency, and agility
+3. **Specific tactics**: evaluate and consider implementing the tactics we'll discuss below for improving each pillar
+
+### Top line with a plan, bottom line to de-risk
+
+For all the ways we've praised the role of agility in a company's mission, it's important to remember: growth is a high-reward, high-risk strategy. Blindly targeting top-line growth will, with high probability, waste capital and labor on net-negative wheel spinning. So, build a clear, detailed, and well-considered **plan to win users and capture market share** — and **only then widely align on targeting the top line**.
+
+As we've mentioned, some industries just aren't a good fit for top-line growth. **If you don't have a viable plan to capture market share**, disrupt the industry, or expand into new markets, **default to bottom-line** focus until that changes.
+
+As an important caveat, growth-oriented companies may find themselves facing occasional macroeconomic headwinds. It's not a sign of weakness or failure to strategically shift focus to bottom-line growth, in these cases. As long as it's a proactive, assertive, *temporary* decision re-evaluated at reasonable interval, it can be an effective decision.
+
+Finally, if you feel tempted to prioritize both at the same time, really consider whether you're setting the company up for failure. In the strong majority of cases, for the reasons discussed, I see top-line and bottom-line growth as negatively-synergistic goals. Instead, improve labor productivity (aggregate impact ratio) and org-level synergy via a locally-durable decision to prioritize either top-line or bottom-line growth.
+
+### Top-line prioritizes agility, bottom-line prioritizes efficiency
 
 Looking back to our guiding question: *when and how should infra prioritize between stability, efficiency, and agility?*
 
-Hopefully we've answered it now: **agility when top-line focused**, **efficiency when bottom-line focused**, and **stability** as a perennial baseline, gaining importance **as a company matures**.
+Hopefully we've answered it by now: **agility when top-line focused**, **efficiency when bottom-line focused**, and **stability** as a perennial foundation, gaining importance **as a company matures**.
 
-Let's end with a few actionable steps:
+So, with a profit focus in mind, consider the following org-level strategies:
+
+- When **prioritizing top-line growth**
+  - Company: rebalance engineering resources toward product
+  - Product: **prioritize growth**, pulling in infra to support scale-ups
+  - Infra: **prioritize agility**, adding new and better (more agile, stable) affordances for product to build on
+- When **prioritizing bottom-line growth**
+  - Company: rebalance engineering resources toward infra
+  - Product: make best use of existing infra affordances
+  - Infra: **prioritize efficiency**, pulling in product to support efficiency migrations
+
+### Tactics to empower all users
+
+Lastly, a few actionable steps:
 
 - To improve *anything*
-    - **Staff appropriately**: ensure a sufficient labor pool via level-appropriate, ramped-up headcount — enough to support essential "keep the plane in the air" and the additional, improvement-oriented roadmap
-    - **Balance focus time vs. alignment**: improve labor productivity by helping teams move faster (set and incentivize org-level [focus](https://www.getclockwise.com/eng-meeting-benchmarks) [time](https://uplevelteam.com/blog/deep-work-why-we-measure-in-two-hour-minimum-time-blocks) [metrics](https://reclaim.ai/blog/task-management-trends-report)) and in the right direction (improve aggregate impact ratios by continually building multi-level alignment); balance between building alignment and increasing focus time with well-tread tips like no meeting days, default meeting day, shorter and fewer meetings, combining meetings, moving meetings async, and scheduling tools to automatically block focus time
+  - **Staff appropriately**: ensure a sufficient labor pool via level-appropriate, ramped-up headcount — enough to support essential "keep the plane in the air" and the additional, improvement-oriented roadmap
+  - **Balance focus time vs. alignment**: improve labor productivity by helping teams move faster (measure and incentivize org-level [focus](https://www.getclockwise.com/eng-meeting-benchmarks) [time](https://uplevelteam.com/blog/deep-work-why-we-measure-in-two-hour-minimum-time-blocks) [metrics](https://reclaim.ai/blog/task-management-trends-report) — it's a zero-cost way to [improve labor productivity proxy metrics by as much as 20%](https://research.facebook.com/publications/workgraph-personal-focus-vs-interruption-for-engineers-at-meta/)) and in the right direction (improve aggregate impact ratios by continually building multi-level alignment); balance between building alignment and increasing focus time with well-tread tips like no meeting days, default meeting day, shorter and fewer meetings, combining meetings, moving meetings async, and utilizing scheduling tools to automatically block focus time
 - To improve **stability**
-    - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), automate projected-scale testing, and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
-    - **Proactively listen**: trust engineers, at every level, to communicate likely or potential stability issues; don't assume *currently working* means *will continue to work*, and don't wait for serial outages to prioritize stability
-    - **Repair or evolve**: start by plugging holes; when insufficient, refactor; if absolutely necessary, progressively rewrite
+  - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), automate projected-scale testing, and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
+  - **Ship safely, undo easily**: whether deploying continuously or at extended intervals, invest in a culture and platform enabling low-risk, low-toil, progressive, easy-to-roll-back deployments
+  - **Proactively listen**: trust engineers, at every level, to communicate likely or potential stability issues; don't assume *currently working* means *will continue to work*, and don't wait for serial outages to prioritize stability
+  - **Repair or evolve**: start by plugging holes; when insufficient, refactor; if absolutely necessary, [progressively](https://www.onstartups.com/tabid/3339/bid/2596/Why-You-Should-Almost-Never-Rewrite-Your-Software.aspx) [rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)
 - To improve **efficiency**
-    - **Capture easy wins**: identify and execute on low-hanging fruit first (low effort, high value)
-    - **Track bigger investments**: monitor, ideate, prioritize, and execute on larger efficiency improvements as part of the roadmap, prioritized by ROI (discounted by risk and total execution cost)
+  - **Capture easy wins**: identify and execute on low-hanging fruit first (low effort, high value)
+  - **Track bigger investments**: monitor, ideate, prioritize, and execute on larger efficiency improvements as part of the roadmap, prioritized by ROI (discounted by risk and total execution cost)
 - To improve **agility**
-    - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, as part of regular team planning; view async knowledge transfer ([code documentation](https://go.dev/doc/comment), design docs, user documentation, onboarding, etc.) as forms of toil reduction
-    - **Improve abstraction**: continually source ideas (from top-down and bottom-up sources) on new problems, improvements, projects, and more ways to improve the platform; prioritize and execute on the most impactful (discounted by risk and total execution cost)
+  - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, as part of regular team planning; view async knowledge transfer ([code documentation](https://go.dev/doc/comment), design docs, user documentation, onboarding, etc.) as forms of toil reduction
+  - **Improve abstraction**: continually source ideas (from top-down and bottom-up sources) on new problems, improvements, projects, and more ways to improve the platform; prioritize and execute on the most impactful (discounted by risk and total execution cost)
