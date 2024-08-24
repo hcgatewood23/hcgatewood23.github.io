@@ -7,7 +7,7 @@ We discussed the concept of an *org pipeline* as a way to think about the flow o
 Instead of a [linear graph](https://en.wikipedia.org/wiki/Path_graph), I think of org dependencies more generally as forming a "largely acyclic" [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 - General DAG rather than linear: orgs can have multiple input and output orgs, e.g. HR supporting all orgs, or infra supporting both product and ads (ads could be coalesced into product in the simplest conceptualizations, but practically they have distinct needs and goals)
-- Largely acyclic: accounting for examples like infra building on its own platforms, or HR supporting infra but also building on infra platforms
+- Largely acyclic: accounting for examples like infra building on its own platforms, or HR supporting product but also building on product platforms
 
 ## Execution cost intuition
 
