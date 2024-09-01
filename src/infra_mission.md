@@ -1,3 +1,23 @@
+- https://scifi.stackexchange.com/questions/99114/source-of-scottys-advice-on-appearing-a-genius
+- https://martinfowler.com/bliki/OpportunisticRefactoring.html
+- https://newsletter.eng-leadership.com/p/engineers-guide-to-convincing-your
+
+- Agility is under priorices but it’s the crucial often missing component in moving from efficiency to empowerment
+- Measuring agility — employee voice surveys, as a proxy metric…
+- Add note in intro about how agility is widely under-prioritized, or whatever. To make clear that that’s what we’re building up towards…
+
+
+
+
+- Fit in for stability, with the over engineering side — code as cattle not pets. Good enough to get the job done + be evolvable and ready for change  (so short and medium term), but YAGNI so don’t get attached to / fixate on / chase perfection. Either in stability section or in final tactics section…
+- ^yeah for the agility in the intro note — the idea is most people already agree with stability and efficiency, so we’re adding a taxonomy + a perhaps more novel treatment of agility
+- Make the opening sections summary more concise… remove things like “discuss” — just make it quick…
+- ^agility issue is like, even if you have the most stable infrastructure in the world, if it’s so complex no one can build on it, you still won’t make anything useful…
+- You need some baseline stability to even do anything at all — potentially flicking on the lights analogy. And instability is a multiplicative penalty earlier in the pipeline, similar to agility really…
+
+
+xxxxxx
+
 # Infra is about empowerment, not just efficiency
 
 Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*.
@@ -10,7 +30,7 @@ We'll discuss in eight parts:
 4. **Efficiency to move the bottom line**: discuss efficiency's role in moving the bottom line
 5. **Agility to prevent calcification**: discuss the role and priority of agility in medium to long-term strategy
 6. **Agility to move the top line**: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier for growth
-7. **Unified mission**: integrate the pillars into an examination of an evolved, unified mission
+7. **Unified mission**: integrate the pillars into an evolved, unified mission
 8. **Takeaways**: end with a mission-informed framework for building effective, aligned strategies
 
 Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
