@@ -38,7 +38,7 @@ These pillars double as our taxonomy for interpreting and evaluating tech strate
 
 ### Elevating agility as a central pillar
 
-It's hard to argue stability and efficiency as essential pillars. Agility, however, in my experience, is much less rarely considered.
+It's hard to argue against stability and efficiency as essential pillars. Agility, however, in my experience, is much less rarely considered.
 
 I believe that's a mistake. In the following sections, we'll discuss insights for each pillar, and hopefully build an argument for why **agility absolutely must be a centrally-considered pillar of any infra org's mission**.
 
@@ -252,7 +252,7 @@ Renewal comes at a cost, however. This is the ***execution cost*** **of new prod
 
 Each phase of the corporate lifecycle comes with a respective tolerance and multiplier to the cost of executing on a new product. In the prototype phase, companies invest heavily at minimal cost, while in the maturation phase, companies often invest less heavily (prioritize margins for existing products) and at higher cost (scale, inertia, technical debt, reputation risk, etc.).
 
-This is why I firmly believe **agility should be a central pillar of any org's mission**. Agility reduces execution cost, balancing the equation in favor of perpetual renewal. **The difference between maturity and calcification**, in many cases, is the difference between a company that **can and cannot afford to experiment, implement, and continually renew itself**.
+This is why I firmly believe **agility should be a centrally-considered pillar of any org's mission**. Agility reduces execution cost, balancing the equation in favor of perpetual renewal. **The difference between maturity and calcification**, in many cases, is the difference between a company that **can and cannot afford to experiment, implement, and continually renew itself**.
 
 ### How to increase agility
 
