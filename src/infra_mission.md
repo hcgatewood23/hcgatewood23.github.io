@@ -1,37 +1,17 @@
-- https://scifi.stackexchange.com/questions/99114/source-of-scottys-advice-on-appearing-a-genius
-- https://martinfowler.com/bliki/OpportunisticRefactoring.html
-- https://newsletter.eng-leadership.com/p/engineers-guide-to-convincing-your
-
-- Agility is under priorices but it’s the crucial often missing component in moving from efficiency to empowerment
-- Measuring agility — employee voice surveys, as a proxy metric…
-- Add note in intro about how agility is widely under-prioritized, or whatever. To make clear that that’s what we’re building up towards…
-
-
-
-
-- Fit in for stability, with the over engineering side — code as cattle not pets. Good enough to get the job done + be evolvable and ready for change  (so short and medium term), but YAGNI so don’t get attached to / fixate on / chase perfection. Either in stability section or in final tactics section…
-- ^yeah for the agility in the intro note — the idea is most people already agree with stability and efficiency, so we’re adding a taxonomy + a perhaps more novel treatment of agility
-- Make the opening sections summary more concise… remove things like “discuss” — just make it quick…
-- ^agility issue is like, even if you have the most stable infrastructure in the world, if it’s so complex no one can build on it, you still won’t make anything useful…
-- You need some baseline stability to even do anything at all — potentially flicking on the lights analogy. And instability is a multiplicative penalty earlier in the pipeline, similar to agility really…
-
-
-xxxxxx
-
 # Infra is about empowerment, not just efficiency
 
 Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*.
 
-We'll discuss in eight parts:
+We'll discuss in eight parts, laying out a taxonomy for understanding tech strategies and a framework for building them
 
-1. **Intro**: propose new pillars for an evolved mission
-2. **Context**: highlight relevant corporate context
-3. **Stability as a foundation**: discuss stability's role in supporting the other pillars
-4. **Efficiency to move the bottom line**: discuss efficiency's role in moving the bottom line
-5. **Agility to prevent calcification**: discuss the role and priority of agility in medium to long-term strategy
-6. **Agility to move the top line**: discuss the role of agility in short to medium-term strategy, primarily as a force-multiplier for growth
-7. **Unified mission**: integrate the pillars into an evolved, unified mission
-8. **Takeaways**: end with a mission-informed framework for building effective, aligned strategies
+1. **Intro**: new pillars for an evolved mission
+2. **Context**: relevant corporate context
+3. **Stability as a foundation**: stability's role in supporting the other pillars
+4. **Efficiency to move the bottom line**: efficiency's role in moving the bottom line
+5. **Agility to prevent calcification**: agility's role in long-term strategy
+6. **Agility to move the top line**: agility's role in short-term strategy, primarily as a force-multiplier for growth
+7. **Unified mission**: an evolved, unified mission based on the new pillars
+8. **Takeaways**: mission-informed framework for building effective, aligned strategies
 
 Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
 
@@ -48,11 +28,19 @@ This perspective captures two essential objectives, but fails to express the ful
 
 ### Pillars of an evolved mission
 
-I believe we can do better. Infra is positioned to do more than preserve and reduce. I offer the following pillars of an evolved mission, which we will consider further in the subsequent sections:
+I believe we can do better. ***Infra is positioned to do more than preserve and reduce.*** I offer the following pillars of an evolved mission, which we will consider further in the subsequent sections:
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
 - **Efficiency**: improve margins for new and existing products (outward-looking)
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
+
+These pillars double as our taxonomy for interpreting and evaluating tech strategies. We include three short case studies interspersed below, unpacking each through the lens of stability, efficiency, and agility.
+
+### Elevating agility as a central pillar
+
+It's hard to argue stability and efficiency as essential pillars. Agility, however, in my experience, is much less rarely considered.
+
+I believe that's a mistake. In the following sections, we'll discuss insights for each pillar, and hopefully build an argument for why **agility absolutely must be a centrally-considered pillar of any infra org's mission**.
 
 ## :two: Corporate context
 
@@ -140,6 +128,8 @@ All this to say: orgs share the company-level goal of empowering users, and each
 
 Finally, let's further examine the three pillars of our evolved mission.
 
+Through the lens of empowering users, we can say: stability empowers users to actually use and rely on the product, efficiency makes it affordable, and agility ensures the product remains relevant, useful, and competitive.
+
 #### Definition
 
 - **Stable** platforms have a high probability of continuing their [productivity](https://www.investopedia.com/terms/p/productivity.asp) into the future, barring external factors
@@ -180,15 +170,21 @@ This erosion can manifest in a variety of ways:
 - **Bottom-line losses**: increased capital expenditure as a lever to combat instability and top-line losses
 - **Opportunity costs**: decreased labor productivity due to high toil during firefighting, missed opportunities to increase efficiency and agility
 
-### Don't fixate, don't ignore
+And one example to illustrate: consider a user looking to replace all the light switches in their home with smart switches. It doesn't matter how efficient (maybe they save $10/month on electricity) or agile (maybe they can control the lights from their phone) the smart switches are — if 50% of the days the lights don't turn on, I'm going to return those switches and get my money back. **Stability is the baseline requirement**, and without it, there's not much point in discussing efficiency or agility.
 
-Fixating on stability *perfection* is both labor and capital inefficient — it's [expensive](https://cloud.google.com/blog/products/gcp/available-or-not-that-is-the-question-cre-life-lessons) (CapEx and OpEx), leads to over-engineering (technical debt as an over-large, complex codebase), and diverts labor from higher-value efforts (opportunity cost of chasing perfection). In short, **stability improvements have exponentially diminishing returns**.
+### Don't ignore, don't fixate
 
-Ignoring stability until it reaches users, however, is also labor and capital inefficient — it's expensive (see above), leads to under-engineering (technical debt as a codebase of fragile quick fixes), and diverts labor from higher-value efforts (opportunity cost of firefighting).
+That to say, ignoring stability until it disrupts users is labor and capital inefficient — it's expensive (see erosion costs above), leads to under-engineering (technical debt as a codebase of fragile quick fixes), diverts labor from higher-value efforts (opportunity cost of firefighting), and generally erodes both efficiency and agility goals.
 
-Or, said another way: over-engineering loses market share in the long run due to calcification (or never captures it in the first place), while under-engineering loses market share in the short run due to instability.
+Fixating on stability *perfection*, however, is also both labor and capital inefficient — it's [expensive](https://cloud.google.com/blog/products/gcp/available-or-not-that-is-the-question-cre-life-lessons) (CapEx and OpEx), leads to over-engineering (technical debt as an over-large, complex codebase), diverts labor from higher-value efforts (opportunity cost of chasing perfection), and generally erodes both efficiency and agility goals. In short, **stability improvements have exponentially diminishing returns**.
+
+Or, said another way: under-engineering loses market share short-term due to instability, while over-engineering loses market share long-term due to calcification (or never captures it in the first place).
 
 Aim for a happy middle ground, where stability is a perennial, foundational, secondary goal — **design and solve for stability as you go**, and **don't chase perfection**.
+
+### Stability is more important earlier in the pipeline
+
+As we'll discuss with agility and toil in the next sections, instability earlier in the org pipeline has a multiplicative effect moving forward. That's why product teams can and should experiment, move fast, and accept higher breakage rates, while infra teams should aim for a better balance toward stable, reliable platforms.
 
 ### Change causes and improves instability
 
@@ -336,7 +332,7 @@ Consider as an example: using only machine code, design and build Instagram. No 
 
 That to say: the problem with deprioritizing (internal or external) agility is more than just straining employee retention, and more than just stymieing downstream impact. The problem is ignoring agility minimizes the number of new primitives, new abstractions, new coalescings of existing conceptualizations into new *higher-level vertices* in the abstraction tree. It's the difference between building Instagram byte-by-byte, or as an integration of sharded MySQL DBs, efficient blob storage, social ID hashing algorithms, and more. **Everything's just bytes, but the tools we build enable our higher-level reasoning and tractable execution**.
 
-So, why prioritize agility? We're ready to answer: without investing in agility, friction and complexity increase to the point where effective action, at any layer of abstraction, becomes increasingly expensive and infeasible; with investment, we open new frontiers into the impossible. **Low agility leads to calcification, high agility to renewal**.
+So, why prioritize agility? We're ready to answer: without investing in agility, friction and complexity increase to the point where effective action, at any layer of abstraction, and even on top of perfectly stable platforms, becomes increasingly expensive and infeasible; with investment, we open new frontiers into the impossible. **Low agility leads to calcification, high agility to renewal**.
 
 ### Measuring agility is hard
 
@@ -350,13 +346,15 @@ So, if measuring agility improvements is either daunting or impractical, how do 
 
 While I don't have a silver bullet, I think there are some things we can do.
 
-First, stop wasting time with overfitting, low-value metrics like feature velocity. Instead, move up an abstraction layer and compare metrics like time to market **against comparable companies** — if it takes 3x as long to ship a feature compared to a direct competitor, there's likely an agility problem. This can be shipping a [new product](https://about.instagram.com/blog/announcements/introducing-instagram-reels-announcement), migrating to a [new platform](https://www.ray.io/), or even rolling out a [version upgrade](https://ubuntu.com/server/docs/how-to-upgrade-your-release). The feedback loop is much longer, but the signal can be much stronger.
+First, stop wasting time with overfitting, low-value metrics like feature velocity. Instead, move up an abstraction layer and *[evaluate metrics like time to market against comparable companies](https://hbr.org/1987/01/how-to-measure-yourself-against-the-best)* — if it takes 3x as long to ship a feature compared to a direct competitor, there's likely an agility problem. This can be shipping a [new product](https://about.instagram.com/blog/announcements/introducing-instagram-reels-announcement), migrating to a [new platform](https://www.ray.io/), or even rolling out a [version upgrade](https://ubuntu.com/server/docs/how-to-upgrade-your-release). The feedback loop is much longer, but the signal can be much stronger.
 
-That said, even with a higher signal metric, measuring agility still relies on suboptimal (in this case, high-latency and lower-certainty) observations compared to those for stability and especially efficiency. Did we ship faster due to a superior infra platform, or because we cut corners? Did we reach market faster due to our investments in toil reduction and new primitives, or because product hired new, better talent?
+Second, [*ask employees* what they think](https://getdx.com/products/devex360/). While this is only a proxy metric, it's lower-latency than competitive benchmarking, and can be higher-signal than traditional metrics like feature velocity.
+
+Those said, even with higher signal metrics, measuring agility still relies on suboptimal (in this case, high-latency and lower-certainty) observations compared to those for stability and especially efficiency. Did we ship faster due to a superior infra platform, or because we cut corners? Did we reach market first due to our investments in toil reduction and new primitives, or because product hired new, better talent?
 
 So, I actually think incentivizing agility rests ultimately on this: **do employees *like* their teammates, org, and company**? Do they feel they're making a difference in a company that makes the world a better place? Do they feel they're growing, doing important work, building relationships?
 
-That to say: I believe **buy-in and ownership is the best path to incentivizing agility**. Measuring agility is hard to impossible, but building a culture and company that employees cherish and want to improve is a much more tractable problem.
+That to say: I believe **buy-in and ownership is the best path to incentivizing agility**. Measuring agility accurately is hard to impossible, but building a culture and company that employees cherish and want to improve is a much more tractable problem.
 
 ### Example: Microsoft's reinvention
 
@@ -471,11 +469,16 @@ Lastly, a few actionable steps:
 - To improve **stability**
   - **Monitor**: ensure robust [monitoring](https://sre.google/sre-book/monitoring-distributed-systems/), [track outages](https://sre.google/sre-book/tracking-outages/), automate projected-scale testing, and perform [postmortems](https://sre.google/sre-book/postmortem-culture/)
   - **Ship safely, undo easily**: whether deploying continuously or at extended intervals, invest in a culture and platform enabling low-risk, low-toil, progressive, easy-to-roll-back deployments
+  - **Code as cattle, not pets**: treat codebases themselves as evolving, [non-permanent](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), non-precious yet well-tended assets, preferring smaller, simpler solutions where possible
   - **Proactively listen**: trust engineers, at every level, to communicate likely or potential stability issues; don't assume *currently working* means *will continue to work*, and don't wait for serial outages to prioritize stability
   - **Repair or evolve**: start by plugging holes; when insufficient, refactor; if absolutely necessary, [progressively](https://www.onstartups.com/tabid/3339/bid/2596/Why-You-Should-Almost-Never-Rewrite-Your-Software.aspx) [rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)
 - To improve **efficiency**
   - **Capture easy wins**: identify and execute on low-hanging fruit first (low effort, high value)
-  - **Track bigger investments**: monitor, ideate, prioritize, and execute on larger efficiency improvements as part of the roadmap, prioritized by ROI (discounted by risk and total execution cost)
+  - **Track bigger investments**: monitor, ideate, prioritize, and execute on larger efficiency improvements as part of the roadmap, prioritized by ROI, discounted by risk and total execution cost
 - To improve **agility**
-  - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, as part of regular team planning; view async knowledge transfer ([code documentation](https://go.dev/doc/comment), design docs, user documentation, onboarding, etc.) as forms of toil reduction
-  - **Improve abstraction**: continually source ideas (from top-down and bottom-up sources) on new problems, improvements, projects, and more ways to improve the platform; prioritize and execute on the most impactful (discounted by risk and total execution cost)
+  - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, [as part of regular team planning](https://newsletter.eng-leadership.com/p/engineers-guide-to-convincing-your) for the largest sources of toil
+    - **Incorporate asynchronous communication**: view async knowledge transfer ([code documentation](https://go.dev/doc/comment), design docs, user documentation, onboarding, etc.) as forms of toil reduction and alignment building
+    - **Streamline maintenance load and dev friction**: toil consists of both [maintenance load](https://stackoverflow.blog/2023/12/27/stop-saying-technical-debt/) (keeping the lights on) and development friction (building new or changing old code); identify and reduce both as fits the current team and org context
+    - **Promote opportunistic refactoring**: encourage engineers to [opportunistically refactor](https://martinfowler.com/bliki/OpportunisticRefactoring.html), especially for small to medium changes; this can be a highly efficient way to amortize the cost of paying down technical debt, as well as implicitly prioritizing highly-trafficked parts of the codebase
+    - **Consider all code as technical debt**: view every line of code as incurring a baseline rate of technical debt (cost to understand, maintain, and evolve), preferring smaller, simpler solutions where possible
+  - **Improve abstraction**: continually source ideas (from top-down and bottom-up sources) on new problems, improvements, projects, and more ways to improve the platform; prioritize and execute on the most impactful, discounted by risk and total execution cost
