@@ -166,7 +166,7 @@ This erosion can manifest in a variety of ways:
 - **Bottom-line losses**: increased capital expenditure as a lever to combat instability and top-line losses
 - **Opportunity costs**: decreased labor productivity due to high toil during firefighting, missed opportunities to increase efficiency and agility
 
-And one example to illustrate: consider a user looking to replace all the light switches in their home with smart switches. It doesn't matter how efficient (maybe they save $10/month on electricity) or agile (maybe they can control the lights from their phone) the smart switches are — if 50% of the days the lights don't turn on, I'm going to return those switches and get my money back. **Stability is the baseline requirement**, and without it, there's not much point in discussing efficiency or agility.
+And one example to illustrate: consider a consumer looking to replace all the light switches in their home with smart switches. It doesn't matter how efficient (maybe they save $10/month on electricity) or agile (maybe they can control the lights from their phone) the smart switches are — if 50% of the days the lights don't turn on, I'm going to return those switches and get my money back. **Stability is the baseline requirement**, and without it, there's not much point in discussing efficiency or agility.
 
 ### Don't ignore, don't fixate
 
