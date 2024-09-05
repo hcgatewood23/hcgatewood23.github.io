@@ -4,45 +4,41 @@ Or, **building a new mission for infra orgs** by evolving *keep the plane in the
 
 We'll discuss in eight parts, laying out a taxonomy for understanding tech strategies and a framework for building them
 
-1. **Intro**: new pillars for an evolved mission
+1. **Intro**: stability, efficiency, and agility as pillars for an empowerment-oriented mission
 2. **Context**: relevant corporate context
-3. **Stability as a foundation**: stability's role in supporting the other pillars
-4. **Efficiency to move the bottom line**: efficiency's role in moving the bottom line
-5. **Agility to prevent calcification**: agility's role in long-term strategy
-6. **Agility to move the top line**: agility's role in short-term strategy, primarily as a force-multiplier for growth
+3. ***Stability* as a foundation**: stability's role in supporting the other pillars
+4. ***Efficiency* to move the bottom line**: efficiency's role in moving the bottom line
+5. ***Agility* to prevent calcification**: agility's role in long-term strategy
+6. ***Agility* to move the top line**: agility's role in short-term strategy, primarily as a force-multiplier for growth
 7. **Unified mission**: an evolved, unified mission based on the new pillars
 8. **Takeaways**: mission-informed framework for building effective, aligned strategies
 
 Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
 
-## :one: From maintenance to empowerment
+## :one: Intro: understanding stability, efficiency, agility
 
-### Traditional view
+### Pillars of an empowerment-focused mission
 
-I've occasionally heard infra's mission as some form of the following:
-
-- Keep the plane in the air: preserve existing revenues (backward-looking)
-- Save money: reduce infra-incurred expenses (inward-looking)
-
-This perspective captures two essential objectives, but fails to express the full potential.
-
-### Pillars of an evolved mission
-
-I believe we can do better. ***Infra is positioned to do more than preserve and reduce.*** I offer the following pillars of an evolved mission, which we will consider further in the subsequent sections:
+I offer the following as pillars of an empowerment-focused mission, which we'll consider in subsequent sections:
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
 - **Efficiency**: improve margins for new and existing products (outward-looking)
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
 
-These pillars double as our taxonomy for interpreting and evaluating tech strategies. We include three short case studies interspersed below, unpacking each through the lens of stability, efficiency, and agility.
+These pillars double as our [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) or **taxonomy for understanding, evaluating, and building infra strategy**. We include three short case studies interspersed below, unpacking each through the lens of stability, efficiency, and agility.
 
 ### Elevating agility as a central pillar
 
-It's hard to argue against stability and efficiency as essential pillars. Agility, however, in my experience, is much less rarely considered.
+I've occasionally heard infra's mission instead as some form of the following:
 
-I believe that's a mistake. In the following sections, we'll discuss insights for each pillar, and hopefully build an argument for why **agility absolutely must be a centrally-considered pillar of any infra org's mission**.
+- Keep the plane in the air: preserve existing revenues (backward-looking)
+- Save money: reduce infra-incurred expenses (inward-looking)
 
-## :two: Corporate context
+This perspective captures two essential objectives, but fails to express the full potential. I believe we can do better. ***Infra is positioned to do more than preserve and reduce.***
+
+Agility is the key piece here, and often overlooked. I believe that's a mistake. In the following sections, we'll discuss insights for each of our empowerment-oriented pillars, building an argument for why **agility absolutely must be a centrally-considered pillar of any infra org's mission**.
+
+## :two: Corporate context: decoding tech strategies
 
 ### Corporate lifecycle
 
@@ -126,7 +122,7 @@ All this to say: orgs share the company-level goal of empowering users, and each
 
 ### Defining stability, efficiency, and agility
 
-Finally, let's further examine the three pillars of our evolved mission.
+Finally, let's further examine the three pillars of our evolved, empowerment-oriented mission.
 
 Through the lens of empowering users, we can say: stability empowers users to actually use and rely on the product, efficiency makes it affordable, and agility ensures the product remains relevant, useful, and competitive.
 
@@ -158,7 +154,7 @@ As a more concrete example, let's briefly describe an idealized version of AWS's
     - Ready for change: AWS is able to effectively evolve instance and interface affordances over time, especially in response to user feedback; codebase is easy to understand, well-tested, and only as large as necessary
     - Expressive: users can quickly and easily configure (billing, networking, etc.), integrate (EBS, S3, etc.), optimize (instance types), and scale, in ways traditional on-prem solutions either preclude or support with significant effort and investment
 
-## :three: Stability is the perennial foundation
+## :three: Stability: the perennial foundation
 
 ### Stability preserves, instability erodes
 
@@ -200,7 +196,7 @@ Finally, sometimes instability just happens. Building for stability is a probabi
 
 When instability overly hinders org and team primary goals, and especially when it is acutely affecting profit (short term) or reputation (medium to long term), **stability must become the immediate primary focus**. Set clear, achievable, stability-oriented goals with attached incentives, both company-wide and org-level, building alignment on accepting the opportunity cost of temporarily diverting resources from the primary goal. After stability is restored, perform a postmortem to understand root causes and determine whether deeper changes are necessary — was this poor luck, or have we been ignoring systemic issues?
 
-## :four: Efficiency moves the bottom line
+## :four: Efficiency: moving the bottom line
 
 ### Infra owns efficiency, product owns growth
 
@@ -242,7 +238,7 @@ But now consider the downstream effect the `infra` team has on the `product` tea
 
 That is: **when infra and product orgs are misaligned** on whether the company is prioritizing top-line vs. bottom-line growth, **they literally handicap each other** from accomplishing the highest impact work in the entire company.
 
-## :five: Agility is the antidote to calcification
+## :five: Agility: the antidote to calcification
 
 ### Agility reduces execution cost
 
@@ -276,6 +272,11 @@ C_\text{total} \coloneqq \sum_{i \in \text{orgs}} \mu_ic_i \\
 \mu_i \mathrel{\overset{\sim}{\coloneqq}} \prod_{j \lt i} \mu_j \\
 \implies C_\text{total} \approx c_0 + \mu_0c_1 + \mu_0\mu_1c_2 + \mu_0\mu_1\mu_2c_3 + \ldots
 $$
+
+Finally, we can break down toil into two categories:
+
+- **[Maintenance load](https://stackoverflow.blog/2023/12/27/stop-saying-technical-debt/)**: the cost to keep the plane in the air, e.g. on-call, incident response, bug fixes, minimal required changes to keep the plane in the air, etc.
+- **Development friction**: the cost multiplier when building new or change old code, e.g. manual testing, deployment, and monitoring, cognitive load to understand the codebase, review latencies, etc.
 
 #### Improve abstraction
 
@@ -366,7 +367,7 @@ A multitude of factors contributed to this growth, but central among them is Mic
 
 Any renewal requires experimentation, trial and error, and a willingness to move fast. And the key point here is this: while not solely sufficient, agility is a necessary and effective precursor to renewal. **Microsoft's renewal was necessarily enabled**, in strong part, **by a shift in focus from stability and efficiency back toward agility**.
 
-## :six: Agility moves the top line
+## :six: Agility: moving the top line
 
 So far we've argued agility is an antidote to calcification and decline in the medium to long-term. But there's an even more urgent argument to be made — **agility is the only path for infra orgs to support a company's top line**, short-term or otherwise.
 
@@ -478,7 +479,7 @@ Lastly, a few actionable steps:
 - To improve **agility**
   - **Reduce toil**: identify, quantify, and eliminate both internal and external sources of toil, as part of recurring tech debt weeks and, crucially, [as part of regular team planning](https://newsletter.eng-leadership.com/p/engineers-guide-to-convincing-your) for the largest sources of toil
     - **Incorporate asynchronous communication**: view async knowledge transfer ([code documentation](https://go.dev/doc/comment), design docs, user documentation, onboarding, etc.) as forms of toil reduction and alignment building
-    - **Streamline maintenance load and dev friction**: toil consists of both [maintenance load](https://stackoverflow.blog/2023/12/27/stop-saying-technical-debt/) (keeping the lights on) and development friction (building new or changing old code); identify and reduce both as fits the current team and org context
+    - **Champion [golden paths](https://engineering.atspotify.com/2020/08/how-we-use-golden-paths-to-solve-fragmentation-in-our-software-ecosystem/)**: identify and advocate for convergence on effective, low-toil paths to accomplish common tasks; this reduces toil directly by discouraging inefficient solutions and indirectly by not needing to support a fragmented, heterogeneous ecosystem
     - **Promote opportunistic refactoring**: encourage engineers to [opportunistically refactor](https://martinfowler.com/bliki/OpportunisticRefactoring.html), especially for small to medium changes; this can be a highly efficient way to amortize the cost of paying down technical debt, as well as implicitly prioritizing highly-trafficked parts of the codebase
     - **Consider all code as technical debt**: view every line of code as incurring a baseline rate of technical debt (cost to understand, maintain, and evolve), preferring smaller, simpler solutions where possible
   - **Improve abstraction**: continually source ideas (from top-down and bottom-up sources) on new problems, improvements, projects, and more ways to improve the platform; prioritize and execute on the most impactful, discounted by risk and total execution cost
