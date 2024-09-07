@@ -40,6 +40,22 @@ Agility is the key piece here, and often overlooked. I believe that's a mistake.
 
 ## :two: Corporate context: decoding tech strategies
 
+### Corporate objectives
+
+In most cases, a company's principal objective is to increase its [value](https://www.investopedia.com/terms/v/value.asp). A primary way to drive value is increasing profit (revenue minus costs) or profit potential (projected profit discounted by projected [risk](https://www.investopedia.com/terms/r/risk.asp)). This means, overly generalizing, we can say companies have three main levers to improve value: **increase revenue, decrease costs, and decrease risk**.
+
+For tech companies, these levers are often translated as something like:
+
+- **Increase revenue** ⇒ add users, increase [revenue per user](https://www.investopedia.com/terms/a/arpu.asp)
+- **Decrease costs** ⇒ reduce [fixed costs](https://www.investopedia.com/terms/f/fixedcost.asp), reduce [variable costs](https://www.investopedia.com/terms/v/variablecost.asp)
+- **Decrease risk** ⇒ reduce fluctuations in revenue/costs, reduce probability of user exodus, reduce and/or hedge against [regulatory risk](https://www.investopedia.com/terms/r/regulatory_risk.asp), etc.
+
+And finally, these objectives map immediately to our three pillars:
+
+- **Increase revenue** ⇒ growth+agility focus (primarily growth for traditional revenue centers, primarily agility for traditional cost centers — more on this later)
+- **Decrease costs** ⇒ efficiency focus
+- **Decrease risk** ⇒ stability focus
+
 ### Corporate lifecycle
 
 Companies evolve through a lifecycle, from startup and growth to maturity and decline. Each phase has different priorities, and a company's mission should reflect these.
@@ -71,7 +87,7 @@ In an even simpler reframing, we can consider a company's lifecycle phase as a s
 
 *Top-line* focused companies prefer revenue growth via expanding existing products and exploring new ones. Cost considerations are often deferred or deprioritized due to opportunity cost and potential hindrance to revenue expansion and market share growth.
 
-Meanwhile, *bottom-line* focused companies prefer profit growth (or preservation) via improving margins for existing products.
+Meanwhile, *bottom-line* focused companies prefer profit growth (or preservation) via improving margins for existing products. Cost reduction is often the principal tactic for improving margins.
 
 With this in mind, we can compare back to the pillars of our evolved mission, mapping them to a company's priorities:
 
