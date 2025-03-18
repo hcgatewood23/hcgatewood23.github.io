@@ -2,18 +2,19 @@
 
 Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*.
 
-We'll discuss in eight parts, laying out a taxonomy for understanding tech strategies and a framework for building them
+We'll discuss in eight parts, laying out a **taxonomy for understanding tech strategies** and a **framework for building them**. Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
 
-1. **Intro**: stability, efficiency, and agility as pillars for an empowerment-oriented mission
-2. **Context**: relevant corporate context
-3. ***Stability* as a foundation**: stability's role in supporting the other pillars
-4. ***Efficiency* to move the bottom line**: efficiency's role in moving the bottom line
-5. ***Agility* to prevent calcification**: agility's role in long-term strategy
-6. ***Agility* to move the top line**: agility's role in short-term strategy, primarily as a force-multiplier for growth
-7. **Unified mission**: an evolved, unified mission based on the new pillars
-8. **Takeaways**: mission-informed framework for building effective, aligned strategies
-
-Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
+- Prelude
+  - **Intro**: stability, efficiency, and agility as pillars for an empowerment-oriented mission
+  - **Context**: relevant corporate context
+- Pillars
+  - ***Stability* as a foundation**: stability's role in supporting the other pillars
+  - ***Efficiency* to move the bottom line**: efficiency's role in driving cost reduction
+  - ***Agility* to prevent calcification**: agility's role in long-term strategy
+  - ***Agility* to move the top line**: agility's role in short-term strategy, primarily as a force-multiplier for growth
+- Upshot
+  - **Unified mission**: an evolved, unified mission based on our new pillars
+  - **Takeaways**: a mission-informed framework for building effective, aligned strategies
 
 ## :one: Intro: understanding stability, efficiency, agility
 
