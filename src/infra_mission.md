@@ -18,17 +18,7 @@ We'll discuss in eight parts, laying out a **taxonomy for understanding tech str
 
 ## :one: Intro: understanding stability, efficiency, agility
 
-### Pillars of an empowerment-focused mission
-
-I offer the following as pillars of an empowerment-focused mission, which we'll consider in subsequent sections:
-
-- **Stability**: preserve existing products, prioritized by impact (backward-looking)
-- **Efficiency**: improve margins for new and existing products (outward-looking)
-- **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
-
-These pillars double as our [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) or **taxonomy for understanding, evaluating, and building infra strategy**. We include three short case studies interspersed below, unpacking each through the lens of stability, efficiency, and agility.
-
-### Elevating agility as a central pillar
+### Traditional missions
 
 I've occasionally heard infra's mission instead as some form of the following:
 
@@ -37,13 +27,21 @@ I've occasionally heard infra's mission instead as some form of the following:
 
 This perspective captures two essential objectives, but fails to express the full potential. I believe we can do better. ***Infra is positioned to do more than preserve and reduce.***
 
-Agility is the key piece here, and often overlooked. I believe that's a mistake. In the following sections, we'll discuss insights for each of our empowerment-oriented pillars, building an argument for why **agility absolutely must be a centrally-considered pillar of any infra org's mission**.
+### Pillars of an empowerment-focused mission
+
+I offer the following as pillars of an empowerment-focused mission, forming a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) or **taxonomy for understanding, evaluating, and building infra strategy**:
+
+- **Stability**: preserve existing products, prioritized by impact (backward-looking)
+- **Efficiency**: improve margins for new and existing products (outward-looking)
+- **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
+
+I argue ***agility*** is the key addition here, too often overlooked. In the following sections, we'll discuss insights for each of our empowerment-oriented pillars, building an argument for why **agility absolutely must be a centrally-considered pillar of any infra org's mission**.
 
 ## :two: Corporate context: decoding tech strategies
 
 ### Corporate objectives
 
-In most cases, a company's principal objective is to increase its [value](https://www.investopedia.com/terms/v/value.asp). A primary way to drive value is increasing profit (revenue minus costs) or profit potential (projected profit discounted by projected [risk](https://www.investopedia.com/terms/r/risk.asp)). This means, overly generalizing, we can say companies have three main levers to improve value: **increase revenue, decrease costs, and decrease risk**.
+In most cases, a company's principal objective is increasing its [value](https://www.investopedia.com/terms/v/value.asp). A primary way to drive value is increasing profit (revenue minus costs) or profit potential (projected profit discounted by projected [risk](https://www.investopedia.com/terms/r/risk.asp)). This means, overly generalizing, we can say companies have three main levers to improve value: **increase revenue, decrease costs, and decrease risk**.
 
 For tech companies, these levers are often translated as something like:
 
