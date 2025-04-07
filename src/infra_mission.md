@@ -2,7 +2,7 @@
 
 Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*.
 
-We'll discuss in eight parts, laying out a **taxonomy for understanding tech strategies** and a **framework for building them**. Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
+We'll discuss in eight parts, laying out a taxonomy for understanding tech strategies and a framework for building them. Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
 
 - Prelude
   - **Intro**: stability, efficiency, and agility as pillars for an empowerment-oriented mission
@@ -18,18 +18,14 @@ We'll discuss in eight parts, laying out a **taxonomy for understanding tech str
 
 ## :one: Intro: understanding stability, efficiency, agility
 
-### Traditional missions
-
-I've occasionally heard infra's mission instead as some form of the following:
+I've occasionally heard infra's mission as some form of the following:
 
 - Keep the plane in the air: preserve existing revenues (backward-looking)
 - Save money: reduce infra-incurred expenses (inward-looking)
 
-This perspective captures two essential objectives, but fails to express the full potential. I believe we can do better. ***Infra is positioned to do more than preserve and reduce.***
+This perspective captures two essential objectives, but fails to express the full potential. I believe we can do better. **Infra is positioned to do more than preserve and reduce.**
 
-### Pillars of an empowerment-focused mission
-
-I offer the following as pillars of an empowerment-focused mission, forming a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) or **taxonomy for understanding, evaluating, and building infra strategy**:
+To that end, I offer the following as pillars of an empowerment-focused mission, forming a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) or **taxonomy for understanding, evaluating, and building infra strategy**:
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking)
 - **Efficiency**: improve margins for new and existing products (outward-looking)
