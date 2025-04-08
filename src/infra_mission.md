@@ -4,13 +4,13 @@
 
 I've often heard infra's mission as some form of: *keep the plane in the air and save money*. I believe this leaves a massive portion of infra's value on the table. **Infra is positioned to do more than preserve and reduce** — its true aim should be to **empower**.
 
-To that end, I offer the following pillars of an empowerment-focused mission, forming a **[basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra))** for understanding, evaluating, and especially **building infra strategy**:
+To that end, I offer the following pillars of an empowerment-focused mission, forming a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) for understanding, evaluating, and especially building infra strategy:
 
 - **Stability**: preserve existing products, prioritized by impact (backward-looking, i.e. "keep what we have")
 - **Efficiency**: improve margins for new and existing products (inward-looking, i.e. "improve what we have")
 - **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking, i.e. "add to what we have")
 
-I argue ***agility*** is the key addition here, too often overlooked yet absolutely essential in any org's strategy.
+I argue *agility* is the key addition here, too often overlooked yet absolutely essential in any org's strategy.
 
 As we discuss each of the following sections, consider a guiding question: ***when and how should empowerment-oriented infra prioritize between stability, efficiency, and agility?***
 
