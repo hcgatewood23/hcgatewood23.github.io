@@ -1,12 +1,20 @@
 # Infra is about empowerment, not just efficiency
 
-Or, **building a new mission for infra orgs** by evolving *keep the plane in the air and save money* toward *empower all our users with stable, efficient, agile infra*.
+> If you're hyper-focusing on (especially one-off) efficiency wins, you're missing the world of value infra can provide
 
-We'll discuss in eight parts, laying out a taxonomy for understanding tech strategies and a framework for building them. Throughout, consider a guiding question: ***when and how should infra prioritize between stability, efficiency, and agility?***
+I've often heard infra's mission as some form of: *keep the plane in the air and save money*. I believe this leaves a massive portion of infra's value on the table. **Infra is positioned to do more than preserve and reduce** — its true aim should be to **empower**.
 
-- Prelude
-  - **Intro**: stability, efficiency, and agility as pillars for an empowerment-oriented mission
-  - **Context**: relevant corporate context
+To that end, I offer the following pillars of an empowerment-focused mission, forming a **[basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra))** for understanding, evaluating, and especially **building infra strategy**:
+
+- **Stability**: preserve existing products, prioritized by impact (backward-looking, i.e. "keep what we have")
+- **Efficiency**: improve margins for new and existing products (inward-looking, i.e. "improve what we have")
+- **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking, i.e. "add to what we have")
+
+I argue ***agility*** is the key addition here, too often overlooked yet absolutely essential in any org's strategy.
+
+As we discuss each of the following sections, consider a guiding question: ***when and how should empowerment-oriented infra prioritize between stability, efficiency, and agility?***
+
+- **Context**: decoding corporate strategies
 - Pillars
   - ***Stability* as a foundation**: stability's role in supporting the other pillars
   - ***Efficiency* to move the bottom line**: efficiency's role in driving cost reduction
@@ -16,24 +24,7 @@ We'll discuss in eight parts, laying out a taxonomy for understanding tech strat
   - **Unified mission**: an evolved, unified mission based on our new pillars
   - **Takeaways**: a mission-informed framework for building effective, aligned strategies
 
-## :one: Intro: understanding stability, efficiency, agility
-
-I've occasionally heard infra's mission as some form of the following:
-
-- Keep the plane in the air: preserve existing revenues (backward-looking)
-- Save money: reduce infra-incurred expenses (inward-looking)
-
-This perspective captures two essential objectives, but fails to express the full potential. I believe we can do better. **Infra is positioned to do more than preserve and reduce.**
-
-To that end, I offer the following as pillars of an empowerment-focused mission, forming a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) or **taxonomy for understanding, evaluating, and building infra strategy**:
-
-- **Stability**: preserve existing products, prioritized by impact (backward-looking)
-- **Efficiency**: improve margins for new and existing products (outward-looking)
-- **Agility**: enable new products, reducing execution costs to experiment, develop, and launch (forward-looking)
-
-I argue ***agility*** is the key addition here, too often overlooked. In the following sections, we'll discuss insights for each of our empowerment-oriented pillars, building an argument for why **agility absolutely must be a centrally-considered pillar of any infra org's mission**.
-
-## :two: Corporate context: decoding tech strategies
+## :one: Context: decoding corporate strategies
 
 ### Corporate objectives
 
@@ -60,15 +51,11 @@ Companies evolve through a lifecycle, from startup and growth to maturity and de
 - **Mature**: prioritize from {agility, stability, efficiency}, while maximizing margins via increasing profit and decreasing costs
 - **Focus**: prioritize (efficiency, stability), while maximizing margins primarily via decreasing costs
 
-#### Determining lifecycle phase
-
 We can determine a company's lifecycle phase by examining where it invests its resources. Consider the following:
 
 <p align="center"><img src="assets/img/corporate_lifecycle.png" width="340px"></p>
 
 Each phase incorporates different levels of investment across each bucket. But, crucially, experimentation, growth, and *renewal* never stop. A well-functioning company should absolutely highlight this in its mission.
-
-#### Disordered lifecycle phases
 
 Contrastingly, consider the following examples, reflecting disordered versions of the above phases:
 
@@ -109,9 +96,7 @@ Zooming in to individual orgs: one way to conceptualize orgs is as a flat collec
 
 <p align="center"><img src="assets/img/org_collection.png" width="350px"></p>
 
-#### Orgs as a pipeline
-
-As an early sneak peek: I firmly believe this shared thread should be a **mission to [empower](https://en.wikipedia.org/wiki/User-centered_design) [end](https://hbr.org/2009/12/closing-the-customer-feedback-loop) [users](https://online.hbs.edu/blog/post/what-is-human-centered-design)**.
+As an early sneak peek: I firmly believe this shared thread should be a mission to **[empower](https://en.wikipedia.org/wiki/User-centered_design) [end](https://hbr.org/2009/12/closing-the-customer-feedback-loop) [users](https://online.hbs.edu/blog/post/what-is-human-centered-design)**.
 
 Moreover, I think it's much more effective to view orgs as part of a ***pipeline*** **of revenue generation** [[0]](infra_mission_footnotes#org-pipeline-intuition), where each org transforms its input resources to its output, culminating in captured revenue.
 
@@ -121,13 +106,9 @@ This pipeline of transforming capital→assets→resources→infra→products→
 
 <p align="center"><img src="assets/img/org_pipeline.png" width="600px"></p>
 
-#### Slicing the pipeline
-
 And instead of slicing this pipeline vertically (org-wise, e.g. infra is cost center, product is revenue center), I believe it makes more sense to conceptually slice it horizontally (product-wise, e.g. Ads is a revenue center, Maps is a cost center), allowing each org to play its role in the ultimate profit or loss of each product.
 
 <p align="center"><img src="assets/img/org_pipeline_sliced.png" width="650px"></p>
-
-#### Orgs empower each other to empower end users
 
 All this to say: orgs share the company-level goal of empowering users, and each org should prioritize empowering its successor to do so.
 
@@ -165,7 +146,7 @@ As a more concrete example, let's briefly describe an idealized version of AWS's
     - Ready for change: AWS is able to effectively evolve instance and interface affordances over time, especially in response to user feedback; codebase is easy to understand, well-tested, and only as large as necessary
     - Expressive: users can quickly and easily configure (billing, networking, etc.), integrate (EBS, S3, etc.), optimize (instance types), and scale, in ways traditional on-prem solutions either preclude or support with significant effort and investment
 
-## :three: Stability: the perennial foundation
+## :two: Stability: the perennial foundation
 
 ### Stability preserves, instability erodes
 
@@ -185,7 +166,7 @@ That to say, ignoring stability until it disrupts users is labor and capital ine
 
 Fixating on stability *perfection*, however, is also both labor and capital inefficient — it's [expensive](https://cloud.google.com/blog/products/gcp/available-or-not-that-is-the-question-cre-life-lessons) (CapEx and OpEx), leads to over-engineering (technical debt as an over-large, complex codebase), diverts labor from higher-value efforts (opportunity cost of chasing perfection), and generally erodes both efficiency and agility goals. In short, **stability improvements have exponentially diminishing returns**.
 
-Or, said another way: under-engineering loses market share short-term due to instability, while over-engineering loses market share long-term due to calcification (or never captures it in the first place).
+Or, said another way: under-engineering loses market share medium-term due to instability, while over-engineering loses market share short-term due to never capturing it or long-term due to calcification.
 
 Aim for a happy middle ground, where stability is a perennial, foundational, secondary goal — **design and solve for stability as you go**, and **don't chase perfection**.
 
@@ -197,7 +178,7 @@ As we'll discuss with agility and toil in the next sections, instability earlier
 
 How do you improve stability? Well, you probably need to write and roll out a change. But, just like changing lanes is a [leading cause of highways accidents](https://www.nhtsa.gov/sites/nhtsa.gov/files/811147.pdf), deploying changes is a [leading cause of production incidents](https://www.youtube.com/watch?v=Ru0vep3hzcY).
 
-As we'll see later with agility, often the only way out of an insufficient, deteriorating situation is to accept the risk of further deterioration, especially in the short term.
+As we'll see later with agility, often the only way out of an insufficient, deteriorating situation is to accept the short-term risk of further deterioration.
 
 ### Prioritize stability when necessary
 
@@ -207,7 +188,7 @@ Finally, sometimes instability just happens. Building for stability is a probabi
 
 When instability overly hinders org and team primary goals, and especially when it is acutely affecting profit (short term) or reputation (medium to long term), **stability must become the immediate primary focus**. Set clear, achievable, stability-oriented goals with attached incentives, both company-wide and org-level, building alignment on accepting the opportunity cost of temporarily diverting resources from the primary goal. After stability is restored, perform a postmortem to understand root causes and determine whether deeper changes are necessary — was this poor luck, or have we been ignoring systemic issues?
 
-## :four: Efficiency: moving the bottom line
+## :three: Efficiency: moving the bottom line
 
 ### Infra owns efficiency, product owns growth
 
@@ -235,21 +216,21 @@ To further tip the scales, **efficiency gains are a deferrable, non-renewable re
 
 Perhaps worse than the opportunity cost of diverting resources from top-line growth, achieving efficiency gains often **directly hinders impact to top-line growth**.
 
-Consider a didactic example:
+Consider an illustrative example:
 
-- `company` is hyper growth-oriented
-- `product` team has 20 engineers
-- `infra` team has 10 engineers
+- UnlimitedTech is a hyper growth-oriented company
+- Their product team has 20 ICs
+- Their infra team has 10 ICs
 
-From an opportunity cost perspective, the 10 engineers on the `infra` team are suboptimally invested resources.
+Because UnlimitedTech is hyper growth-oriented, it's likely most of their product ICs are delivering stronger company-level impact than their infra ICs, purely by nature of their work.
 
-We can describe this as an ***impact ratio***, the $\text{impact} : \text{execution cost}$ for any resource, team, or org. Here, the impact ratio of the `product` team's engineers is substantially higher than that of the `infra` team, meaning it may be sensible to rebalance engineers to the `product` team.
+We can describe this as an ***impact ratio***, the $\text{impact} : \text{execution cost}$ for any resource, team, or org. For UnlimitedTech, we're presuming the product team's impact ratio is substantially higher than that of the infra team (meaning it may be sensible to rebalance infra ICs to product).
 
-But now consider the downstream effect the `infra` team has on the `product` team. The `infra` team develops a new efficiency improvement, which requires 5 `product` engineers to support the migration effort. Now, not only are the `infra` team's engineers an opportunity cost due to their reduced impact ratio, they're actually increasing the blast radius of the suboptimally invested resources by decreasing the `infra` team's aggregate impact ratio.
+But it's worse than just lower impact: consider the downstream effect infra has on product. The infra team develops a new efficiency improvement, requiring support from 5 product ICs during the migration. Now, not only are the infra ICs an opportunity cost due to their reduced impact ratio, they're actually increasing the blast radius of the suboptimally invested resources by decreasing the product team's aggregate impact ratio.
 
-That is: **when infra and product orgs are misaligned** on whether the company is prioritizing top-line vs. bottom-line growth, **they literally handicap each other** from accomplishing the highest impact work in the entire company.
+That is: **when infra and product orgs are misaligned** on whether the company is prioritizing top-line vs. bottom-line growth, **they literally handicap each other** from accomplishing a company's highest-impact work.
 
-## :five: Agility: the antidote to calcification
+## :four: Agility: the antidote to calcification
 
 ### Agility reduces execution cost
 
@@ -378,7 +359,7 @@ A multitude of factors contributed to this growth, but central among them is Mic
 
 Any renewal requires experimentation, trial and error, and a willingness to move fast. And the key point here is this: while not solely sufficient, agility is a necessary and effective precursor to renewal. **Microsoft's renewal was necessarily enabled**, in strong part, **by a shift in focus from stability and efficiency back toward agility**.
 
-## :six: Agility: moving the top line
+## :five: Agility: moving the top line
 
 So far we've argued agility is an antidote to calcification and decline in the medium to long-term. But there's an even more urgent argument to be made — **agility is the only path for infra orgs to support a company's top line**, short-term or otherwise.
 
@@ -414,7 +395,7 @@ And a few additional takeaways, in line with our recommendations for top-line fo
 - **Stability is a perennial foundation, impact-prioritized**: they scoped stability wins as a key target and, after validating the paved path, [migrated their highest-priority services first](https://www.figma.com/blog/migrating-onto-kubernetes/#our-migration)
 - **Defer efficiency**: while their post-implementation report highlights cost savings, they also note: *we didn't want to tackle too much complex cost efficiency work as part of this migration*. This follows our earlier observation that efficiency gains are a deferrable, non-renewable resource — as a top-line focused company, they deferred efficiency gains to prioritize agility and stability in the shorter term.
 
-## :seven: A unified mission: empowering all users
+## :six: A unified mission: empowering all users
 
 Finally, we can take a look back at the pillars we proposed for our evolved mission
 
@@ -434,7 +415,7 @@ And **infra, product, and end users are** ***all*** **our users**, from the desk
 
 Framing the mission this way aligns leadership and employee goals, incentivizing leadership to care about reducing toil and building new, exciting software. It adds an urgency and clarity to the role each org's meant to play. And, most of all, and to me at least, it's a mission I'm excited to go to work for.
 
-## :eight: Afterword: a strategy-building framework
+## :seven: Afterword: a strategy-building framework
 
 Let's end with some actionable takeaways.
 
