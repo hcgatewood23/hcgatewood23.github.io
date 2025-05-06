@@ -2,7 +2,7 @@
 
 > If you're hyper-focusing on (especially one-off) efficiency wins, you're missing the world of value infra can provide
 
-I've often heard infra's mission as some form of: *keep the plane in the air and save money*. I believe this leaves a massive portion of infra's value on the table. **Infra is positioned to do more than preserve and reduce** — its true aim should be to **empower**.
+I've often heard infra's mission as some form of: *keep the plane in the air and save money*. I believe this leaves a massive portion of infra's impact on the table. **Infra is positioned to do more than preserve and reduce** — its true aim should be to **empower**.
 
 To that end, I offer the following pillars of an empowerment-focused mission, forming a [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) for understanding, evaluating, and especially building infra strategy:
 
