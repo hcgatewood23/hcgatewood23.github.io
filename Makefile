@@ -26,7 +26,7 @@ gen: $(HTML_FILES) ## Generate all
 		--dirsfirst \
 		-L 1 \
 		-T 'hcgatewood23' \
-		-I img/ \
+		-I 'assets/|img/' \
 		-o dst/listall.html \
 		./dst
 
