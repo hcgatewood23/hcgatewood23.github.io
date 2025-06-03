@@ -20,25 +20,27 @@ push: clean ## Just publish
 
 gen: $(HTML_FILES) ## Generate all
 	@mkdir -p public
+	cp -r assets dst/
 	cp -r public/* dst/
 	tree -H https://hcgatewood23.github.io \
 		--dirsfirst \
 		-L 1 \
 		-T 'hcgatewood23' \
+		-I img/ \
 		-o dst/listall.html \
 		./dst
 
 external: ## Make and copy publishable files from Dropbox notes to local repo
 	@mkdir -p public
-	make -C $(DROPBOX_DIR)/notes gen_html
-	cp $(DROPBOX_DIR)/generated/notebooks_main.md.html public/notebooks_main.html
-	cp $(DROPBOX_DIR)/generated/notebooks_worldview.md.html public/notebooks_worldview.html
+	cp -R $(DROPBOX_DIR)/notes/img public
+	cp $(DROPBOX_DIR)/notes/notebooks_main.md src/notebooks_main.md
+	cp $(DROPBOX_DIR)/notes/notebooks_worldview.md src/notebooks_worldview.md
 
 dev: ## Regenerate on changes
 	appa start src --open
 
 check: gen ## Generate and inspect changes
-	open dst/*
+	open dst/*.html
 
 clean: ## Remove generated
 	rm -rf dst
@@ -53,9 +55,10 @@ open: status home ## Open home and status page
 
 dst/%.html: src/%.md
 	@mkdir -p dst
-	pandoc --embed-resources --standalone \
+	pandoc \
+		--standalone \
+		--katex \
 		--css=assets/pandoc.css \
-		--katex=assets/katex_0.10.0/ \
 		--from gfm$(MD_EXTENSIONS) \
 		--metadata pagetitle=$< \
 		$< -o $@

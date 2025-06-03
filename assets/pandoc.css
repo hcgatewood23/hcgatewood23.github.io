@@ -1,6 +1,6 @@
 /*
  * Ref: https://github.com/otsaloma/markdown-css
- * See hcg_mine for minor alterations
+ * See HCG_MINE for minor alterations
  */
 
 @font-face {
@@ -9,8 +9,8 @@ src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAA
 }
 
 body {
-min-width: 200px;  /* hcg_mine */
-max-width: 980px;  /* hcg_mine */
+min-width: 200px;  /* HCG_MINE */
+max-width: 980px;  /* HCG_MINE */
 
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
@@ -300,8 +300,8 @@ visibility: visible;
 }
 
 body h1 {
-border-bottom: 1px solid #eaecef;  /* hcg_mine */
-font-size: 2em;  /* hcg_mine */
+border-bottom: 1px solid #eaecef;  /* HCG_MINE */
+font-size: 2em;  /* HCG_MINE */
 
 padding-bottom: 0.3em;
 line-height: 1.2;
@@ -312,7 +312,7 @@ line-height: 1;
 }
 
 body h2 {
-border-bottom: 1px solid #eaecef;  /* hcg_mine */
+border-bottom: 1px solid #eaecef;  /* HCG_MINE */
 
 padding-bottom: 0.3em;
 font-size: 1.5em;
