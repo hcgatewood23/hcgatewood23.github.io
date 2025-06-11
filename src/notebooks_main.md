@@ -117,6 +117,7 @@ Kubernetes
     - [Homepage](https://kubernetes.io/)
     - [Cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
     - [Concepts](https://kubernetes.io/docs/concepts/)
+    - [Tools (Awesome Kubernetes Resources)](https://github.com/tomhuang12/awesome-k8s-resources)
     - [Spec explorer (kubespec.dev)](https://kubespec.dev)
     - [Debugging applications](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/)
     - [Recommended labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/)
@@ -1448,10 +1449,14 @@ Shell
     - `history -a` append new history lines to history file
     - `history -s` add args to end of history list as single entry
     - [History expansion](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#History-Interaction) [(stackoverflow)](https://stackoverflow.com/questions/3371294/how-can-i-recall-the-argument-of-the-previous-bash-command#36654936)
-        - `!:1` first argument of previous command
-        - `!:1-2` first and second arguments of previous command
-        - `!$` last argument of previous command
-        - `^cat^bat` run previous command with `cat` replaced to `bat`
+        - `!!` previous command
+        - `!^` first argument of previous command
+        - `!*` all arguments of previous command
+        - And more
+            - `!$` last argument of previous command
+            - `^cat^bat` run previous command with `cat` replaced to `bat`
+            - `!:1` first argument of previous command
+            - `!:1-2` first and second arguments of previous command
 - [Redirection](https://www.gnu.org/software/bash/manual/html_node/Redirections.html) [(cheat sheet)](https://catonmat.net/ftp/bash-redirections-cheat-sheet.pdf)
     - `openssl x509 -help 2>&1 | less` [redirect stderr to stdout](https://www.gnu.org/software/bash/manual/html_node/Pipelines.html)
     - `cat <(echo 1)` redirect stdout to anonymous fifo, then pass fifo to `cat` as an argument

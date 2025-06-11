@@ -453,6 +453,7 @@ Politics
     - [wikipedia 18m] [Compulsory sterilization: United States](https://en.wikipedia.org/wiki/Compulsory_sterilization#United_States)
 - [wikipedia 35m] [United States war crimes](https://en.wikipedia.org/wiki/United_States_war_crimes)
     - [wikipedia 43m] [Mỹ Lai massacre](https://en.wikipedia.org/wiki/M%E1%BB%B9_Lai_massacre)
+    - [wikipedia 5m] [ChinaAngVirus disinformation campaign](https://en.wikipedia.org/wiki/ChinaAngVirus_disinformation_campaign)
 - [wikipedia 3m] [Population transfer: United States](https://en.wikipedia.org/wiki/Population_transfer#United_States)
     - [wikipedia 36m] [Trail of Tears](https://en.wikipedia.org/wiki/Trail_of_Tears)
     - [wikipedia 80m] [Internment of Japanese Americans](https://en.wikipedia.org/wiki/Internment_of_Japanese_Americans)
@@ -587,6 +588,38 @@ Politics
     </details>
 - [wikipedia 40m] [Media bias in the United States](https://en.wikipedia.org/wiki/Media_bias_in_the_United_States)
 
+### [Campaign finance](https://en.wikipedia.org/wiki/Campaign_finance)
+- [paper 42m] [Testing theories of American politics: elites, interest groups, and average citizens](https://scholar.princeton.edu/sites/default/files/mgilens/files/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf)
+    <details>
+    <summary>Pictures</summary>
+    <p align="center"><img src="img/prob_adoption.png" width="340px"></p>
+    </details>
+- [wikipedia 8m] [Political action committee](https://en.wikipedia.org/wiki/Political_action_committee)
+- [wikipedia 23m] [Campaign finance in the United States](https://en.wikipedia.org/wiki/Campaign_finance_in_the_United_States)
+- [wikipedia 47m] [Citizens United v. FEC](https://en.wikipedia.org/wiki/Citizens_United_v._FEC)
+- [wikipedia 56m] [Lobbying in the United States](https://en.wikipedia.org/wiki/Lobbying_in_the_United_States)
+
+### [Vaccination](https://en.wikipedia.org/wiki/Vaccination)
+- [video 7m] [The thing about vaccines (Doctor Mike)](https://www.youtube.com/watch?v=y2WtUMvNjzQ)
+    - [video 13m] [Viruses & vaccines: how do vaccines work? (Crash Course)](https://www.youtube.com/watch?v=xSbMX0MFJCY)
+- [article 6m] [Vaccines have saved 150 million children over the last 50 years (Our World in Data)](https://ourworldindata.org/vaccines-children-saved)
+    - [article 8m] [Our history is a battle against the microbes (Our World in Data)](https://ourworldindata.org/microbes-battle-science-vaccines)
+    - [article 13m] [Vaccination (Our World in Data)](https://ourworldindata.org/vaccination)
+- [wikipedia 59m] [Vaccine hesitancy](https://en.wikipedia.org/wiki/Vaccine_hesitancy)
+    - [wikipedia 15m] [Vaccine misinformation](https://en.wikipedia.org/wiki/Vaccine_misinformation)
+    <details>
+    <summary>Pictures</summary>
+    <p align="center"><img src="img/smallpox_lives_saved.png" width="700px"></p>
+    <p align="center"><img src="img/number_lives_saved_vaccinations.png" width="900px"></p>
+    <p align="center"><img src="img/smallpox_death_rate.png" width="900px"></p>
+    <p align="center"><img src="img/smallpox_deaths_share.png" width="900px"></p>
+    <p align="center"><img src="img/global_reported_smallpox_cases.png" width="800px"></p>
+    <p align="center"><img src="img/infant_mortality_rate_vaccinations.png" width="900px"></p>
+    <p align="center"><img src="img/vaccination_introduction_effects.jpg" width="700px"></p>
+    <p align="center"><img src="img/vaccine_preventable_diseases.png" width="700px"></p>
+    <p align="center"><img src="img/global_vaccination_coverage.png" width="900px"></p>
+    </details>
+
 ### [Climate](https://en.wikipedia.org/wiki/Climate_change)
 - [infographic] [Earth temperature timeline](https://xkcd.com/1732/)
 - [infographic] [Carbon dioxide concentration on Earth's surface](https://earth.nullschool.net/#current/chem/surface/level/overlay=co2sc/patterson)
@@ -608,17 +641,6 @@ Politics
     <p align="center"><img src="img/who_emits_co2.png" width="850px"></p>
     <p align="center"><img src="img/co2_emissions_by_region.png" width="850px"></p>
     </details>
-
-### [Campaign finance](https://en.wikipedia.org/wiki/Campaign_finance)
-- [paper 42m] [Testing theories of American politics: elites, interest groups, and average citizens](https://scholar.princeton.edu/sites/default/files/mgilens/files/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf)
-    <details>
-    <summary>Pictures</summary>
-    <p align="center"><img src="img/prob_adoption.png" width="340px"></p>
-    </details>
-- [wikipedia 8m] [Political action committee](https://en.wikipedia.org/wiki/Political_action_committee)
-- [wikipedia 23m] [Campaign finance in the United States](https://en.wikipedia.org/wiki/Campaign_finance_in_the_United_States)
-- [wikipedia 47m] [Citizens United v. FEC](https://en.wikipedia.org/wiki/Citizens_United_v._FEC)
-- [wikipedia 56m] [Lobbying in the United States](https://en.wikipedia.org/wiki/Lobbying_in_the_United_States)
 
 ### [Abortion](https://en.wikipedia.org/wiki/Abortion)
 - [wikipedia 27m] [Abortion debate](https://en.wikipedia.org/wiki/Abortion_debate)
