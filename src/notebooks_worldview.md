@@ -819,7 +819,6 @@ Fun facts
 - [article 15m] [Surprising but true](https://docs.google.com/document/d/1uJQQo-LDzQQ1tfGksLdD747D0ptodw5rFJ1ZSs_LWec)
 - [article 19m] [Racing to the trillion-dollar cluster (Situational Awareness)](https://situational-awareness.ai/racing-to-the-trillion-dollar-cluster/)
 - [article 7m] [Plans you're not supposed to talk about](https://dynomight.net/plans/)
-- [article 5m] [Maker's schedule, manager's schedule](http://www.paulgraham.com/makersschedule.html)
 - [article 7m] [The economics of all-you-can-eat buffets](https://thehustle.co/the-economics-of-all-you-can-eat-buffets/)
 - [game] [Wikipedia Speedruns](https://wikispeedruns.com/)
 - [game] [Genetic Cars](https://rednuht.org/genetic_cars_2/)
