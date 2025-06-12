@@ -601,7 +601,8 @@ Politics
 
 ### [Vaccination](https://en.wikipedia.org/wiki/Vaccination)
 - [video 7m] [The thing about vaccines (Doctor Mike)](https://www.youtube.com/watch?v=y2WtUMvNjzQ)
-    - [video 13m] [Viruses & vaccines: how do vaccines work? (Crash Course)](https://www.youtube.com/watch?v=xSbMX0MFJCY)
+    - [video 11m] [The side effects of vaccines (Kurzgesagt)](https://www.youtube.com/watch?v=zBkVCpbNnkU)
+    - [video 13m] [How do vaccines work? (Crash Course)](https://www.youtube.com/watch?v=xSbMX0MFJCY)
 - [article 6m] [Vaccines have saved 150 million children over the last 50 years (Our World in Data)](https://ourworldindata.org/vaccines-children-saved)
     - [article 8m] [Our history is a battle against the microbes (Our World in Data)](https://ourworldindata.org/microbes-battle-science-vaccines)
     - [article 13m] [Vaccination (Our World in Data)](https://ourworldindata.org/vaccination)
