@@ -444,6 +444,13 @@ Politics
     <p align="center"><img src="img/trust_internationally.png" width="850px"></p>
     <p align="center"><img src="img/trust_vs_gdp.png" width="850px"></p>
     </details>
+- [article 7m] [What explains the liberal-conservative happiness gap?](https://www.natesilver.net/p/what-explains-the-liberal-conservative)
+    <details>
+    <summary>Pictures</summary>
+    <p align="center"><img src="img/political_happiness_overview.png" width="800px"></p>
+    <p align="center"><img src="img/political_happiness_demographics.png" width="600px"></p>
+    <p align="center"><img src="img/political_happiness_takeaway.png" width="700px"></p>
+    </details>
 
 ### [Ethics](https://en.wikipedia.org/wiki/Public_sector_ethics)
 - [wikipedia 9m] [Tone at the top](https://en.wikipedia.org/wiki/Tone_at_the_top)
@@ -518,6 +525,7 @@ Politics
 
 ### [Military](https://en.wikipedia.org/wiki/Military)
 - [wikipedia 18m] [Power projection](https://en.wikipedia.org/wiki/Power_projection)
+    - [wikipedia 3m] [Salami slicing tactics](https://en.wikipedia.org/wiki/Salami_slicing_tactics)
 - [wikipedia 7m] [List of countries by military expenditures](https://en.wikipedia.org/wiki/List_of_countries_by_military_expenditures)
     <details>
     <summary>Pictures</summary>

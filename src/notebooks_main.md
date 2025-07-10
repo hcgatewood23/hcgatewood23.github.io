@@ -55,6 +55,7 @@ Finances
         - [401(k) calculator](https://smartasset.com/retirement/401k-calculator)
         - [Social Security calculator](https://smartasset.com/retirement/social-security-calculator)
         - [Retirement withdrawal calculator (FICalc)](https://ficalc.app/)
+    - Retirement planners [(ProjectionLab)](https://projectionlab.com)
     - Portfolio backtesters [(testfol.io)](https://testfol.io) [(portfoliovisualizer.com)](https://www.portfoliovisualizer.com/backtest-portfolio)
         - [EFT search and comparision (etfrc.com)](https://www.etfrc.com/funds/overlap.php)
     - [Inflation calculator](https://www.calculator.net/inflation-calculator.html)
@@ -190,6 +191,9 @@ Kubernetes
 - [Object versioning](https://kubernetes.io/docs/reference/using-api/api-concepts/#resource-versions)
     - **Overview**: object updates always update resource version, and only update generation if the update changes the spec
     - *Resource Version*: opaque versioning string for optimistic concurrency control (backed by [etcd revisions](https://etcd.io/docs/v3.5/learning/api/#revisions))
+        - [Get/List semantics](https://kubernetes.io/docs/reference/using-api/api-concepts#semantics-for-get-and-list)
+            - Unset: most recent (~etcd quorum read)
+            - Specific value: "not older than" (read from kube-apiserver key-value cache)}
     - *Generation*: sequence number incremented when the object's desired state is changed
 - [Admission phases](https://github.com/kubernetes/design-proposals-archive/blob/main/architecture/resource-management.md#resource-semantics-and-lifecycle)
     <p align="center"><img src="img/kubernetes_admission_phases.png" width="1000px"></p>
@@ -202,6 +206,7 @@ Kubernetes
 ### Controllers
 - Notes
     - Default cache resync time is [every 10 hours](https://github.com/kubernetes-sigs/controller-runtime/blob/c1331a5c7c5880c35223d5dec0d87ac166554d46/pkg/cache/cache.go#L45)
+    - Concurrent reconciles, but [each object is reconciled by at most 1 worker at a time](https://openkruise.io/blog/learning-concurrent-reconciling)
 - [`controller-runtime` architecture](https://book.kubebuilder.io/architecture)
 - [Custom controller architecture](https://github.com/kubernetes/sample-controller/blob/master/docs/controller-client-go.md)
     <p align="center"><img src="img/k8s_client_architecture.png" width="650px"></p>
@@ -629,7 +634,10 @@ System design
     <p align="center"><img src="img/cap_theorem_read.png" width="600px"></p>
     <p align="center"><img src="img/cap_theorem_write.png" width="410px"></p>
 
-### Partitioning and replication
+### Replication and partitioning
+- Benefits
+    - Replication: scale out reads, increase availability (fault tolerance), decrease latency (place replicas closer to users)
+    - Partitioning: scale out reads and writes
 - [Partitioning techniques](https://en.wikipedia.org/wiki/Partition_(database))
     - Optimal placement (e.g. Meta's [Shard Manager](https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager/)): place shards according to application-reported metrics and goals, look up shard location in consistent datastore
     - [Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing): place bins and balls onto a circle (with virtual bins)
@@ -642,7 +650,11 @@ System design
 - [Redis](https://redis.io/docs/latest)
     - [Sorted sets](https://redis.io/docs/latest/develop/data-types/sorted-sets) [(explained)](https://www.youtube.com/watch?v=MUKlxdBQZ7g) for e.g. leaderboards
     - [Geospatial](https://redis.io/docs/latest/develop/data-types/geospatial) for e.g. location-based queries
+    - [INCR](https://redis.io/docs/latest/commands/incr) and [DECR](https://redis.io/docs/latest/commands/decr) for e.g. rate limiting
+- [Elasticsearch](https://www.elastic.co/elasticsearch)
+    - [Geospatial](https://www.elastic.co/docs/explore-analyze/geospatial-analysis) for e.g. location-based queries
 - [Temporal](https://docs.temporal.io/evaluate/understanding-temporal)
+    - [Saga pattern](https://microservices.io/patterns/data/saga.html) for e.g. all-or-nothing payment transactions
 - [Zookeeper](https://zookeeper.apache.org/doc/r3.5.0-alpha/zookeeperOver.html)
     - Leader election / distributed locks
     - Configuration watch/management
@@ -2650,8 +2662,8 @@ Version control
 - Commands
     - [Reset](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
         1. Move the branch HEAD points to (`--soft`)
-        1. Make the index look like HEAD (default)
-        1. Make the working directory look like the index (`--hard`)
+        2. Make the index look like HEAD (default)
+        3. Make the working directory look like the index (`--hard`)
     - [Diffs](https://git-scm.com/docs/git-diff)
         - `git diff remotes/origin/master --name-only` [only names of changed files](https://stackoverflow.com/questions/1552340/how-to-list-only-the-file-names-that-changed-between-two-commits)
     - [Rewriting history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
@@ -2669,6 +2681,8 @@ Version control
 - GitHub
     - [GitHub Actions workflow events](https://docs.github.com/en/actions/reference/events-that-trigger-workflows), e.g. `pull_request`, `pull_request_target`, etc.
     - [git-history](https://github.com/pomber/git-history) view file changes across commits
+    - Security
+        - [Commits to a repo that's currently part of a fork network are public and exist forever](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github)
     - Chrome extensions
         - [refined-github](https://github.com/sindresorhus/refined-github) overall better GitHub experience
         - [notifier-for-github](https://github.com/sindresorhus/notifier-for-github) desktop notifications
@@ -2765,6 +2779,7 @@ Operating systems
 ### Reference
 - [MIT 6.828: Operating System Engineering](https://pdos.csail.mit.edu/6.828/2018/schedule.html)
 - [OSDev](https://wiki.osdev.org/Categorized_Main_Page): operating systems wiki
+- [WikiChip](https://en.wikichip.org): semiconductor wiki
 - [The little book about OS development](https://littleosbook.github.io/): concise guide to OS components
 - [Intel 80386 Reference Programmer's Manual](https://pdos.csail.mit.edu/6.828/2018/readings/i386/toc.htm): manual for the original i386 microprocessor, the earliest in the x86 family
 - Writing an OS in Rust [(1st edition)](https://os.phil-opp.com/first-edition/) [(2nd edition)](https://os.phil-opp.com) 
