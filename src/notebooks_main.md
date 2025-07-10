@@ -51,11 +51,10 @@ Finances
         <p align="center"><img src="img/world_returns_crises.png" width="750px"></p>
 - Calculators
     - [Paycheck calculator](https://smartasset.com/taxes/paycheck-calculator)
-    - [Retirement calculator](https://smartasset.com/retirement/retirement-calculator)
+    - [Retirement calculator](https://smartasset.com/retirement/retirement-calculator) [(ProjectionLab)](https://projectionlab.com)
         - [401(k) calculator](https://smartasset.com/retirement/401k-calculator)
         - [Social Security calculator](https://smartasset.com/retirement/social-security-calculator)
         - [Retirement withdrawal calculator (FICalc)](https://ficalc.app/)
-    - Retirement planners [(ProjectionLab)](https://projectionlab.com)
     - Portfolio backtesters [(testfol.io)](https://testfol.io) [(portfoliovisualizer.com)](https://www.portfoliovisualizer.com/backtest-portfolio)
         - [EFT search and comparision (etfrc.com)](https://www.etfrc.com/funds/overlap.php)
     - [Inflation calculator](https://www.calculator.net/inflation-calculator.html)
