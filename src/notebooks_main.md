@@ -188,12 +188,14 @@ Kubernetes
     - *API Version*: combination of group and version to specify the API to target, e.g. `v1` (i.e. `core/v1`) or `apps/v1beta1`
     <p align="center"><img src="img/k8s_object_identifiers.png" width="500px"></p>
 - [Object versioning](https://kubernetes.io/docs/reference/using-api/api-concepts/#resource-versions)
-    - **Overview**: object updates always update resource version, and only update generation if the update changes the spec
+    - **Overview**: object updates always update resource version, and only update generation if the update changes the spec 
     - *Resource Version*: opaque versioning string for optimistic concurrency control (backed by [etcd revisions](https://etcd.io/docs/v3.5/learning/api/#revisions))
+        - Unique and serial across the etcd instance
         - [Get/List semantics](https://kubernetes.io/docs/reference/using-api/api-concepts#semantics-for-get-and-list)
             - Unset: most recent (~etcd quorum read)
             - Specific value: "not older than" (read from kube-apiserver key-value cache)}
     - *Generation*: sequence number incremented when the object's desired state is changed
+        - Unique and serial to the object
 - [Admission phases](https://github.com/kubernetes/design-proposals-archive/blob/main/architecture/resource-management.md#resource-semantics-and-lifecycle)
     <p align="center"><img src="img/kubernetes_admission_phases.png" width="1000px"></p>
 - [Object caching](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names)
@@ -3173,6 +3175,7 @@ Python
 - [Cheat sheet (gto76)](https://gto76.github.io/python-cheatsheet/)
 - [Cheat sheet and patterns (pysheeet)](https://github.com/crazyguitar/pysheeet)
 - [Python howtos](https://docs.python.org/3.7/howto/index.html)
+- [Cookiecutter](https://www.cookiecutter.io): project scaffolding tool, e.g. [full stack FastAPI template](https://github.com/fastapi/full-stack-fastapi-template)
 
 ### Installs
 - [pyenv](https://github.com/pyenv/pyenv): switch between versions of Python, locally or globally, by injecting shims into the PATH [(commands)](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)

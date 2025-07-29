@@ -128,7 +128,7 @@ Personal improvement
 - [video 5m] [Don't follow your passion](https://www.youtube.com/watch?v=CVEuPmVAb8o)
 - [video 10m] [7 things I wish I knew in my 20s](https://www.youtube.com/watch?v=6lrbIOYLWzM)
 - [article 6m] [What happens when your career becomes your whole identity](https://hbr.org/2019/12/what-happens-when-your-career-becomes-your-whole-identity)
-- [article 5m] [The case for a 4-day workweek](https://www.vox.com/2019/9/13/20862246/future-of-work-4-day-workweek)
+- [article 5m] [The case for a 4-day workweek (Vox)](https://www.vox.com/2019/9/13/20862246/future-of-work-4-day-workweek)
 
 Physical health
 ---------------
@@ -564,8 +564,8 @@ Politics
     </details>
 - [wikipedia 35m] [Gender pay gap](https://en.wikipedia.org/wiki/Gender_pay_gap)
     - [wikipedia 31m] [Gender pay gap in the United States](https://en.wikipedia.org/wiki/Gender_pay_gap_in_the_United_States)
-- [article 5m] [A stunning chart shows the true cause of the gender wage gap](https://www.vox.com/2018/2/19/17018380/gender-wage-gap-childcare-penalty)
-    - [article 13m] [The truth about the gender wage gap](https://www.vox.com/2017/9/8/16268362/gender-wage-gap-explained)
+- [article 5m] [A stunning chart shows the true cause of the gender wage gap (Vox)](https://www.vox.com/2018/2/19/17018380/gender-wage-gap-childcare-penalty)
+    - [article 13m] [The truth about the gender wage gap (Vox)](https://www.vox.com/2017/9/8/16268362/gender-wage-gap-explained)
     <details>
     <summary>Pictures</summary>
     <p align="center"><img src="img/wage_gap_cause.png" width="850px"></p>
@@ -609,6 +609,7 @@ Politics
 
 ### [Vaccination](https://en.wikipedia.org/wiki/Vaccination)
 - [video 7m] [The thing about vaccines (Doctor Mike)](https://www.youtube.com/watch?v=y2WtUMvNjzQ)
+    - [video 9m] [Why children get so many vaccines (Vox)](https://www.youtube.com/watch?v=_1gluMtaUmg)
     - [video 11m] [The side effects of vaccines (Kurzgesagt)](https://www.youtube.com/watch?v=zBkVCpbNnkU)
     - [video 13m] [How do vaccines work? (Crash Course)](https://www.youtube.com/watch?v=xSbMX0MFJCY)
 - [article 6m] [Vaccines have saved 150 million children over the last 50 years (Our World in Data)](https://ourworldindata.org/vaccines-children-saved)
@@ -811,7 +812,7 @@ Fun facts
 
 ### Misconceptions
 - [article 3m] [Is "natural flavor" healthier than "artificial flavor"?](https://www.npr.org/sections/thesalt/2017/11/03/560048780/is-natural-flavor-healthier-than-artificial-flavor)
-- [article 8m] [The hygiene hypothesis: how being too clean might be making us sick](https://www.vox.com/2014/6/25/5837892/is-being-too-clean-making-us-sick)
+- [article 8m] [The hygiene hypothesis: how being too clean might be making us sick (Vox)](https://www.vox.com/2014/6/25/5837892/is-being-too-clean-making-us-sick)
 - [wikipedia 4m] [Stage hypnosis: role of deception](https://en.wikipedia.org/wiki/Stage_hypnosis#Role_of_deception)
 - [wikipedia 5m] [Polygraph: effectiveness](https://en.wikipedia.org/wiki/Polygraph#Effectiveness)
 - [video 14m] [The truth about day trading](https://www.youtube.com/watch?v=qhHOmZVAqBE)
