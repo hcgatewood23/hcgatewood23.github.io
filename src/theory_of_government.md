@@ -1,4 +1,4 @@
-# Thoughts on Theory of Government
+# Theory of Government
 
 ## A consensus mechanism
 
