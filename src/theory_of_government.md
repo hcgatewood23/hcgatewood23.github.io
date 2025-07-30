@@ -20,7 +20,7 @@ From the need to build and execute consensus, 3 principal functions of governmen
 2. [Maintenance of the economy](https://en.wikipedia.org/wiki/Economic_regulation)
 3. [Provisioning of public goods](https://en.wikipedia.org/wiki/Public_good)
 
-<p align="center"><img src="assets/img/political_theory.png" width="600px"></p>
+<p align="center"><img src="assets/img/political_theory.png" width="380px"></p>
 
 ### Monopoly on violence
 
