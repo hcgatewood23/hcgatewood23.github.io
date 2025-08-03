@@ -1,4 +1,4 @@
-# Theory of Government
+# A Functionalist Theory of Government
 
 ## A consensus mechanism
 

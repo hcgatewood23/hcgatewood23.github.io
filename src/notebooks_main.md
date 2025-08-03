@@ -129,6 +129,8 @@ Kubernetes
     - [Controller vs. operator](https://github.com/kubeflow/training-operator/issues/300#issuecomment-357319596): controller is generic reconciliation loop (e.g. blue-green deployment), operator is a controller that manages a particular application (e.g. Postgres operator)
 
 ### Ecosystem
+- Internal platforms
+    - [Lyft: FacetController](https://eng.lyft.com/facetcontroller-how-we-made-infrastructure-changes-at-lyft-simple-dab49f5b27c7) encapsulates applications via a reconciled CRD
 - Tools
     - [`kubectx` + `kubens`](https://github.com/ahmetb/kubectx) easily switch contexts and namespaces
     - [Popeye](https://github.com/derailed/popeye) quickly profile cluster

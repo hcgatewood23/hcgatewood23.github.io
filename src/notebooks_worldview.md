@@ -418,6 +418,8 @@ Philosophy
 ### [Metaphysics](https://en.wikipedia.org/wiki/Metaphysics)
 - [article 8m] [Free will is as real as baseball](http://www.preposterousuniverse.com/blog/2011/07/13/free-will-is-as-real-as-baseball/)
     - [wikipedia 4m] [Compatibilism](https://en.wikipedia.org/wiki/Compatibilism)
+- [wikipedia 21m] [Functionalism](https://en.wikipedia.org/wiki/Functionalism_(philosophy_of_mind))
+    - [wikipedia 12m] [Supervenience](https://en.wikipedia.org/wiki/Supervenience)
 
 Politics
 --------
